@@ -121,22 +121,25 @@ Los JSON de `lib/` se **generan** del mirror `source-wordpress/` con los scripts
 
 ## Pendiente — lado del cliente (antes/después del DNS)
 
+Resumen para el equipo: `docs/Houston-Check-2wheels.pdf` (checklist pre-lanzamiento).
+
 **Antes de cambiar DNS**
 1. Revisión final de diseño/contenido por página en `2wheelsrental.vercel.app` (EN/IT/DE). Revisar el copy de Campervan (transcrito del borrador `?page_id=218`) y las correcciones de traducción en `scripts/parse_rentals.py` (`FIX`).
 2. **Formulario de contacto**: hoy solo abre el cliente de email (`mailto:`), no envía nada. Decidir servicio (Resend, Formspree, etc.) y pasar la API key → se conecta en `components/ContactForm.tsx`.
 3. **GA4**: confirmar en Google Tag / GA4 que `GT-TNH9V769` (creado por Site Kit) está ligado a la propiedad GA4 correcta y que no depende del plugin (al borrar WordPress debe seguir funcionando). En GA4 → Admin → Data streams → *Configure tag settings*: agregar dominios `2wheelsrental.com`, `booqableshop.com`, `wetravel.com`, `tickets.luganoregion.com` (cross-domain; el código ya envía `linker`). Marcar como **eventos clave**: `booking_click`, `generate_lead`, `whatsapp_click` (también existen `phone_click`, `email_click`, `brochure_download`).
-4. Datos del negocio para el JSON-LD (opcional pero recomendado): **código postal, horario de apertura y coordenadas** → `components/JsonLd.tsx`.
+4. **Plan de Vercel**: el plan Hobby (gratis) es solo para uso no comercial → pasar a **Pro** antes de apuntar el dominio.
+5. Datos del negocio para el JSON-LD (opcional pero recomendado): **código postal, horario de apertura y coordenadas** → `components/JsonLd.tsx`.
 
 **Al cambiar DNS**
-5. Apuntar `2wheelsrental.com` y `www` a Vercel (dominio principal sin www, como el WP). Variable `NEXT_PUBLIC_SITE_URL=https://2wheelsrental.com` en Vercel. Dar de baja WordPress solo después de verificar.
-6. **Google Search Console**: propiedad de dominio verificada por DNS (TXT); enviar `https://2wheelsrental.com/sitemap.xml`; quitar sitemaps viejos de Yoast si aparecen. Usar *Inspección de URL* en home, un tour y una página IT/DE.
-7. Verificar que llegan datos: GA4 *Realtime* (con cookies aceptadas), Meta *Events Manager* (Pixel `2737544646598065`: PageView, InitiateCheckout, Contact, Lead).
-8. **Google Business Profile**: sitio web = `https://2wheelsrental.com/`.
+6. Apuntar `2wheelsrental.com` y `www` a Vercel (dominio principal sin www, como el WP). Variable `NEXT_PUBLIC_SITE_URL=https://2wheelsrental.com` en Vercel. Dar de baja WordPress solo después de verificar.
+7. **Google Search Console**: propiedad de dominio verificada por DNS (TXT); enviar `https://2wheelsrental.com/sitemap.xml`; quitar sitemaps viejos de Yoast si aparecen. Usar *Inspección de URL* en home, un tour y una página IT/DE.
+8. Verificar que llegan datos: GA4 *Realtime* (con cookies aceptadas), Meta *Events Manager* (Pixel `2737544646598065`: PageView, InitiateCheckout, Contact, Lead).
+9. **Google Business Profile**: sitio web = `https://2wheelsrental.com/`.
 
 **Después (2–4 semanas)**
-9. Search Console → *Páginas*: revisar 404 / "rastreada sin indexar"; si aparece alguna URL vieja con error, agregar redirect en `next.config.mjs`.
-10. (Opcional) Bing Webmaster Tools (importar desde Search Console).
-11. (Opcional) Comprimir los PDFs (Campervan 14.6MB, For Companies 10.3MB, Season Pass 5MB): solo afectan a quien los descarga.
+10. Search Console → *Páginas*: revisar 404 / "rastreada sin indexar"; si aparece alguna URL vieja con error, agregar redirect en `next.config.mjs`.
+11. (Opcional) Bing Webmaster Tools (importar desde Search Console).
+12. (Opcional) Comprimir los PDFs (Campervan 14.6MB, For Companies 10.3MB, Season Pass 5MB): solo afectan a quien los descarga.
 
 ## Convenciones
 
