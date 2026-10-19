@@ -5,11 +5,11 @@ import { CAMPERVAN } from "@/lib/landing-content";
 export const metadata: Metadata = {
   title: "Campervan Rental - 2wheels Rental",
   description:
-    "Meet maja — a fully equipped premium campervan for rent in Lugano, built for total freedom across Europe.",
+    "Campervan rental in Ticino: meet Maja, a fully equipped 2021 Fiat Ducato for exploring the Alps and Northern Italy with total autonomy.",
   alternates: { canonical: "/campervan" },
   openGraph: {
     title: "Campervan Rental - 2wheels Rental",
-    description: "Meet maja — a fully equipped premium campervan for rent in Lugano.",
+    description: "Your fully equipped home on wheels — campervan rental in Ticino.",
     url: "https://2wheelsrental.com/campervan/",
     type: "website",
   },

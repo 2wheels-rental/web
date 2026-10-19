@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fragment, type ReactNode } from "react";
 import GalleryStrip from "@/components/GalleryStrip";
-import type { Landing, LandingLink } from "@/lib/landing-content";
+import type { Landing, LandingLink, SectionKey } from "@/lib/landing-content";
+
+const DEFAULT_ORDER: SectionKey[] = ["card", "split", "checks", "gallery"];
 
 // Plantilla de las páginas tipo landing del WP (Season Pass, Hotel Programs, Campervan):
 // hero imagen + intro en dos columnas, card sobre foto, texto+imagen, checklist, carrusel y CTA.
@@ -53,31 +55,10 @@ const Title = ({ children }: { children: ReactNode }) => <h2 className="text-5xl
 
 export default function LandingView({ data }: { data: Landing }) {
   const { hero, card, split, checks, gallery, cta } = data;
-  return (
-    <>
-      {/* HERO: foto a sangre + intro en dos columnas */}
-      <section className="bg-paper">
-        <div className="relative h-[52vh] min-h-[320px]">
-          <Image src={hero.image} alt={hero.title} fill priority sizes="100vw" className="object-cover" />
-        </div>
-        <div className="container-site grid gap-10 py-16 md:grid-cols-2 md:py-20">
-          <div>
-            {/* h1 global usa Londrina (CSS sin layer gana a utilidades) → tipografía en el span */}
-            <h1 className="text-ink">
-              <span className="font-sans text-base font-medium uppercase leading-snug tracking-[0.2em] sm:text-lg">{hero.eyebrow}</span>
-            </h1>
-            <p className="mt-4 font-display text-6xl uppercase leading-[0.95] text-ink sm:text-7xl">{hero.title}</p>
-          </div>
-          <div className="space-y-5 text-lg text-ink-soft md:pt-2">
-            {hero.body.map((p, i) => <p key={i}><Rich text={p} /></p>)}
-            {hero.cta && <div className="pt-3"><Btn link={hero.cta} kind="red" /></div>}
-          </div>
-        </div>
-      </section>
-
-      {/* CARD sobre foto */}
-      {card && (
-        <section className="relative isolate overflow-hidden py-16 md:py-24">
+  const blocks: Record<SectionKey, ReactNode> = {
+    // card sobre foto
+    card: card && (
+      <section className="relative isolate overflow-hidden py-16 md:py-24">
           <Image src={card.bg} alt="" fill sizes="100vw" className="-z-10 object-cover" />
           <div className="container-site">
             <div className="max-w-2xl bg-paper/90 p-8 backdrop-blur-sm sm:p-12">
@@ -97,11 +78,10 @@ export default function LandingView({ data }: { data: Landing }) {
             </div>
           </div>
         </section>
-      )}
-
-      {/* TEXTO + IMAGEN (imagen a sangre derecha) */}
-      {split && (
-        <section className="bg-paper py-16 md:py-24">
+    ),
+    // texto + imagen (imagen a sangre derecha)
+    split: split && (
+      <section className="bg-paper py-16 md:py-24">
           <div className="grid items-center gap-10 md:grid-cols-[1fr_minmax(0,45%)]">
             <div className="px-4 sm:px-10 lg:pl-[max(2.5rem,calc((100vw-1280px)/2+2.5rem))] lg:pr-16">
               <Title>{split.title}</Title>
@@ -120,11 +100,10 @@ export default function LandingView({ data }: { data: Landing }) {
             </div>
           </div>
         </section>
-      )}
-
-      {/* CHECKLIST (imagen a sangre izquierda) */}
-      {checks && (
-        <section className="bg-paper pb-16 md:pb-24">
+    ),
+    // checklist (imagen a sangre izquierda)
+    checks: checks && (
+      <section className="bg-paper py-16 md:py-24">
           <div className="grid items-center gap-10 md:grid-cols-[minmax(0,42%)_1fr]">
             <div className="relative aspect-[3/2] md:aspect-auto md:h-full md:min-h-[520px]">
               <Image src={checks.image} alt={checks.title} fill sizes="(min-width: 768px) 42vw, 100vw" className="object-cover" />
@@ -143,9 +122,33 @@ export default function LandingView({ data }: { data: Landing }) {
             </div>
           </div>
         </section>
-      )}
+    ),
+    gallery: gallery && gallery.length > 0 && <GalleryStrip images={gallery} alt={hero.title} />,
+  };
 
-      {gallery && gallery.length > 0 && <GalleryStrip images={gallery} alt={hero.title} />}
+  return (
+    <>
+      {/* HERO: foto a sangre + intro en dos columnas */}
+      <section className="bg-paper">
+        <div className="relative h-[52vh] min-h-[320px]">
+          <Image src={hero.image} alt={hero.title} fill priority sizes="100vw" className="object-cover" />
+        </div>
+        <div className="container-site grid gap-10 py-16 md:grid-cols-2 md:py-20">
+          <div>
+            {/* h1 global usa Londrina (CSS sin layer gana a utilidades) → tipografía en el span */}
+            <h1 className="text-ink">
+              <span className="font-sans text-base font-medium uppercase leading-snug tracking-[0.2em] sm:text-lg">{hero.eyebrow}</span>
+            </h1>
+            <p className={`mt-4 font-display text-6xl leading-[0.95] text-ink sm:text-7xl ${hero.keepCase ? "" : "uppercase"}`}>{hero.title}</p>
+          </div>
+          <div className="space-y-5 text-lg text-ink-soft md:pt-2">
+            {hero.body.map((p, i) => <p key={i}><Rich text={p} /></p>)}
+            {hero.cta && <div className="pt-3"><Btn link={hero.cta} kind="red" /></div>}
+          </div>
+        </div>
+      </section>
+
+      {(data.order ?? DEFAULT_ORDER).map((k) => <Fragment key={k}>{blocks[k]}</Fragment>)}
 
       {/* CTA final */}
       <section className="bg-paper py-20 md:py-28">

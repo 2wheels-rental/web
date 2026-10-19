@@ -3,9 +3,11 @@
 import { pagePath, type Locale } from "@/lib/i18n";
 import { SITE } from "@/lib/site";
 
+export type SectionKey = "card" | "split" | "checks" | "gallery";
 export type LandingLink = { label: string; href: string; external?: boolean };
 export type Landing = {
-  hero: { image: string; eyebrow: string; title: string; body: string[]; cta?: LandingLink };
+  hero: { image: string; eyebrow: string; title: string; keepCase?: boolean; body: string[]; cta?: LandingLink };
+  order?: SectionKey[]; // orden de secciones entre hero y CTA (default card, split, checks, gallery)
   card?: { bg: string; title: string; groups: { title: string; intro?: string; items: string[] }[]; button?: LandingLink };
   split?: { title: string; paras: string[]; list?: string[]; after?: string[]; image: string };
   checks?: { image: string; title: string; items: string[]; optionalTitle?: string; optional?: string[] };
@@ -171,53 +173,58 @@ function seasonPass(locale: Locale): Landing {
 }
 
 // ---------------- CAMPERVAN (EN) ----------------
+// Copy del borrador de Elementor (page_id=218), aún no publicado en el WP.
+const CV = (n: string) => `${U}02/${n}-Campervan-Rental-2wheels-Rental.webp`;
+const BOOK_CAMPERVAN: LandingLink = { label: "Book the campervan", href: BOOQ + "campervan", external: true };
+
 export const CAMPERVAN: Landing = {
   hero: {
-    image: `${U}02/05-Campervan-Rental-2wheels-Rental.webp`,
-    eyebrow: "Total freedom on four wheels.",
-    title: "Meet maja",
-    body: [
-      "A fully equipped premium campervan based in Lugano, built for total freedom across Europe.",
-      "Perfect for couples and small families who want to combine **cycling adventures** with the freedom of van life.",
+    image: `${U}02/Campervan.webp`,
+    eyebrow: "Campervan rental in Ticino",
+    title: "Your fully equipped home on wheels",
+    keepCase: true,
+    body: ["Explore Ticino, the Alps and Northern Italy with total autonomy. Designed for comfort, flexibility and real adventure, without giving up the essentials."],
+    cta: BOOK_CAMPERVAN,
+  },
+  order: ["split", "gallery", "checks", "card"],
+  split: {
+    title: "Meet Maja",
+    paras: [
+      "Meet Maja — not just a rental van, but your home on wheels and travel companion for the road ahead. Our 2021 Fiat Ducato L3H2 is built for freedom, flexibility and those slow mornings with a view that turn trips into memories.",
+      "Compact enough to navigate alpine passes and hidden mountain villages, yet spacious enough for relaxed evenings by the lake, Maja blends practicality with comfort. Inside, you’ll find everything ready to go, just pack your bag and start driving.",
+      "Perfect for small groups, couples or solo travelers exploring Ticino, the Alps and Northern Italy, Maja is about more than transport. It’s about waking up closer to nature, choosing your own rhythm, and making the journey as meaningful as the destination.",
     ],
-    cta: { label: "Book now", href: BOOQ + "campervan", external: true },
+    image: CV("07"),
+  },
+  gallery: ["01", "05", "02", "03", "04", "06"].map(CV),
+  checks: {
+    image: CV("08"),
+    title: "Included Equipment",
+    items: ["Fully equipped kitchen", "Camping kit (table & chairs)", "Bedding set", "Gas & extra battery for autonomy", "Bathroom kit", "Bike rack (up to 2 bikes / e-bikes)"],
+    optionalTitle: "Optional on Request",
+    optional: ["Bikes (road, gravel, MTB, e-bike)", "Outdoor & sport equipment"],
   },
   card: {
-    bg: `${U}03/portada-2wheels-rental-camper-campervan-bike-rental-dolomites-bolzano-italia-1.webp`,
-    title: "Bike & Camper",
+    bg: CV("07"),
+    title: "Rental Conditions",
     groups: [
+      { title: "Requirements", items: ["Minimum age: 25 years", "Valid EU or International driver’s license (Category B)", "Security deposit: CHF 1,000"] },
+      { title: "Rental Period", items: ["Minimum stay: 2 nights", "Flexible rental periods available"] },
       {
-        title: "Dolomites Bike & Camper Experience",
-        intro: "5 days of self-guided cycling through the Italian Dolomites, travelling with maja.",
+        title: "Included",
         items: [
-          "Ride some of the most iconic alpine roads in Europe",
-          "Climb legendary passes like **Passo Gardena, Pordoi and Sella**",
-          "Discover scenic valleys such as **Val di Funes**",
-          "Reach the famous **Lago di Braies**",
-          "Designed for **1 to 4 riders** — road, gravel or e-bike",
+          "Fully equipped with all internal gear and essentials for the trip",
+          "Full insurance with roadside assistance",
+          "Gas cylinders: 1 full cylinder included + 1 courtesy cylinder already in use. Around 5 days of autonomy with normal use.",
         ],
       },
     ],
-    button: { label: "View the experience", href: "/tour/dolomites-camper-experience/" },
-  },
-  checks: {
-    image: `${U}03/portada-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp`,
-    title: "Ride & Roam",
-    items: [
-      "Fully equipped premium campervan",
-      "Bike rental: road, gravel or e-bike",
-      "Bike setup and preparation",
-      "Helmet and basic repair kit",
-      "GPX routes and ride recommendations",
-      "Based in Lugano, ready for Europe",
-    ],
-    optionalTitle: OPTIONAL.en.title,
-    optional: OPTIONAL.en.items,
+    button: { label: "Download brochure", href: `${U}03/Brochure-Campervan-Maja.pdf`, external: true },
   },
   cta: {
-    title: "Ready to hit the road?",
-    paras: ["Combine the best rides in the Alps with the freedom of travelling in your own **premium campervan**."],
-    button: { label: "Book maja", href: BOOQ + "campervan", external: true },
+    title: "Ready to plan your route?",
+    paras: ["Check availability and book directly through our booking platform."],
+    button: BOOK_CAMPERVAN,
   },
 };
 
