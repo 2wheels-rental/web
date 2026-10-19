@@ -42,3 +42,10 @@ h1, h2, h3, h4 {
   margin-inline: auto;
   padding-inline: 1rem;
 }
+
+/* Textura topográfica sutil para cajas oscuras (Why Shuttle / Highlights) */
+.topo {
+  background-image:
+    repeating-radial-gradient(ellipse at 20% 30%, transparent 0 22px, rgb(255 255 255 / 0.05) 23px 24px),
+    repeating-radial-gradient(ellipse at 85% 80%, transparent 0 30px, rgb(255 255 255 / 0.04) 31px 32px);
+}

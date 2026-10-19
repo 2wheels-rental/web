@@ -35,7 +35,7 @@ export default function FloatingBook({ href, label }: { href: string; label: str
       rel="noopener"
       aria-hidden={!show}
       tabIndex={show ? 0 : -1}
-      className={`fixed bottom-5 left-4 right-24 z-50 whitespace-nowrap rounded-full bg-primary px-6 py-4 text-center sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:px-8 text-sm font-semibold uppercase tracking-[0.15em] text-white shadow-2xl transition-all duration-300 hover:bg-primary-dark ${
+      className={`fixed bottom-5 left-4 right-24 z-50 whitespace-nowrap rounded-md bg-primary px-6 py-4 text-center sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:px-10 text-sm font-semibold uppercase tracking-[0.15em] text-white shadow-2xl transition-all duration-300 hover:bg-primary-dark ${
         show ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-6 opacity-0"
       }`}
     >

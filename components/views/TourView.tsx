@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getTours, type Tour } from "@/lib/tours";
 import { localImg } from "@/lib/img";
 import { SITE } from "@/lib/site";
-import { UI, tourPath, toursListPath, type Locale } from "@/lib/i18n";
+import { UI, tourPath, type Locale } from "@/lib/i18n";
 import ItineraryCarousel from "@/components/ItineraryCarousel";
 import PracticalInfo from "@/components/PracticalInfo";
 import FloatingBook from "@/components/FloatingBook";
@@ -30,10 +30,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
         {tour.hero && <Image src={localImg(tour.hero)} alt={tour.title} fill priority sizes="100vw" className="object-cover" />}
         <div className="absolute inset-0 bg-black/45" />
         <div className="container-site relative max-w-4xl py-24 text-center text-white">
-          <Link href={toursListPath(locale)} className="text-xs font-medium uppercase tracking-[0.25em] text-white/70 hover:text-white">
-            ← {u.backToTours}
-          </Link>
-          <h1 className="mt-5 text-5xl sm:text-6xl lg:text-7xl">{tour.title}</h1>
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl">{tour.title}</h1>
           {tour.subtitle && <p className="mx-auto mt-5 max-w-2xl text-lg text-white/90 sm:text-2xl">{tour.subtitle}</p>}
           <a
             data-book-cta
@@ -69,8 +66,8 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
       {/* HIGHLIGHTS: caja oscura + foto */}
       {tour.highlights.length > 0 && (
         <section className="bg-paper pb-20">
-          <div className="container-site grid items-center gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
-            <div className="bg-ink p-10 text-white sm:p-12">
+          <div className="container-site grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:gap-16">
+            <div className="topo bg-ink p-10 text-white sm:p-12">
               <h2 className="text-4xl sm:text-5xl">{tour.highlightsTitle || u.highlights}</h2>
               <ul className="mt-8 list-disc space-y-4 pl-6 text-lg text-white/90 marker:text-white">
                 {tour.highlights.map((h, i) => <li key={i}>{h}</li>)}
@@ -78,7 +75,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
             </div>
             {tour.highlightsImage && (
               <div className="relative aspect-[3/2]">
-                <Image src={tour.highlightsImage} alt={tour.highlightsTitle || tour.title} fill sizes="(min-width: 1024px) 58vw, 100vw" className="object-cover" />
+                <Image src={tour.highlightsImage} alt={tour.highlightsTitle || tour.title} fill sizes="(min-width: 1024px) 66vw, 100vw" className="object-cover" />
               </div>
             )}
           </div>
@@ -120,7 +117,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
         </section>
       )}
 
-      <FloatingBook href={bookingUrl} label={bookingLabel} />
+      <FloatingBook href={bookingUrl} label={tour.booking ? u.bookNow : bookingLabel} />
     </>
   );
 }
