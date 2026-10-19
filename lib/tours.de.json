@@ -41,7 +41,8 @@
     "booking": "https://www.wetravel.com/trips/lugano-peninsula-alpe-vicania-2wheels-rental-2766352584",
     "en_slug": "alpe-vicania",
     "experience": "local",
-    "duration": "0.5"
+    "duration": "0.5",
+    "itinerary": []
   },
   {
     "slug": "asiago-radabenteuer",
@@ -85,7 +86,37 @@
     "booking": "",
     "en_slug": "asiago-bike-adventure",
     "experience": "trips",
-    "duration": "3"
+    "duration": "3",
+    "itinerary": [
+      {
+        "day": "Tag 1 – Ankunft & Transfer",
+        "body": [
+          "Abholung der Fahrräder und des Gepäcks, anschließend Transfer mit einem privaten Kleinbus nach Asiago. Übernachtung im Hotel."
+        ]
+      },
+      {
+        "day": "Tag 2 – Asiago → Rifugio Barricata",
+        "body": [
+          "Ca. 54 km | 1.750 m Höhenunterschied",
+          "Das Abenteuer beginnt auf der Hochebene von Asiago, wo die Route über eine Mischung aus Schotterwegen, Militärpisten und Berglandschaften führt, bevor wir das Rifugio Barricata erreichen, wo wir übernachten werden."
+        ]
+      },
+      {
+        "day": "Tag 3 – Rifugio Barricata → Asiago",
+        "body": [
+          "Ca. 70 km | 1.770 m Höhenunterschied",
+          "Die längste Etappe des Abenteuers, die durch abgelegenes Berggebiet und über historische Routen führt, bevor es zurück nach Asiago geht."
+        ]
+      },
+      {
+        "day": "Tag 4 – Asiago-Rundtour",
+        "body": [
+          "Ca. 60 km | 1.450 m Höhenunterschied",
+          "Das große Finale: eine Rundfahrt mit Panoramablick über historische Militärstraßen, Bergweiden und durch einige der spektakulärsten Landschaften der Hochebene von Asiago.",
+          "Am Ende der Tour bringt ein organisierter Transfer die Gruppe wieder nach Hause."
+        ]
+      }
+    ]
   },
   {
     "slug": "fahrrad-shuttle",
@@ -123,7 +154,8 @@
     "booking": "",
     "en_slug": "bike-shuttle",
     "experience": "custom",
-    "duration": "0.5"
+    "duration": "0.5",
+    "itinerary": []
   },
   {
     "slug": "bre-bolla",
@@ -169,7 +201,8 @@
     "booking": "https://www.wetravel.com/trips/monte-bre-alpe-bolla-2wheels-rental-2933100744",
     "en_slug": "bre-bolla",
     "experience": "local",
-    "duration": "1"
+    "duration": "1",
+    "itinerary": []
   },
   {
     "slug": "bre-panorama",
@@ -213,7 +246,8 @@
     "booking": "https://www.wetravel.com/trips/monte-bre-panorama-ride-2wheels-rental-7835485560",
     "en_slug": "bre-panorama",
     "experience": "local",
-    "duration": "0.5"
+    "duration": "0.5",
+    "itinerary": []
   },
   {
     "slug": "ceresio-radfahren",
@@ -257,7 +291,8 @@
     "booking": "https://2wheelsrental.wetravel.com/trips/ceresio-bike-loop-2wheels-rental-8600418124",
     "en_slug": "ceresio-bike-ride",
     "experience": "local",
-    "duration": "0.5"
+    "duration": "0.5",
+    "itinerary": []
   },
   {
     "slug": "dolomiten-camper-erfahrung",
@@ -301,7 +336,8 @@
     "booking": "https://2wheelsrental.wetravel.com/trips/dolomites-bike-camper-experience-2wheels-rental-7836906138",
     "en_slug": "dolomites-camper-experience",
     "experience": "trips",
-    "duration": "5"
+    "duration": "5",
+    "itinerary": []
   },
   {
     "slug": "enduro-alps",
@@ -345,7 +381,27 @@
     "booking": "https://www.wetravel.com/trips/enduro-alps-experience-airolo-ritom-nara-2wheels-rental-0794948999",
     "en_slug": "enduro-alps",
     "experience": "local",
-    "duration": "3"
+    "duration": "3",
+    "itinerary": [
+      {
+        "day": "Tag 1 - Airolo Bike Park",
+        "body": [
+          "Liftunterstütztes Fahren, um die Abfahrtszeit zu maximieren. Flow-Trails, technische Linien und optionale Sprünge ermöglichen es den Fahrern, sich aufzuwärmen, ihre Technik zu verfeinern und Vertrauen aufzubauen. Ein perfekter erster Tag, an dem der Schwerpunkt auf Progression und Fahrqualität liegt."
+        ]
+      },
+      {
+        "day": "Tag 2 - Passo del Sole",
+        "body": [
+          "Die abenteuerlichste und anspruchsvollste Etappe. Früher Start vom Hüttengelände in der Nähe von Ritom-See, Aufstieg in abgelegenes alpines Gelände in Richtung Passo del Sole. Lange technische Abfahrten, exponierte Lage und raue Berglandschaft bestimmen den Tag. Eine echte Hochgebirgs-Enduro-Mission."
+        ]
+      },
+      {
+        "day": "Tag 3 - Nara-Radgebiet",
+        "body": [
+          "Ein letzter Tag mit langen, kontinuierlichen Abfahrten in spektakulärer alpiner Landschaft. Technische Vielfalt, Geschwindigkeit und natürlicher Flow sorgen für einen kraftvollen Abschluss des Erlebnisses."
+        ]
+      }
+    ]
   },
   {
     "slug": "radtour-in-lugano",
@@ -390,7 +446,27 @@
     "booking": "https://2wheelsrental.wetravel.com/trips/lugano-road-bike-tour-2wheels-rental-2859406158",
     "en_slug": "lugano-bike-ride",
     "experience": "local",
-    "duration": "2"
+    "duration": "2",
+    "itinerary": [
+      {
+        "day": "Tag 1 - Lugano → Porto Ceresio → Malcantone",
+        "body": [
+          "Ca. 80-90 km | 1.400-1.600 m Höhenunterschied",
+          "Aufwärmen am See in landschaftlich reizvoller Umgebung Porto Ceresio, Es folgen hügelige, grenzüberschreitende Straßen und ein stetiger Anstieg in die Hügel des Malcantone. Waldabschnitte und Panoramapunkte führen zurück zur Unterkunft.",
+          "Abends Aperitivo und lokales Abendessen.",
+          "Eingeschlossen: Mittagessen, Abendessen (keine alkoholischen Getränke), Aperitivo"
+        ]
+      },
+      {
+        "day": "Tag 2 - Malcantone → Valcolla → Lugano",
+        "body": [
+          "Ca. 70-80 km | 1.400-1.600 m Höhenunterschied",
+          "Eine eher alpine Etappe, die in Richtung Valcolla. Ruhige Bergstrassen, anhaltende Kletterpassagen und Panoramablicke auf die Bergkämme bestimmen den Tag, gefolgt von einer technischen Abfahrt zurück nach Lugano.",
+          "Feierlicher Aperitivo am Ende der Fahrt.",
+          "Inbegriffen: Frühstück, Mittagessen, Aperitivo (keine alkoholischen Getränke)"
+        ]
+      }
+    ]
   },
   {
     "slug": "pradecolo",
@@ -435,7 +511,27 @@
     "booking": "https://www.wetravel.com/trips/passo-del-pradecolo-alpone-di-curiglia-2wheels-rental-8060898664",
     "en_slug": "pradecolo",
     "experience": "local",
-    "duration": "2"
+    "duration": "2",
+    "itinerary": [
+      {
+        "day": "Tag 1 - Lugano → Pradecolo",
+        "body": [
+          "Von unserem Geschäft aus folgen wir einem malerischen See-Radweg in Richtung Malcantone, bevor wir auf ruhigen Schotterstraßen und Nebenwegen mitten in der Natur aufsteigen.",
+          "Wir fahren durch zeitlose Tessiner Dörfer und einen friedlichen Kastanienwald, um dann auf einem lustigen letzten Stück auf Waldwegen den ersten Blick auf den Lago Maggiore zu genießen.",
+          "Im Pradecolo erwartet Sie ein wohlverdienter Aperitivo in einem warmen alpinen Ambiente, gefolgt von einem Abendessen mit authentischen lokalen Spezialitäten.",
+          "Eingeschlossen: Lunchpaket, Aperitivo und Abendessen"
+        ]
+      },
+      {
+        "day": "Tag 2 - Pradecolo → Lago Maggiore",
+        "body": [
+          "Am Morgen geht es in Richtung des charmanten Weilers Alpone di Curiglia, der komplett aus Stein gebaut ist. Von dort führt uns eine lange Abfahrt in die Talsohle, bevor wir über eine kurvenreiche, stillgelegte Bergstraße wieder aufsteigen - ein verstecktes Juwel und perfektes Terrain für unsere e-MTBs.",
+          "Auf dem Gipfel angekommen, geht es weiter zum Passo della Forcora, von wo aus man einen atemberaubenden Blick auf den Lago Maggiore und die umliegenden Gipfel hat.",
+          "Am See angekommen, feiern wir mit einem wohlverdienten Aperitivo auf echte italienische Art. Von dort aus folgen wir dem Seeufer, bevor wir auf einem sanften Uferradweg durch malerische Dörfer und friedliche Wälder zurück nach Lugano fahren.",
+          "Inbegriffen: Frühstück, Lunchpaket und Aperitivo."
+        ]
+      }
+    ]
   },
   {
     "slug": "sanlucio-alpin",
@@ -482,7 +578,8 @@
     "booking": "https://www.wetravel.com/trips/san-lucio-monte-bar-alpine-traverse-2wheels-rental-8746960493",
     "en_slug": "sanlucio-alpine",
     "experience": "local",
-    "duration": "1"
+    "duration": "1",
+    "itinerary": []
   },
   {
     "slug": "sizilien-bikepacking",
@@ -529,7 +626,49 @@
     "booking": "https://www.wetravel.com/trips/girotondo-dell-etna-sicily-bike-expedition-2wheels-rental-6213999172",
     "en_slug": "sicily-bikepacking",
     "experience": "trips",
-    "duration": "5"
+    "duration": "5",
+    "itinerary": [
+      {
+        "day": "Tag 1 - Catania (Mister Bianco) → Centuripe",
+        "body": [
+          "Ca. 39 km | 890 m Höhenunterschied",
+          "Ankunft und Fahrradanpassung bei Mister Bianco. Nach dem lokalen Mittagessen rollen wir landeinwärts in Richtung Centuripe mit allmählichem Anstieg und ersten vulkanischen Panoramen.",
+          "Übernachtung: Hotel in der Region Centuripe"
+        ]
+      },
+      {
+        "day": "Tag 2 - Centuripe → Bronte",
+        "body": [
+          "Ca. 46 km | 985 m Höhenunterschied",
+          "Eine längere Etappe durch fruchtbare vulkanische Böden und landwirtschaftliche Landschaften. Durch Adrano geht es weiter nach Bronte, das für seine Pistazien berühmt ist, und mit zunehmender Höhe zu den Westhängen des Ätna.",
+          "Übernachtung: Hotel Bronte"
+        ]
+      },
+      {
+        "day": "Tag 3 - Bronte → Hütte Monte Scavo",
+        "body": [
+          "Ca. 35 km | 1.200 m Höhenunterschied",
+          "Eintritt in die wahre vulkanische Zone. Lava-Stein-Architektur in Randazzo, Waldaufstiege und Übergang in hochalpines Gelände vor dem letzten Aufstieg zur Berghütte (~1.740 m).",
+          "Übernachtung: Berghütte (alpine Gemeinschaftsunterkunft)"
+        ]
+      },
+      {
+        "day": "Tag 4 - Hütte Monte Scavo → Milo",
+        "body": [
+          "Ca. 52 km | 680 m Höhenunterschied",
+          "Reiten in großer Höhe, gefolgt von einem malerischen Abstieg zu den Osthängen des Ätna. Lavafelder, offene Landschaften und Weinberge mit Blick auf das Meer in Richtung Milo.",
+          "Übernachtung: Milo Hotel"
+        ]
+      },
+      {
+        "day": "Tag 5 - Milo → Catania Strand",
+        "body": [
+          "Ca. 40 km | 297 m Höhenunterschied",
+          "Letzte Etappe mit einem stetigen Anstieg in Richtung Ätna Nord, und endet mit dem letzten 15-18 km Aufstieg zum Piano Provenzana gegen 1,800-2,000 m, umgeben von vulkanischen Landschaften.",
+          "Nach der Fahrt Transfer zurück nach Catania, Wir geben die Fahrräder zurück und genießen einen entspannten letzten gemeinsamen Nachmittag, bevor wir nach Hause fahren."
+        ]
+      }
+    ]
   },
   {
     "slug": "toskana-uber-francigena",
@@ -576,7 +715,48 @@
     "booking": "",
     "en_slug": "tuscany-via-francigena",
     "experience": "trips",
-    "duration": "5"
+    "duration": "5",
+    "itinerary": [
+      {
+        "day": "Tag 1 - San Miniato → San Gimignano",
+        "body": [
+          "Ca. 42 km | 840 m Höhenunterschied",
+          "Die Reise beginnt im Herzen der Toskana und führt durch sanfte Hügel und klassische Landschaften. Eine perfekte Etappe zum Aufwärmen mit stetigen Anstiegen und ruhigen Straßen, die zur ikonischen Skyline von San Gimignano führen.",
+          "Übernachtung: Casolare Le Terre Rosse"
+        ]
+      },
+      {
+        "day": "Tag 2 - San Gimignano → Buonconvento",
+        "body": [
+          "Ca. 84 km | 1130 m Höhenunterschied",
+          "Eine längere und intensivere Etappe durch die toskanische Landschaft. Weinberge, Schotterabschnitte und Panoramablicke bestimmen den Tag, während wir tief in die Region Val d'Orcia in Richtung des charmanten Dorfes Buonconvento fahren.",
+          "Über Nacht: Noch zu definieren"
+        ]
+      },
+      {
+        "day": "Tag 3 – Buonconvento → Bagno Vignoni",
+        "body": [
+          "Ca. 27 km | 700 m Höhenunterschied",
+          "Eine kurze und landschaftlich reizvolle Etappe durch das Herz des Val d’Orcia, auf Schotterwegen und durch sanfte Hügel. Wir kommen in der Nähe von Bagno Vignoni an und haben reichlich Zeit, uns zu entspannen und die berühmten Thermalquellen und Naturbecken zu genießen.",
+          "Über Nacht: XXXX"
+        ]
+      },
+      {
+        "day": "Tag 4 – Bagno Vignoni → Radicofani",
+        "body": [
+          "Ca. 22 km | 700 m Höhenunterschied",
+          "Nachdem wir die Thermen verlassen haben, radeln wir durch das spektakuläre Val d’Orcia, bevor wir den Anstieg nach Radicofani in Angriff nehmen, der mit herrlichen Ausblicken belohnt wird. Wir beenden die Tour in einem Agriturismo auf dem Land mit Pool und der Möglichkeit zu einer Verkostung lokaler Weine.",
+          "Übernachtung: Agriturismo La Selvella"
+        ]
+      },
+      {
+        "day": "Tag 5 – Radicofani  → Bolsenasee",
+        "body": [
+          "Ca. 60 km | 950 m Höhenunterschied",
+          "Die letzte Etappe in Richtung der Ufer von Bolsena. Eine kürzere und größtenteils sanfte Fahrt, die die Vorfreude steigert und mit der Ankunft am größten Vulkansee Europas ihren Höhepunkt findet – ein friedlicher und unvergesslicher Abschluss einer legendären Reise."
+        ]
+      }
+    ]
   },
   {
     "slug": "fahrrad-abenteuersafari-in-uganda",
@@ -616,6 +796,92 @@
     "booking": "",
     "en_slug": "uganda-bike-adventure-safari",
     "experience": "trips",
-    "duration": "12"
+    "duration": "12",
+    "itinerary": [
+      {
+        "day": "Tag 1 – Ankunft in Entebbe",
+        "body": [
+          "Ankunft | Flughafentransfer & Check-in im Hotel",
+          "Willkommen in Uganda! Bei Ihrer Ankunft am internationalen Flughafen Entebbe werden Sie von unserem Fahrer vor Ort in Empfang genommen und zu Ihrem Hotel gebracht. Je nach Ihrer Ankunftszeit haben Sie möglicherweise die Gelegenheit, die Umgebung zu erkunden, bevor Ihr Abenteuer beginnt."
+        ]
+      },
+      {
+        "day": "Tag 2 – Murchison-Falls-Nationalpark",
+        "body": [
+          "Nashorn-Trekking | Wasserfälle & Wildtiersafari",
+          "Begeben Sie sich auf eine Reise in den Norden mit einem Zwischenstopp im Ziwa Rhino Sanctuary, wo Sie bei einem einzigartigen Spaziergang weiße Nashörner hautnah erleben können. Weiter geht es zu den Murchison-Wasserfällen, wo Sie die unglaubliche Kraft des Nils bewundern können, bevor Sie Ihre erste Wildtiersafari durch Ugandas größten Nationalpark genießen."
+        ]
+      },
+      {
+        "day": "Tag 3 – Murchison-Falls-Nationalpark",
+        "body": [
+          "Morgensafari | Bootsfahrt auf dem Nil",
+          "Beginnen Sie den Tag mit einer Safari am frühen Morgen auf der Suche nach Elefanten, Giraffen, Büffeln, Löwen und anderen Wildtieren. Am Nachmittag unternehmen Sie eine Bootsfahrt auf dem Nil in Richtung der spektakulären Murchison-Wasserfälle, umgeben von atemberaubenden Landschaften und einer reichen Tierwelt."
+        ]
+      },
+      {
+        "day": "Tag 4 – Die Kraterseen von Ndali Kasenda",
+        "body": [
+          "Transfer durch malerische Landschaften | Ankunft in der Region Kibale",
+          "Fahren Sie durch die abwechslungsreichen Landschaften Ugandas in Richtung Süden zur wunderschönen Kibale-Region, die für ihre üppigen Wälder und vulkanischen Kraterseen bekannt ist. Treffen Sie unser Fahrrad-Betreuungsteam und bereiten Sie sich auf die Radtouren dieses Abenteuers vor."
+        ]
+      },
+      {
+        "day": "Tag 5 – Kraterseen und Queen-Elizabeth-Nationalpark",
+        "body": [
+          "Radfahren | Kraterseen | Bootsafari auf dem Kazinga-Kanal",
+          "Ihr Fahrradabenteuer beginnt inmitten der spektakulären Kraterseen von Kibale und führt Sie durch grüne Hügel, ländliche Dörfer und Vulkanlandschaften. Nach dem Mittagessen geht es weiter zum Queen-Elizabeth-Nationalpark, wo Sie eine Bootssafari entlang des Kazinga-Kanals unternehmen, der Lebensraum für Flusspferde, Krokodile und eine unglaubliche Vogelwelt ist."
+        ]
+      },
+      {
+        "day": "Tag 6 – Von Queen Elizabeth nach Ishasha",
+        "body": [
+          "Radfahren | Malerische Landschaften | Safari mit baumkletternden Löwen",
+          "Fahren Sie in Richtung Süden durch die wunderschönen Landschaften des Queen-Elizabeth-Nationalparks, vorbei am Maramagambo-Wald und an lokalen Fischergemeinden. Am Nachmittag erkunden Sie den Ishasha-Sektor auf einer Wildtiersafari, der für seine seltenen baumkletternden Löwen bekannt ist."
+        ]
+      },
+      {
+        "day": "Tag 7 – Radtour zum Bwindi Impenetrable Forest",
+        "body": [
+          "Radfahren | Sanfte Hügel | Tropischer Regenwald",
+          "Radeln Sie durch die üppig grünen Hügel und ländlichen Landschaften im Südwesten Ugandas in Richtung des legendären Bwindi Impenetrable Forest. Da unsere Begleitfahrzeuge stets in der Nähe sind, können Sie die Reise ganz in Ihrem eigenen Tempo genießen, bevor Sie die Lodge erreichen, die von einem der artenreichsten Wälder Afrikas umgeben ist."
+        ]
+      },
+      {
+        "day": "Tag 8 – Gorilla-Trekking in Bwindi",
+        "body": [
+          "Gorilla-Trekking | Geführte Regenwald-Expedition",
+          "Einer der Höhepunkte des gesamten Abenteuers. Begeben Sie sich mit erfahrenen Rangern tief in den Bwindi Impenetrable Forest, um nach den vom Aussterben bedrohten Berggorillas zu suchen. Erleben Sie eine unvergessliche Stunde, in der Sie diese außergewöhnlichen Tiere in ihrem natürlichen Lebensraum beobachten können, umgeben von den Geräuschen des Regenwaldes."
+        ]
+      },
+      {
+        "day": "Tag 9 – Bunyonyi-See",
+        "body": [
+          "Transfer durch malische Landschaften | Schifffahrt auf dem See & lokale Kultur",
+          "Fahren Sie durch die wunderschönen Hügel im Südwesten Ugandas zum Bunyonyi-See, einem ruhigen See, der von Terrassenlandschaften umgeben ist. Genießen Sie eine Bootsfahrt am Nachmittag, bei der Sie die vielen Inseln, traditionellen Dörfer und lokalen Gemeinschaften erkunden und dabei eine andere Seite Ugandas entdecken können."
+        ]
+      },
+      {
+        "day": "Tag 10 – Lake-Mburo-Nationalpark",
+        "body": [
+          "Landschaftlich reizvolle Reise | Optionale Radtour | Bootsafari",
+          "Weiterfahrt zum Lake Mburo-Nationalpark, wobei unterwegs möglicherweise eine Radtour eingelegt wird. Nach der Ankunft gegen Mittag erkunden Sie den See mit dem Boot und entdecken die Tier- und Vogelarten, die an seinen ruhigen Ufern leben."
+        ]
+      },
+      {
+        "day": "Tag 11 – Radsafari am Mburo-See",
+        "body": [
+          "Radsafari | Tierwelt & Natur",
+          "Erleben Sie Ugandas Tierwelt aus einer ganz neuen Perspektive: auf zwei Rädern! Genießen Sie eine einzigartige Radsafari im Lake-Mburo-Nationalpark, radeln Sie durch unberührte Landschaften und entdecken Sie die Tierwelt des Parks auf aktive und unvergessliche Weise."
+        ]
+      },
+      {
+        "day": "Tag 12 – Rückkehr nach Entebbe",
+        "body": [
+          "Rücktransfer | Abreise",
+          "Nach einer unvergesslichen Reise durch Uganda ist es Zeit, nach Entebbe zurückzukehren, um Ihren internationalen Flug anzutreten. Nehmen Sie unvergessliche Erinnerungen an Begegnungen mit Wildtieren, Mountainbike-Abenteuer, spektakuläre Landschaften und die Menschen mit nach Hause, die dieses Erlebnis so einzigartig gemacht haben."
+        ]
+      }
+    ]
   }
 ]

@@ -9,8 +9,11 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
   const u = UI[locale];
   const specs = Object.entries(tour.specs);
   const gallery = tour.gallery.map(localImg);
+  const itinerary = tour.itinerary || [];
   const bookingUrl = tour.booking || `https://wa.me/${SITE.contact.whatsapp}`;
   const bookingLabel = tour.booking ? u.bookThisTour : u.requestThisTour;
+  const dayTitle = (s: string) => s.replace(/^(day|giorno|tag)\s*\d+\s*[—–-]\s*/i, "").trim() || s;
+  const isMeta = (s: string) => /\d+\s*km/i.test(s);
 
   return (
     <>
@@ -63,6 +66,31 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
           )}
         </div>
       </section>
+
+      {itinerary.length > 0 && (
+        <section className="bg-white">
+          <div className="container-site py-16">
+            <h2 className="mb-10 text-center text-3xl uppercase text-ink">{u.itinerary}</h2>
+            <div className="mx-auto max-w-3xl space-y-5">
+              {itinerary.map((d, i) => (
+                <div key={i} className="rounded-2xl border border-black/5 bg-paper p-6">
+                  <div className="flex items-center gap-3">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">{i + 1}</span>
+                    <h3 className="text-lg font-semibold text-ink">{dayTitle(d.day)}</h3>
+                  </div>
+                  {d.body.length > 0 && (
+                    <div className="mt-3 space-y-2 sm:pl-12">
+                      {d.body.map((p, j) => (
+                        <p key={j} className={isMeta(p) ? "text-sm font-semibold uppercase tracking-wide text-primary" : "text-ink-soft"}>{p}</p>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {gallery.length > 0 && (
         <section className="bg-paper">
