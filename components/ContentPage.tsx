@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Block } from "@/lib/pages";
 import { localImg } from "@/lib/img";
+import GalleryStrip from "@/components/GalleryStrip";
 
 type CTA = { label: string; href: string; external?: boolean };
 
@@ -189,15 +190,7 @@ export default function ContentPage({
 
       {/* Galería con imágenes sobrantes */}
       {sideImages.length > sections.length && (
-        <section className="bg-paper py-14">
-          <div className="container-site grid grid-cols-2 gap-4 md:grid-cols-3">
-            {sideImages.slice(Math.max(sections.length, 0)).map((src, i) => (
-              <div key={i} className="relative aspect-[4/3] overflow-hidden rounded-xl">
-                <Image src={src} alt={title} fill className="object-cover" />
-              </div>
-            ))}
-          </div>
-        </section>
+        <GalleryStrip images={sideImages.slice(sections.length)} alt={title} />
       )}
 
       {/* CTA */}

@@ -29,8 +29,8 @@ export default function AboutView({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      {/* WHO WE ARE: texto izq + imagen a sangre derecha */}
-      <section className="bg-paper">
+      {/* WHO WE ARE: texto izq + imagen a sangre derecha (separada del hero) */}
+      <section className="bg-paper pt-16 md:pt-24">
         <div className="grid items-center md:grid-cols-[1fr_minmax(0,42%)]">
           <div className="px-4 py-16 sm:px-10 lg:px-20">
             <h2 className="text-5xl text-ink sm:text-6xl">{t.whoTitle}</h2>
@@ -71,7 +71,7 @@ export default function AboutView({ locale }: { locale: Locale }) {
                 />
                 <div className="absolute inset-x-3 bottom-3 bg-white px-2 py-3 text-ink">
                   <h3 className="text-base font-medium sm:text-lg">{m.name}</h3>
-                  <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-ink-soft sm:text-xs">{m.role}</p>
+                  <p className="mt-1 text-[9px] uppercase tracking-[0.16em] text-ink-soft sm:text-[10px] xl:whitespace-nowrap">{m.role}</p>
                 </div>
               </div>
             ))}

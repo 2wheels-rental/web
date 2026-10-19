@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import GalleryStrip from "@/components/GalleryStrip";
 import { COMPANIES, COMPANIES_BROCHURE, COMPANIES_IMG } from "@/lib/about-content";
 import { pagePath, type Locale } from "@/lib/i18n";
 
@@ -63,22 +64,16 @@ export default function CompaniesView({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      {/* GALLERY + BROCHURE */}
-      <section className="bg-white py-20">
+      {/* BROCHURE + GALERÍA */}
+      <section className="bg-paper pt-20">
         <div className="container-site">
           <div className="flex flex-col items-center gap-6 text-center">
             <h2 className="max-w-2xl text-4xl uppercase text-ink sm:text-5xl">{t.brochureTitle}</h2>
             <a href={COMPANIES_BROCHURE} target="_blank" rel="noopener" className={btn.dark}>{t.brochureButton}</a>
           </div>
-          <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
-            {COMPANIES_IMG.gallery.map((src, i) => (
-              <div key={src} className={`relative overflow-hidden rounded-xl ${i === 0 ? "col-span-2 row-span-2 aspect-square md:aspect-auto" : "aspect-[4/3]"}`}>
-                <Image src={src} alt="" fill sizes="(min-width: 768px) 25vw, 50vw" className="object-cover" />
-              </div>
-            ))}
-          </div>
         </div>
       </section>
+      <GalleryStrip images={COMPANIES_IMG.gallery} alt={t.h1} />
 
       {/* HOW IT WORKS */}
       <section className="bg-ink py-20 text-white">

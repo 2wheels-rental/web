@@ -7,6 +7,7 @@ import { UI, toursListPath, type Locale } from "@/lib/i18n";
 import ItineraryCarousel from "@/components/ItineraryCarousel";
 import PracticalInfo from "@/components/PracticalInfo";
 import FloatingBook from "@/components/FloatingBook";
+import GalleryStrip from "@/components/GalleryStrip";
 
 export default function TourView({ locale, tour }: { locale: Locale; tour: Tour }) {
   const u = UI[locale];
@@ -77,20 +78,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
         <PracticalInfo title={u.practicalInfo} tabs={practical} bookingUrl={bookingUrl} bookingLabel={bookingLabel} />
       )}
 
-      {gallery.length > 0 && (
-        <section className="bg-paper">
-          <div className="container-site py-16">
-            <h2 className="mb-8 text-center text-3xl uppercase text-ink">{u.gallery}</h2>
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-              {gallery.map((src, i) => (
-                <div key={i} className="relative aspect-[4/3] overflow-hidden rounded-xl">
-                  <Image src={src} alt={`${tour.title} ${i + 1}`} fill className="object-cover" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      {gallery.length > 0 && <GalleryStrip images={gallery} alt={tour.title} title={u.gallery} />}
 
       <section className="bg-ink text-white">
         <div className="container-site flex flex-col items-center gap-5 py-16 text-center">

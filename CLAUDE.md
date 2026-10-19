@@ -97,6 +97,8 @@ Metadata por página (title, description, canonical, Open Graph) + **hreflang** 
 - Los tags **solo cargan en `*.2wheelsrental.com`** (no ensucian métricas desde Vercel/localhost); para probarlos fuera: `NEXT_PUBLIC_ANALYTICS_ANY_HOST=1`.
 - `CookieBanner` guarda la decisión y emite el evento; el footer tiene "Cookie settings" para reabrirlo. Cookiebot del original no tenía ID cargado → reemplazado por este banner.
 - Home hero: `components/HeroVideo.tsx` (poster con Next/Image como LCP; el video solo se monta si no hay Save-Data/2G/3G ni reduced-motion).
+- **Landings** Season Pass, Hotel Programs y Campervan: `components/views/LandingView.tsx` (hero + intro 2 col, card sobre foto, texto+imagen, checklist, galería, CTA) con datos en `lib/landing-content.ts` (EN/IT/DE; Campervan EN-only — la página no existe en el WP en vivo, copy armado con el contenido de campervan del sitio).
+- **Galerías**: `components/GalleryStrip.tsx` (carrusel grande con snap, flechas y barra de progreso) en tours, landings, For Companies y `ContentPage`.
 - About y For Companies tienen vistas propias (`components/views/AboutView.tsx`, `CompaniesView.tsx`) con copy en `lib/about-content.ts` (EN/IT/DE, portado del HTML de Elementor). Fotos del equipo en `public/images/team/`.
 
 ## Pendiente (roadmap)

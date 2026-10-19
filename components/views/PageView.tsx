@@ -1,6 +1,8 @@
 import ContentPage from "@/components/ContentPage";
 import AboutView from "@/components/views/AboutView";
 import CompaniesView from "@/components/views/CompaniesView";
+import LandingView from "@/components/views/LandingView";
+import { landingFor } from "@/lib/landing-content";
 import { getPageL, type Block } from "@/lib/pages";
 import { SITE } from "@/lib/site";
 import { HOME } from "@/lib/home-content";
@@ -28,6 +30,8 @@ function ctaFor(key: string, locale: Locale): CTA {
 export default function PageView({ locale, pageKey }: { locale: Locale; pageKey: string }) {
   if (pageKey === "about-us") return <AboutView locale={locale} />;
   if (pageKey === "for-companies") return <CompaniesView locale={locale} />;
+  const landing = landingFor(pageKey, locale);
+  if (landing) return <LandingView data={landing} />;
   const p = getPageL(locale, pageKey);
   const isLegal = pageKey.includes("policy") || pageKey.includes("cookie");
   let blocks: Block[] = p.blocks || [];
