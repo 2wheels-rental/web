@@ -72,14 +72,15 @@ Los JSON de `lib/` se **generan** del mirror `source-wordpress/` con los scripts
 5. `python3 scripts/parse_itinerary.py` — agrega `itinerary` (día a día) a los 3 `tours.*.json`.
 6. `python3 scripts/parse_practical.py` — agrega `practical` (tabs Practical Info: Included/Price|Dates/Conditions/FAQ) a los 3 `tours.*.json`; tabs vacíos o con placeholder en el WP se rellenan con la versión estándar del mismo idioma.
 7. `python3 scripts/parse_rentals.py [--fetch]` — `lib/rentals.json` (landings Bikes & e-bikes y Motorbikes & Scooters, EN/IT/DE) desde el sitio **en vivo** (`--fetch` re-descarga a `source-wordpress/html/live/`). Incluye un mapa `FIX` de correcciones a traducciones automáticas del WP.
-8. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
+8. `python3 scripts/parse_tour_extras.py` — completa los tours con highlights (+ título tipo "Why Shuttle" y foto), rutas ("Routes Available" del Bike Shuttle) y links de reserva faltantes, desde el sitio en vivo.
+9. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
 
 **Editar contenido a mano:** se puede editar directamente `lib/tours*.json` y `lib/pages*.json` (no hace falta re-correr los scripts salvo que cambie el sitio origen).
 
 ## Tours
 
 - Listado (`ToursListView` + `ToursExplorer`): heading "Our Tours" + intro, **filtros** por Experience Type (custom/local/trips) y Duration (0.5/1/2/3/5/12 días), cards grayscale→color.
-- Detalle (`TourView`): hero, specs, intro, highlights, **Itinerary** (`ItineraryCarousel`: scroll horizontal con snap + flechas; 7/14 tours lo tienen), **Practical Info** (`PracticalInfo`: tabs + FAQ acordeón), galería, CTA.
+- Detalle (`TourView`, mismo orden que el single-post del WP): hero centrado con botón, specs, intro a 2 columnas, highlights (caja oscura + foto), rutas/itinerario, galería, Practical Info, **Keep Exploring** (3 tours). Antes: **Itinerary** (`ItineraryCarousel`: scroll horizontal con snap + flechas; 7/14 tours lo tienen), **Practical Info** (`PracticalInfo`: tabs + FAQ acordeón), galería, CTA.
 - **Botón flotante "Book this tour"** (`FloatingBook`): aparece al pasar el hero y se oculta cuando otro CTA de reserva (`data-book-cta`) está visible.
 - **Reservas → WeTravel** (campo `booking`, link externo por tour; vacío → WhatsApp). Bikes/motos → **Booqable**.
 
@@ -91,6 +92,10 @@ Metadata por página (title, description, canonical, Open Graph) + **hreflang** 
 
 - Env `NEXT_PUBLIC_SITE_URL` (Vercel): URL de Vercel en pruebas; `https://2wheelsrental.com` al migrar. Default = dominio real.
 - Plan: probar en Vercel → cuando esté perfecto, **migrar DNS** al dominio principal y dar de baja WordPress. El DNS se cambia recién con IT/DE listos (ya lo están) para no 404 URLs indexadas.
+
+## Blog
+
+`/blog` (`/it/blog`, `/de/blog`) es un placeholder "Coming soon" (`components/views/BlogView.tsx`), en el menú, con `noindex` y excluido del sitemap (`NOINDEX` en `app/sitemap.ts`). Al publicar artículos: quitar `robots` en `blogMetadata` y sacarlo de `NOINDEX`.
 
 ## Analytics y cookies
 

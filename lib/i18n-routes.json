@@ -53,5 +53,10 @@
     "en": "/cookie-policy-eu",
     "it": "/it/politica-dei-cookie-eu",
     "de": "/de/cookie-policy-eu"
+  },
+  "blog": {
+    "en": "/blog",
+    "it": "/it/blog",
+    "de": "/de/blog"
   }
 }

@@ -151,7 +151,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-alpe-vicania-lugano.webp"
   },
   {
     "slug": "avventura-in-bicicletta-ad-asiago",
@@ -340,7 +342,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/08/Asiago-Loop-Italy_26.webp"
   },
   {
     "slug": "navetta-per-biciclette",
@@ -359,7 +363,13 @@
       "Questo servizio è ideale per gli appassionati di mountain bike che vogliono esplorare i sentieri naturali della regione, scoprire nuovi percorsi e pedalare in modo più efficiente durante la loro giornata in Ticino. Sia che stiate visitando la regione per qualche giorno o che stiate pianificando un viaggio dedicato alla MTB, il nostro shuttle vi aiuterà a raggiungere alcuni dei percorsi più panoramici e divertenti intorno a Lugano.",
       "2wheels Rental combina la conoscenza locale del terreno con un trasporto affidabile per aiutare i ciclisti a sperimentare il meglio della mountain bike che Lugano e il Ticino hanno da offrire."
     ],
-    "highlights": [],
+    "highlights": [
+      "Più pedalate, meno arrampicate",
+      "Percorsi flessibili e personalizzati",
+      "Luoghi di ritiro convenienti",
+      "Perfetto per i gruppi",
+      "Trasporto sicuro e affidabile"
+    ],
     "hero": "https://2wheelsrental.com/wp-content/uploads/2026/03/portada-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi.webp",
     "gallery": [
       "wp-content/uploads/2026/03/portada-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi.webp",
@@ -370,7 +380,7 @@
       "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi-2.webp",
       "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi-1.webp"
     ],
-    "booking": "",
+    "booking": "https://tickets.luganoregion.com/it/products/bike-shuttle-lugano-capriasca-certara-e-monte-bar",
     "en_slug": "bike-shuttle",
     "experience": "custom",
     "duration": "0.5",
@@ -484,6 +494,41 @@
               }
             ]
           }
+        ]
+      }
+    ],
+    "highlightsTitle": "Perché Shuttle",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi.webp",
+    "routesTitle": "Percorsi disponibili",
+    "routes": [
+      {
+        "day": "Percorsi personalizzati",
+        "body": [
+          "Possiamo organizzare percorsi di bike shuttle completamente personalizzati in base alle vostre preferenze, al vostro livello di abilità e ai sentieri che desiderate percorrere, aiutandovi a sfruttare al meglio la vostra giornata sulle montagne intorno a Lugano e al Ticino."
+        ]
+      },
+      {
+        "day": "Lugano - Monte Bar",
+        "body": [
+          "Questo shuttle porta i ciclisti da Lugano alla barriera del Monte Bar, uno dei principali punti di accesso ai percorsi di mountain bike sopra la regione di Lugano. Da qui è possibile esplorare una rete di sentieri naturali con discese panoramiche e collegamenti verso le valli circostanti, che lo rendono un ottimo punto di partenza per un'intera giornata di MTB in Ticino."
+        ]
+      },
+      {
+        "day": "Lugano - Certara (San Lucio)",
+        "body": [
+          "Il nostro shuttle da Lugano a Certara porta i ciclisti direttamente al classico Passo San Lucio, un noto valico alpino sul confine italo-svizzero. Dal passo si può proseguire verso il Monte Bar attraverso uno dei sentieri più belli della regione o ridiscendere verso Lugano su percorsi panoramici per mountain bike."
+        ]
+      },
+      {
+        "day": "Tesserete - Monte Bar",
+        "body": [
+          "Questa breve navetta da Tesserete alla barriera del Monte Bar permette di raggiungere rapidamente un'altitudine maggiore e di avvicinarsi alla rete di sentieri. Da qui è possibile esplorare la zona del Monte Bar e godersi lunghe discese naturali verso Tesserete e le valli circostanti."
+        ]
+      },
+      {
+        "day": "Tesserete - Certara (San Lucio)",
+        "body": [
+          "La navetta da Tesserete a Certara permette di accedere direttamente alla rete di sentieri dell'Alto Luganese. Da Certara è possibile raggiungere il Passo San Lucio e scegliere tra diverse opzioni di percorso: percorrere uno dei sentieri più panoramici della regione verso il Monte Bar o scendere attraverso splendidi sentieri forestali verso il Luganese."
         ]
       }
     ]
@@ -639,7 +684,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-monte-bre-alpe-bolla-lugano-ticino.webp"
   },
   {
     "slug": "panorama-bre",
@@ -786,7 +833,8 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti"
   },
   {
     "slug": "pedalata-del-ceresio",
@@ -942,7 +990,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp"
   },
   {
     "slug": "esperienza-di-camper-nelle-dolomiti",
@@ -1100,7 +1150,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highligts-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp"
   },
   {
     "slug": "enduro-alpi",
@@ -1273,7 +1325,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/02/highlights-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom.webp"
   },
   {
     "slug": "giro-in-bicicletta-a-lugano",
@@ -1455,7 +1509,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp"
   },
   {
     "slug": "pradecolo",
@@ -1626,7 +1682,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-passo-pradecolo-curiglia-ticino-lago-lugano-maggiore-italia.webp"
   },
   {
     "slug": "sanlucio-alpino",
@@ -1784,7 +1842,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino.webp"
   },
   {
     "slug": "sicilia-bikepacking",
@@ -1991,7 +2051,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/03/highligths-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp"
   },
   {
     "slug": "toscana-via-francigena",
@@ -2176,7 +2238,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/04/via-francigena-11.webp"
   },
   {
     "slug": "safari-avventuroso-in-bicicletta-in-uganda",
@@ -2433,6 +2497,8 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Punti salienti",
+    "highlightsImage": "/wp-content/uploads/2026/10/Uganda-biking-safari-2wheels-rental-gorillas-wild-15-e1791964624411.jpg"
   }
 ]

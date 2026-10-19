@@ -25,6 +25,11 @@ export type Tour = {
   duration?: string; // 0.5 | 1 | 2 | 3 | 5 | 12
   itinerary?: { day: string; body: string[] }[];
   practical?: PracticalTab[]; // tabs "Practical Info" (scripts/parse_practical.py)
+  // scripts/parse_tour_extras.py (sitio en vivo)
+  highlightsTitle?: string; // "Highlights" o p.ej. "Why Shuttle"
+  highlightsImage?: string;
+  routesTitle?: string; // p.ej. "Routes Available" (Bike Shuttle)
+  routes?: { day: string; body: string[] }[];
   en_slug?: string;
   slug_it?: string;
   slug_de?: string;

@@ -4,6 +4,9 @@ import { LOCALES, pagePath, pageAlternates, tourPath, tourAlternates, type Local
 import { TOURS } from "@/lib/tours";
 import routesData from "@/lib/i18n-routes.json";
 
+// Páginas noindex (placeholder) que no van al sitemap
+const NOINDEX = new Set(["blog"]);
+
 const ROUTES = routesData as Record<string, { en: string; it: string | null; de: string | null }>;
 
 function abs(p: string) {
@@ -21,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Páginas (home + estáticas) en cada idioma
   for (const key of Object.keys(ROUTES)) {
+    if (NOINDEX.has(key)) continue;
     const alts = pageAlternates(key);
     for (const locale of LOCALES) {
       const path = pagePath(key, locale);

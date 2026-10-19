@@ -152,7 +152,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-alpe-vicania-lugano.webp"
   },
   {
     "slug": "asiago-bike-adventure",
@@ -349,7 +351,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/08/Asiago-Loop-Italy_26.webp"
   },
   {
     "slug": "bike-shuttle",
@@ -368,7 +372,13 @@
       "This service is ideal for mountain bikers who want to explore the region’s natural trails, discover new routes and ride more efficiently during their day in Ticino. Whether you are visiting the region for a few days or planning a dedicated MTB trip, our shuttle helps you reach some of the most scenic and enjoyable trails around Lugano.",
       "2wheels Rental combines local knowledge of the terrain with reliable transport to help riders experience the best mountain biking that Lugano and Ticino have to offer."
     ],
-    "highlights": [],
+    "highlights": [
+      "More riding, less climbing",
+      "Flexible and custom routes",
+      "Convenient pick-up locations",
+      "Perfect for groups",
+      "Safe and reliable transport"
+    ],
     "hero": "https://2wheelsrental.com/wp-content/uploads/2026/03/portada-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi.webp",
     "gallery": [
       "wp-content/uploads/2026/03/portada-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi.webp",
@@ -379,7 +389,7 @@
       "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi-2.webp",
       "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi-1.webp"
     ],
-    "booking": "",
+    "booking": "https://tickets.luganoregion.com/it/products/bike-shuttle-lugano-capriasca-certara-e-monte-bar",
     "slug_it": "navetta-per-biciclette",
     "slug_de": "fahrrad-shuttle",
     "experience": "custom",
@@ -494,6 +504,41 @@
               }
             ]
           }
+        ]
+      }
+    ],
+    "highlightsTitle": "Why Shuttle",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi.webp",
+    "routesTitle": "Routes Available",
+    "routes": [
+      {
+        "day": "Custom Routes",
+        "body": [
+          "We can organize fully custom bike shuttle routes based on your preferences, skill level and the trails you want to ride, helping you make the most of your day on the mountains around Lugano and Ticino."
+        ]
+      },
+      {
+        "day": "Lugano - Monte Bar",
+        "body": [
+          "This shuttle takes riders from Lugano to the Monte Bar barrier, one of the main access points to the mountain bike trails above the Lugano region. From here you can explore a network of natural trails with scenic descents and connections toward the surrounding valleys, making it an excellent starting point for a full day of MTB riding in Ticino."
+        ]
+      },
+      {
+        "day": "Lugano — Certara (San Lucio)",
+        "body": [
+          "Our shuttle from Lugano to Certara brings riders directly into the classic Passo San Lucio, a well-known alpine crossing on the Swiss-Italian border. From the pass you can either continue toward Monte Bar through one of the most beautiful trails in the region or descend back toward Lugano on scenic mountain bike routes."
+        ]
+      },
+      {
+        "day": "Tesserete — Monte Bar",
+        "body": [
+          "This short shuttle from Tesserete to the Monte Bar barrier allows riders to quickly reach higher elevation and start riding closer to the trail network. From here you can explore the Monte Bar area and enjoy long natural descents toward Tesserete and the surrounding valleys."
+        ]
+      },
+      {
+        "day": "Tesserete — Certara (San Lucio)",
+        "body": [
+          "The shuttle from Tesserete to Certara gives riders direct access to the upper Lugano trail network. From Certara you can reach Passo San Lucio and choose between different route options: ride one of the region’s most scenic trails toward Monte Bar or descend through beautiful forest trails back toward the Lugano area."
         ]
       }
     ]
@@ -650,7 +695,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-monte-bre-alpe-bolla-lugano-ticino.webp"
   },
   {
     "slug": "bre-panorama",
@@ -798,7 +845,8 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights"
   },
   {
     "slug": "ceresio-bike-ride",
@@ -955,7 +1003,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp"
   },
   {
     "slug": "dolomites-camper-experience",
@@ -1114,7 +1164,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highligts-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp"
   },
   {
     "slug": "enduro-alps",
@@ -1288,7 +1340,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/02/highlights-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom.webp"
   },
   {
     "slug": "lugano-bike-ride",
@@ -1471,7 +1525,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp"
   },
   {
     "slug": "pradecolo",
@@ -1643,7 +1699,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-passo-pradecolo-curiglia-ticino-lago-lugano-maggiore-italia.webp"
   },
   {
     "slug": "sanlucio-alpine",
@@ -1802,7 +1860,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highlights-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino.webp"
   },
   {
     "slug": "sicily-bikepacking",
@@ -2010,7 +2070,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/03/highligths-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp"
   },
   {
     "slug": "tuscany-via-francigena",
@@ -2219,7 +2281,9 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/04/via-francigena-11.webp"
   },
   {
     "slug": "uganda-bike-adventure-safari",
@@ -2479,6 +2543,8 @@
           }
         ]
       }
-    ]
+    ],
+    "highlightsTitle": "Highlights",
+    "highlightsImage": "/wp-content/uploads/2026/10/Uganda-biking-safari-2wheels-rental-gorillas-wild-15-e1791964624411.jpg"
   }
 ]

@@ -5,6 +5,7 @@ import ToursListView from "@/components/views/ToursListView";
 import TourView from "@/components/views/TourView";
 import PageView from "@/components/views/PageView";
 import ContactView from "@/components/views/ContactView";
+import BlogView, { blogMetadata } from "@/components/views/BlogView";
 import { getTours, getTourBySlug } from "@/lib/tours";
 import { getPageL } from "@/lib/pages";
 import { HOME } from "@/lib/home-content";
@@ -36,6 +37,7 @@ type Resolved =
   | { kind: "home" }
   | { kind: "tours" }
   | { kind: "contact" }
+  | { kind: "blog" }
   | { kind: "tour"; slug: string }
   | { kind: "page"; key: string }
   | { kind: "notfound" };
@@ -49,6 +51,7 @@ function resolve(locale: Locale, slug: string[]): Resolved {
     if (p && p === fullPath) {
       if (key === "tours") return { kind: "tours" };
       if (key === "contact") return { kind: "contact" };
+      if (key === "blog") return { kind: "blog" };
       return { kind: "page", key };
     }
   }
@@ -65,6 +68,8 @@ export function RenderFor({ locale, slug }: { locale: Locale; slug: string[] }) 
       return <ToursListView locale={locale} />;
     case "contact":
       return <ContactView locale={locale} />;
+    case "blog":
+      return <BlogView locale={locale} />;
     case "tour": {
       const tour = getTourBySlug(locale, r.slug);
       if (!tour) notFound();
@@ -100,6 +105,7 @@ export function metadataFor(locale: Locale, slug: string[]): Metadata {
       openGraph: { title: `${t.toursTitle} - 2wheels Rental`, description: t.toursBody, type: "website", locale: og },
     };
   }
+  if (r.kind === "blog") return blogMetadata(locale);
   if (r.kind === "contact") {
     return {
       title: "Contact - 2wheels Rental",

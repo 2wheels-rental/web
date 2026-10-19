@@ -64,6 +64,7 @@ const NAV_DEF: NavDef[] = [
   { key: "tours" },
   { key: "for-companies" },
   { key: "other", children: [{ key: "bike-shuttle", tour: true }, { key: "hotel-programs" }] },
+  { key: "blog" },
   { key: "contact" },
 ];
 
@@ -72,19 +73,19 @@ const LABELS: Record<Locale, Record<string, string>> = {
     home: "Home", "about-us": "About Us", rent: "Rent", "bikes-e-bikes": "Bikes & e-bikes",
     "motorbikes-scooters": "Motorbikes & Scooters", "2wheels-season-pass": "Season Pass",
     tours: "Tours", "for-companies": "For Companies", other: "Other Services",
-    "bike-shuttle": "Bike Shuttle", "hotel-programs": "Hotel Programs", contact: "Contact",
+    "bike-shuttle": "Bike Shuttle", "hotel-programs": "Hotel Programs", blog: "Blog", contact: "Contact",
   },
   it: {
     home: "Home", "about-us": "Chi siamo", rent: "Noleggio", "bikes-e-bikes": "Biciclette e e-bike",
     "motorbikes-scooters": "Moto e scooter", "2wheels-season-pass": "Pass stagionale",
     tours: "Tour", "for-companies": "Per le aziende", other: "Altri servizi",
-    "bike-shuttle": "Navetta per biciclette", "hotel-programs": "Programmi alberghieri", contact: "Contatti",
+    "bike-shuttle": "Navetta per biciclette", "hotel-programs": "Programmi alberghieri", blog: "Blog", contact: "Contatti",
   },
   de: {
     home: "Home", "about-us": "Über uns", rent: "Miete", "bikes-e-bikes": "Fahrräder & E-Bikes",
     "motorbikes-scooters": "Motorräder & Motorroller", "2wheels-season-pass": "Saisonpass",
     tours: "Touren", "for-companies": "Für Unternehmen", other: "Weitere Services",
-    "bike-shuttle": "Fahrrad-Shuttle", "hotel-programs": "Hotel-Programme", contact: "Kontakt",
+    "bike-shuttle": "Fahrrad-Shuttle", "hotel-programs": "Hotel-Programme", blog: "Blog", contact: "Kontakt",
   },
 };
 
@@ -112,7 +113,7 @@ export const UI: Record<Locale, Record<string, string>> = {
     rights: "All Rights Reserved.", backToTours: "Tours", bookThisTour: "Book this tour", requestThisTour: "Request this tour",
     readyToRide: "Ready to ride?", bookNowCta: "Book now", gallery: "Gallery", highlights: "Highlights",
     sendMessage: "Send us a message", getInTouch: "Get in touch", address: "Address", email: "Email",
-    phone: "Phone / WhatsApp", viewTour: "View tour", itinerary: "Itinerary", practicalInfo: "Practical Info", prev: "Previous", next: "Next", cookieText: "We use cookies to improve your experience and analyse traffic. See our",
+    phone: "Phone / WhatsApp", viewTour: "View tour", itinerary: "Itinerary", practicalInfo: "Practical Info", keepExploring: "Keep Exploring", prev: "Previous", next: "Next", cookieText: "We use cookies to improve your experience and analyse traffic. See our",
     cookiePolicy: "Cookie Policy", accept: "Accept", decline: "Decline", whatsappUs: "WhatsApp us", bookOnline: "Book online",
   },
   it: {
@@ -121,7 +122,7 @@ export const UI: Record<Locale, Record<string, string>> = {
     rights: "Tutti i diritti riservati.", backToTours: "Tour", bookThisTour: "Prenota questo tour", requestThisTour: "Richiedi questo tour",
     readyToRide: "Pronti a salire in sella?", bookNowCta: "Prenota", gallery: "Galleria", highlights: "Punti salienti",
     sendMessage: "Inviaci un messaggio", getInTouch: "Mettiti in contatto", address: "Indirizzo", email: "Email",
-    phone: "Telefono / WhatsApp", viewTour: "Vedi il tour", itinerary: "Itinerario", practicalInfo: "Informazioni pratiche", prev: "Precedente", next: "Successivo", cookieText: "Utilizziamo i cookie per migliorare la tua esperienza e analizzare il traffico. Consulta la nostra",
+    phone: "Telefono / WhatsApp", viewTour: "Vedi il tour", itinerary: "Itinerario", practicalInfo: "Informazioni pratiche", keepExploring: "Continua a esplorare", prev: "Precedente", next: "Successivo", cookieText: "Utilizziamo i cookie per migliorare la tua esperienza e analizzare il traffico. Consulta la nostra",
     cookiePolicy: "Informativa sui cookie", accept: "Accetta", decline: "Rifiuta", whatsappUs: "Scrivici su WhatsApp", bookOnline: "Prenota online",
   },
   de: {
@@ -130,7 +131,7 @@ export const UI: Record<Locale, Record<string, string>> = {
     rights: "Alle Rechte vorbehalten.", backToTours: "Touren", bookThisTour: "Diese Tour buchen", requestThisTour: "Diese Tour anfragen",
     readyToRide: "Bereit loszufahren?", bookNowCta: "Jetzt buchen", gallery: "Galerie", highlights: "Höhepunkte",
     sendMessage: "Schreiben Sie uns", getInTouch: "Kontakt aufnehmen", address: "Adresse", email: "E-Mail",
-    phone: "Telefon / WhatsApp", viewTour: "Tour ansehen", itinerary: "Reiseverlauf", practicalInfo: "Praktische Infos", prev: "Zurück", next: "Weiter", cookieText: "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern und den Verkehr zu analysieren. Siehe unsere",
+    phone: "Telefon / WhatsApp", viewTour: "Tour ansehen", itinerary: "Reiseverlauf", practicalInfo: "Praktische Infos", keepExploring: "Weiter entdecken", prev: "Zurück", next: "Weiter", cookieText: "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern und den Verkehr zu analysieren. Siehe unsere",
     cookiePolicy: "Cookie-Richtlinie", accept: "Akzeptieren", decline: "Ablehnen", whatsappUs: "WhatsApp", bookOnline: "Online buchen",
   },
 };
