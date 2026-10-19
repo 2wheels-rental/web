@@ -6,6 +6,19 @@ import HeroVideo from "@/components/HeroVideo";
 import { HOME } from "@/lib/home-content";
 import { pagePath, tourPath, type Locale } from "@/lib/i18n";
 
+const PARTNERS = [
+  { slug: "luganoregion", name: "Lugano Region", href: "https://www.luganoregion.com/", h: "h-14" },
+  { slug: "ascona-locarno", name: "Ascona-Locarno", href: "https://www.ascona-locarno.com/", h: "h-12" },
+  { slug: "bellinzonaevalli", name: "Bellinzona e Valli", href: "https://www.bellinzonaevalli.ch/", h: "h-16" },
+  { slug: "mendrisiottoturismo", name: "Mendrisiotto Turismo", href: "https://www.mendrisiottoturismo.ch/", h: "h-8" },
+  { slug: "ticino", name: "Ticino", href: "https://www.ticino.ch/", h: "h-12" },
+  { slug: "myswitzerland", name: "Switzerland Tourism", href: "https://www.myswitzerland.com/", h: "h-8" },
+  { slug: "merida-bikes", name: "Merida Bikes", href: "https://www.merida-bikes.com/", h: "h-8" },
+  { slug: "colorado", name: "Hotel Colorado Lugano", href: "https://www.colorado.ch/", h: "h-12" },
+  { slug: "weridemtb", name: "WeRide Academy", href: "https://www.weridemtb.ch/", h: "h-14" },
+  { slug: "garagevallone", name: "Garage Vallone", href: "https://garagevallone.nissan.ch/", h: "h-11" },
+];
+
 const btn = {
   red: "inline-block rounded-md bg-primary px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-primary-dark",
   dark: "inline-block rounded-md bg-ink px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-black",
@@ -129,13 +142,22 @@ export default function HomeView({ locale }: { locale: Locale }) {
       {/* REVIEWS */}
       <Reviews title={t.reviewsTitle} />
 
-      {/* PARTNERS */}
-      <section className="bg-[#2b2b2b] text-white">
-        <div className="container-site py-14 text-center">
-          <h2 className="text-3xl uppercase">{t.partnersTitle}</h2>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-12">
-            <Image src="/images/weride.svg" alt="We Ride Academy" width={160} height={60} className="h-14 w-auto brightness-0 invert" />
-          </div>
+      {/* PARTNERS: logos SVG del original (Elementor partner-logo), gris → color en hover */}
+      <section className="bg-paper">
+        <div className="container-site py-20 text-center">
+          <h2 className="text-5xl text-ink sm:text-6xl">{t.partnersTitle}</h2>
+          {[PARTNERS.slice(0, 6), PARTNERS.slice(6)].map((row, r) => (
+            <ul key={r} className={`flex flex-wrap items-center justify-center gap-x-12 gap-y-10 lg:flex-nowrap lg:justify-between ${r === 0 ? "mt-14" : "mx-auto mt-12 max-w-4xl"}`}>
+              {row.map((p) => (
+                <li key={p.slug}>
+                  <a href={p.href} target="_blank" rel="noopener" aria-label={p.name} className="block opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={`/images/partners/${p.slug}.svg`} alt={p.name} className={`w-auto ${p.h}`} />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ))}
         </div>
       </section>
 
