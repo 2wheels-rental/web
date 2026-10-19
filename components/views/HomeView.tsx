@@ -15,7 +15,7 @@ const PARTNERS = [
   { slug: "myswitzerland", name: "Switzerland Tourism", href: "https://www.myswitzerland.com/", h: "h-8" },
   { slug: "merida-bikes", name: "Merida Bikes", href: "https://www.merida-bikes.com/", h: "h-8" },
   { slug: "colorado", name: "Hotel Colorado Lugano", href: "https://www.colorado.ch/", h: "h-12" },
-  { slug: "weridemtb", name: "WeRide Academy", href: "https://www.weridemtb.ch/", h: "h-14" },
+  { slug: "weridemtb", name: "WeRide Academy", href: "https://www.werideacademy.ch", h: "h-14" },
   { slug: "garagevallone", name: "Garage Vallone", href: "https://garagevallone.nissan.ch/", h: "h-11" },
 ];
 

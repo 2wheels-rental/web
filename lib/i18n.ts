@@ -53,7 +53,8 @@ export function toursListPath(locale: Locale): string {
 }
 
 // ---- Nav ----
-type NavDef = { key: string; href?: string; children?: { key: string; tour?: boolean }[] };
+type NavChildDef = { key: string; tour?: boolean; external?: string; logo?: string };
+type NavDef = { key: string; href?: string; children?: NavChildDef[] };
 const NAV_DEF: NavDef[] = [
   { key: "home" },
   { key: "about-us" },
@@ -63,7 +64,14 @@ const NAV_DEF: NavDef[] = [
   },
   { key: "tours" },
   { key: "for-companies" },
-  { key: "other", children: [{ key: "bike-shuttle", tour: true }, { key: "hotel-programs" }] },
+  {
+    key: "other",
+    children: [
+      { key: "weride", external: "https://www.werideacademy.ch", logo: "/images/weride.svg" },
+      { key: "bike-shuttle", tour: true },
+      { key: "hotel-programs" },
+    ],
+  },
   { key: "blog" },
   { key: "contact" },
 ];
@@ -73,34 +81,40 @@ const LABELS: Record<Locale, Record<string, string>> = {
     home: "Home", "about-us": "About Us", rent: "Rent", "bikes-e-bikes": "Bikes & e-bikes",
     "motorbikes-scooters": "Motorbikes & Scooters", "2wheels-season-pass": "Season Pass",
     tours: "Tours", "for-companies": "For Companies", other: "Other Services",
-    "bike-shuttle": "Bike Shuttle", "hotel-programs": "Hotel Programs", blog: "Blog", contact: "Contact",
+    "bike-shuttle": "Bike Shuttle", "hotel-programs": "Hotel Programs", weride: "WeRide Academy", blog: "Blog", contact: "Contact",
   },
   it: {
     home: "Home", "about-us": "Chi siamo", rent: "Noleggio", "bikes-e-bikes": "Biciclette e e-bike",
     "motorbikes-scooters": "Moto e scooter", "2wheels-season-pass": "Pass stagionale",
     tours: "Tour", "for-companies": "Per le aziende", other: "Altri servizi",
-    "bike-shuttle": "Navetta per biciclette", "hotel-programs": "Programmi alberghieri", blog: "Blog", contact: "Contatti",
+    "bike-shuttle": "Navetta per biciclette", "hotel-programs": "Programmi alberghieri", weride: "WeRide Academy", blog: "Blog", contact: "Contatti",
   },
   de: {
     home: "Home", "about-us": "Über uns", rent: "Miete", "bikes-e-bikes": "Fahrräder & E-Bikes",
     "motorbikes-scooters": "Motorräder & Motorroller", "2wheels-season-pass": "Saisonpass",
     tours: "Touren", "for-companies": "Für Unternehmen", other: "Weitere Services",
-    "bike-shuttle": "Fahrrad-Shuttle", "hotel-programs": "Hotel-Programme", blog: "Blog", contact: "Kontakt",
+    "bike-shuttle": "Fahrrad-Shuttle", "hotel-programs": "Hotel-Programme", weride: "WeRide Academy", blog: "Blog", contact: "Kontakt",
   },
 };
 
-export type NavItem = { label: string; href: string; children?: { label: string; href: string }[] };
+export type NavChild = { label: string; href: string; external?: boolean; logo?: string };
+export type NavItem = { label: string; href: string; children?: NavChild[] };
 
 export function buildNav(locale: Locale): NavItem[] {
   const hrefFor = (key: string, tour?: boolean) =>
     tour ? tourPath("bike-shuttle", locale) : pagePath(key, locale);
   return NAV_DEF.map((d) => {
     const label = LABELS[locale][d.key];
-    const href = d.children ? hrefFor(d.children[0].key, d.children[0].tour) : hrefFor(d.key);
+    const first = d.children?.find((c) => !c.external);
+    const href = first ? hrefFor(first.key, first.tour) : hrefFor(d.key);
     return {
       label,
       href,
-      children: d.children?.map((c) => ({ label: LABELS[locale][c.key], href: hrefFor(c.key, c.tour) })),
+      children: d.children?.map((c) =>
+        c.external
+          ? { label: LABELS[locale][c.key], href: c.external, external: true, logo: c.logo }
+          : { label: LABELS[locale][c.key], href: hrefFor(c.key, c.tour) }
+      ),
     };
   });
 }

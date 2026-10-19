@@ -40,11 +40,18 @@ export default function Header() {
               </Link>
               {item.children && (
                 <div className="invisible absolute left-0 top-full min-w-56 translate-y-1 rounded-xl border border-black/5 bg-white p-2 opacity-0 shadow-xl transition-all group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                  {item.children.map((c) => (
-                    <Link key={c.href} href={c.href} className="block rounded-lg px-3 py-2 text-sm text-ink-soft transition-colors hover:bg-paper hover:text-primary">
-                      {c.label}
-                    </Link>
-                  ))}
+                  {item.children.map((c) =>
+                    c.external ? (
+                      <a key={c.href} href={c.href} target="_blank" rel="noopener" aria-label={c.label} className="block rounded-lg px-3 py-2.5 transition-colors hover:bg-paper">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        {c.logo ? <img src={c.logo} alt={c.label} className="h-6 w-auto" /> : c.label}
+                      </a>
+                    ) : (
+                      <Link key={c.href} href={c.href} className="block rounded-lg px-3 py-2 text-sm text-ink-soft transition-colors hover:bg-paper hover:text-primary">
+                        {c.label}
+                      </Link>
+                    )
+                  )}
                 </div>
               )}
             </div>
@@ -79,9 +86,16 @@ export default function Header() {
                 <Link href={item.href} onClick={() => setOpen(false)} className="block py-2 font-medium text-ink">{item.label}</Link>
                 {item.children && (
                   <div className="ml-4 flex flex-col">
-                    {item.children.map((c) => (
-                      <Link key={c.href} href={c.href} onClick={() => setOpen(false)} className="py-1.5 text-sm text-ink-soft">{c.label}</Link>
-                    ))}
+                    {item.children.map((c) =>
+                      c.external ? (
+                        <a key={c.href} href={c.href} target="_blank" rel="noopener" onClick={() => setOpen(false)} className="py-1.5 text-sm text-ink-soft">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          {c.logo ? <img src={c.logo} alt={c.label} className="h-5 w-auto" /> : c.label}
+                        </a>
+                      ) : (
+                        <Link key={c.href} href={c.href} onClick={() => setOpen(false)} className="py-1.5 text-sm text-ink-soft">{c.label}</Link>
+                      )
+                    )}
                   </div>
                 )}
               </div>
