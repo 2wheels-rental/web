@@ -5,25 +5,26 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { SITE } from "@/lib/site";
 import { detectLocale, pagePath, UI, type Locale } from "@/lib/i18n";
+import { openCookieBanner } from "@/lib/consent";
 
 const FT: Record<Locale, {
   menu: string; rentals: string; contact: string;
-  m: Record<string, string>; legal: { pay: string; cookie: string };
+  m: Record<string, string>; legal: { pay: string; cookie: string; settings: string };
 }> = {
   en: {
     menu: "Menu", rentals: "Rentals", contact: "Contact",
     m: { home: "Home", about: "About Us", tours: "Tours", companies: "For Companies", contact: "Contact", bikes: "Bikes & E-bikes", motos: "Motorcycles", camper: "Campervan" },
-    legal: { pay: "Payment, Cancellation & Refund Policy", cookie: "Cookie Policy" },
+    legal: { pay: "Payment, Cancellation & Refund Policy", cookie: "Cookie Policy", settings: "Cookie settings" },
   },
   it: {
     menu: "Menu", rentals: "Noleggi", contact: "Contatti",
     m: { home: "Home", about: "Chi siamo", tours: "Tour", companies: "Per le aziende", contact: "Contatti", bikes: "Biciclette e e-bike", motos: "Moto", camper: "Camper" },
-    legal: { pay: "Politica di pagamento, cancellazione e rimborso", cookie: "Informativa sui cookie" },
+    legal: { pay: "Politica di pagamento, cancellazione e rimborso", cookie: "Informativa sui cookie", settings: "Impostazioni cookie" },
   },
   de: {
     menu: "Menü", rentals: "Verleih", contact: "Kontakt",
     m: { home: "Home", about: "Über uns", tours: "Touren", companies: "Für Unternehmen", contact: "Kontakt", bikes: "Fahrräder & E-Bikes", motos: "Motorräder", camper: "Wohnmobil" },
-    legal: { pay: "Zahlung-, Storno- & Rückerstattungsrichtlinie", cookie: "Cookie-Richtlinie" },
+    legal: { pay: "Zahlung-, Storno- & Rückerstattungsrichtlinie", cookie: "Cookie-Richtlinie", settings: "Cookie-Einstellungen" },
   },
 };
 
@@ -80,6 +81,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-x-5 gap-y-1">
             <Link href={p("payment-cancellation-refund-policy")} className="hover:text-primary">{f.legal.pay}</Link>
             <Link href={p("cookie-policy-eu")} className="hover:text-primary">{f.legal.cookie}</Link>
+            <button type="button" onClick={openCookieBanner} className="hover:text-primary">{f.legal.settings}</button>
           </div>
         </div>
       </div>

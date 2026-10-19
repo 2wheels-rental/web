@@ -89,13 +89,19 @@ Metadata por página (title, description, canonical, Open Graph) + **hreflang** 
 - Env `NEXT_PUBLIC_SITE_URL` (Vercel): URL de Vercel en pruebas; `https://2wheelsrental.com` al migrar. Default = dominio real.
 - Plan: probar en Vercel → cuando esté perfecto, **migrar DNS** al dominio principal y dar de baja WordPress. El DNS se cambia recién con IT/DE listos (ya lo están) para no 404 URLs indexadas.
 
+## Analytics y cookies
+
+- `lib/consent.ts` + `components/Analytics.tsx`: **Consent Mode v2** (default `denied`) + Google tag `GT-TNH9V769` (Site Kit original) + **Meta Pixel** `2737544646598065` (solo tras aceptar). IDs sobreescribibles con `NEXT_PUBLIC_GTAG_ID` / `NEXT_PUBLIC_META_PIXEL_ID`.
+- Los tags **solo cargan en `*.2wheelsrental.com`** (no ensucian métricas desde Vercel/localhost); para probarlos fuera: `NEXT_PUBLIC_ANALYTICS_ANY_HOST=1`.
+- `CookieBanner` guarda la decisión y emite el evento; el footer tiene "Cookie settings" para reabrirlo. Cookiebot del original no tenía ID cargado → reemplazado por este banner.
+- Home hero: `components/HeroVideo.tsx` (poster con Next/Image como LCP; el video solo se monta si no hay Save-Data/2G/3G ni reduced-motion).
+- About y For Companies tienen vistas propias (`components/views/AboutView.tsx`, `CompaniesView.tsx`) con copy en `lib/about-content.ts` (EN/IT/DE, portado del HTML de Elementor). Fotos del equipo en `public/images/team/`.
+
 ## Pendiente (roadmap)
 
-1. **Google Analytics / GTM + Consent Mode** cableado al `CookieBanner`, y reemplazar/cablear **Cookiebot** (el original lo usa) con sus IDs. **Google Search Console** (verificar dominio, enviar sitemap). No urgente.
-2. Afinar copy/imágenes de **About** y **For Companies** (poco texto, está embebido en imágenes del original).
-3. (Opcional) recomprimir imágenes base para aligerar el repo (~79MB).
-4. Revisión final de diseño por página en Vercel antes del DNS.
-5. Verificar que el video hero cargue bien en móvil/conexiones lentas (8.6MB; evaluar poster/preload).
+1. **Google Search Console** (verificar dominio, enviar sitemap) al migrar DNS. Verificar en GA/Ads que llegan datos tras el cambio.
+2. (Opcional) recomprimir imágenes base y el video hero (8MB; no había ffmpeg) para aligerar el repo (~79MB).
+3. Revisión final de diseño por página en Vercel antes del DNS.
 
 ## Convenciones
 

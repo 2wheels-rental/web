@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { SITE } from "@/lib/site";
 import Reviews from "@/components/Reviews";
+import HeroVideo from "@/components/HeroVideo";
 import { HOME } from "@/lib/home-content";
 import { pagePath, tourPath, type Locale } from "@/lib/i18n";
 
@@ -78,9 +79,7 @@ export default function HomeView({ locale }: { locale: Locale }) {
     <>
       {/* HERO */}
       <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-ink">
-        <video className="absolute inset-0 h-full w-full object-cover" autoPlay muted loop playsInline poster="/images/hero.webp">
-          <source src="/videos/hero.mp4" type="video/mp4" />
-        </video>
+        <HeroVideo src="/videos/hero.mp4" poster="/images/hero.webp" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/30" />
         <div className="container-site relative">
           <div className="max-w-2xl text-white">

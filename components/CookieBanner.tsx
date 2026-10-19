@@ -4,8 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { detectLocale, pagePath, UI } from "@/lib/i18n";
+import { OPEN_BANNER_EVENT, readConsent, saveConsent, type Consent } from "@/lib/consent";
 
-const KEY = "2wr-cookie-consent";
 
 export default function CookieBanner() {
   const [show, setShow] = useState(false);
@@ -13,21 +13,15 @@ export default function CookieBanner() {
   const u = UI[locale];
 
   useEffect(() => {
-    try {
-      if (!localStorage.getItem(KEY)) setShow(true);
-    } catch {
-      /* private mode: no mostrar persistente */
-    }
+    if (!readConsent()) setShow(true);
+    const open = () => setShow(true);
+    window.addEventListener(OPEN_BANNER_EVENT, open);
+    return () => window.removeEventListener(OPEN_BANNER_EVENT, open);
   }, []);
 
-  function decide(value: "accepted" | "declined") {
-    try {
-      localStorage.setItem(KEY, value);
-    } catch {
-      /* noop */
-    }
+  function decide(value: Consent) {
+    saveConsent(value); // Analytics escucha el evento y actualiza Consent Mode / Pixel
     setShow(false);
-    // Aquí luego se dispara GTM/Analytics consent mode según `value`.
   }
 
   if (!show) return null;

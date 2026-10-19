@@ -1,4 +1,6 @@
 import ContentPage from "@/components/ContentPage";
+import AboutView from "@/components/views/AboutView";
+import CompaniesView from "@/components/views/CompaniesView";
 import { getPageL, type Block } from "@/lib/pages";
 import { SITE } from "@/lib/site";
 import { HOME } from "@/lib/home-content";
@@ -17,20 +19,18 @@ function ctaFor(key: string, locale: Locale): CTA {
     case "2wheels-season-pass":
       return { label: u.bookNow, href: `https://wa.me/${SITE.contact.whatsapp}`, external: true };
     case "hotel-programs":
-    case "for-companies":
       return { label: u.getInTouch, href: pagePath("contact", locale) };
-    case "about-us":
-      return { label: t.checkOurTours, href: pagePath("tours", locale) };
     default:
       return undefined;
   }
 }
 
 export default function PageView({ locale, pageKey }: { locale: Locale; pageKey: string }) {
+  if (pageKey === "about-us") return <AboutView locale={locale} />;
+  if (pageKey === "for-companies") return <CompaniesView locale={locale} />;
   const p = getPageL(locale, pageKey);
   const isLegal = pageKey.includes("policy") || pageKey.includes("cookie");
   let blocks: Block[] = p.blocks || [];
-  // about-us / for-companies tienen poco texto (está en imágenes) → fallback a la descripción
   if (blocks.length < 2 && p.description) {
     blocks = [{ tag: "p", text: p.description }];
   }
