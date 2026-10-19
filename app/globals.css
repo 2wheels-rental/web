@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* ---- Design tokens (replicados de 2wheelsrental.com) ---- */
+@theme {
+  --color-primary: #d23939;
+  --color-primary-dark: #a42f2f;
+  --color-ink: #333333;
+  --color-ink-soft: #6c6c6c;
+  --color-muted: #aeaeae;
+  --color-paper: #f4f4f4;
+
+  --font-display: var(--font-londrina), "Londrina Solid", system-ui, sans-serif;
+  --font-sans: var(--font-poppins), "Poppins", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+}
+
+/* Utilidad de contenedor centrado */
+.container-site {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
