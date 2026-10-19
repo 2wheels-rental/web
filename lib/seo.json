@@ -1,0 +1,299 @@
+{
+  "/": {
+    "title": "Home - 2wheels Rental",
+    "description": "Rent bikes, e-bikes, scooters and campervans in Lugano, Ticino. Explore Switzerland on two wheels with premium rentals, tours and outdoor adventures."
+  },
+  "/2wheels-season-pass": {
+    "title": "2wheels Season Pass - 2wheels Rental",
+    "description": "Ride more, pay less: the 2wheels Season Pass gives you 10 or 20 premium bike rentals for the whole season in Ticino, from CHF 40 per ride."
+  },
+  "/about-us": {
+    "title": "About Us - 2wheels Rental",
+    "description": "2wheels Rental is based in Lugano and offers premium bike, e-bike and campervan rentals, guided tours and outdoor experiences across Ticino, Switzerland."
+  },
+  "/bikes-e-bikes": {
+    "title": "Bikes & e-bikes - 2wheels Rental",
+    "description": "Discover Lugano, the lakes, mountains and hidden roads of Ticino with our premium bikes and e-bikes. Whether you want a relaxed lakeside ride, a scenic…"
+  },
+  "/contact": {
+    "title": "Contact - 2wheels Rental",
+    "description": "Contact 2wheels Rental in Lugano, Ticino. Bike rentals, guided tours and campervan adventures in Switzerland. Email, phone and location details."
+  },
+  "/cookie-policy-eu": {
+    "title": "Cookie Policy (EU) - 2wheels Rental",
+    "description": "How 2wheels Rental uses cookies on this website and how you can manage your consent preferences."
+  },
+  "/de": {
+    "title": "Startseite - 2wheels Rental",
+    "description": "Mieten Sie Fahrräder, E-Bikes, Scooter und Wohnmobile in Lugano, Tessin. Erkunden Sie die Schweiz auf zwei Rädern mit Premium-Vermietungen, Touren und Outdoor-Abenteuern."
+  },
+  "/de/2rader-saisonkarte": {
+    "title": "2wheels Saisonpass - 2wheels Rental",
+    "description": "Mehr fahren, weniger zahlen: der 2wheels Saisonpass mit 10 oder 20 Premium-Bike-Mieten für die ganze Saison im Tessin, ab CHF 40 pro Fahrt."
+  },
+  "/de/cookie-policy-eu": {
+    "title": "Cookie-Richtlinie (EU) - 2wheels Rental",
+    "description": "Wie 2wheels Rental Cookies auf dieser Website verwendet und wie Sie Ihre Einwilligung verwalten können."
+  },
+  "/de/fahrrader-e-bikes": {
+    "title": "Fahrräder und E-Bikes - 2wheels Rental",
+    "description": "Entdecken Sie Lugano, die Seen, die Berge und die versteckten Strassen des Tessins mit unseren Premium-Bikes und E-Bikes. Egal, ob Sie eine entspannte Fahrt…"
+  },
+  "/de/fur-unternehmen": {
+    "title": "Für Unternehmen - 2wheels Rental",
+    "description": "Firmenradtouren und Outdoor-Teamerlebnisse in Lugano. Teambuilding-Touren, Herausforderungen und Workshops für Unternehmen im Tessin."
+  },
+  "/de/hotelprogramme": {
+    "title": "Hotel-Programme - 2wheels Rental",
+    "description": "Hotel-Fahrradprogramm im Tessin: Premium-Bikes für Ihre Gäste, Wartung und Logistik übernimmt 2wheels Rental. Saison- oder Jahresprogramme."
+  },
+  "/de/kontakt": {
+    "title": "Kontakt - 2wheels Rental",
+    "description": "Kontaktieren Sie 2wheels Rental in Lugano, Tessin. Fahrradverleih, geführte Touren und Wohnmobilabenteuer in der Schweiz. E-Mail, Telefon und Standortdetails."
+  },
+  "/de/motorrader-motorroller": {
+    "title": "Motorräder und Motorroller - 2wheels Rental",
+    "description": "Entdecken Sie Lugano, den Comer See, den Lago Maggiore, das Tessin und Norditalien mit der Freiheit eines Rollers oder Motorrads. Perfekt für landschaftlich…"
+  },
+  "/de/tour/alpe-vicania": {
+    "title": "Luganer Halbinsel & Alpe Vicania - 2wheels Rental",
+    "description": "MTB-Abenteuer mit Panoramablick auf den See"
+  },
+  "/de/tour/asiago-radabenteuer": {
+    "title": "Asiago – Fahrradabenteuer – 2wheels Rental",
+    "description": "3 Tage | Mountainbiken im Herzen der Hochebene von Asiago"
+  },
+  "/de/tour/bre-bolla": {
+    "title": "Monte Brè und Alpe Bolla - 2wheels Rental",
+    "description": "Landschaftlich reizvoller E-Bike-Aufstieg mit Option auf ein Mittagessen in einem Grotto"
+  },
+  "/de/tour/bre-panorama": {
+    "title": "Monte Brè Panoramafahrt - 2wheels Rental",
+    "description": "Mit dem E-Bike zum berühmtesten Aussichtspunkt von Lugano"
+  },
+  "/de/tour/ceresio-radfahren": {
+    "title": "Ceresio Fahrradschleife - 2wheels Rental",
+    "description": "Rundfahrt mit dem Rennrad oder E-Bike um den Luganersee"
+  },
+  "/de/tour/dolomiten-camper-erfahrung": {
+    "title": "Dolomiten Bike & Camper Erlebnis - 2wheels Rental",
+    "description": "5 Tage | Selbstgeführte Radwanderung durch die italienischen Dolomiten"
+  },
+  "/de/tour/enduro-alps": {
+    "title": "Enduro Alps Experience - Airolo, Ritom & Nara - 2wheels Rental",
+    "description": "3-tägiges Enduro-MTB-Abenteuer über Bikeparks, Alpenpässe und wilde Trails"
+  },
+  "/de/tour/fahrrad-abenteuersafari-in-uganda": {
+    "title": "Uganda – Fahrradabenteuer & Wildtiersafari – 2wheels Rental",
+    "description": "12 Tage | Safari und Radfahren im Herzen Afrikas"
+  },
+  "/de/tour/fahrrad-shuttle": {
+    "title": "Fahrrad-Shuttle-Dienst - 2wheels Rental",
+    "description": "Erreichen Sie die besten Mountainbikestrecken rund um Lugano, ohne zu klettern"
+  },
+  "/de/tour/pradecolo": {
+    "title": "Passo del Pradecolo und Alpone di Curiglia - 2wheels Rental",
+    "description": "2 Tage | E-Bike Reise vom Luganer See zum Lago Maggiore"
+  },
+  "/de/tour/radtour-in-lugano": {
+    "title": "Lugano Fahrradtour - 2wheels Rental",
+    "description": "2 Tage | Malerische Alpenstraßen & Seeblicke"
+  },
+  "/de/tour/sanlucio-alpin": {
+    "title": "San Lucio & Monte Bar Alpenüberquerung - 2wheels Rental",
+    "description": "Hochgebirgs-MTB/E-Bike-Abenteuer über die wilden Tessiner Bergkämme"
+  },
+  "/de/tour/sizilien-bikepacking": {
+    "title": "Giro dell'Etna - Sizilien Fahrradtour - 2wheels Rental",
+    "description": "5 Tage | Rund um Europas höchsten aktiven Vulkan"
+  },
+  "/de/tour/toskana-uber-francigena": {
+    "title": "Toskana - Via Francigena - 2wheels Rental",
+    "description": "5 Tage | Von San Miniato zum Bolsenasee entlang der Via Francigena"
+  },
+  "/de/touren": {
+    "title": "Touren - 2wheels Rental"
+  },
+  "/de/uber-uns": {
+    "title": "Über uns - 2wheels Rental",
+    "description": "2wheels Rental hat seinen Sitz in Lugano und bietet erstklassige Fahrrad-, E-Bike- und Wohnmobilvermietungen, geführte Touren und Outdoor-Erlebnisse im Tessin, Schweiz."
+  },
+  "/de/zahlung-stornierung-erstattung-politik": {
+    "title": "Zahlungs-, Stornierungs- und Erstattungsbedingungen - 2wheels Rental",
+    "description": "Lesen Sie die Zahlungs-, Stornierungs- und Erstattungsbedingungen für 2wheels Rental. Klare und transparente Bedingungen für die Vermietung von Fahrrädern, E-Bikes und Wohnmobilen."
+  },
+  "/for-companies": {
+    "title": "For Companies - 2wheels Rental",
+    "description": "Corporate bike tours and outdoor team experiences in Lugano. Team building rides, challenges and workshops designed for companies in Ticino."
+  },
+  "/hotel-programs": {
+    "title": "Hotel Programs - 2wheels Rental",
+    "description": "Hotel Bike Program in Ticino: premium bikes for your guests, with maintenance and logistics managed by 2wheels Rental. Seasonal or annual plans."
+  },
+  "/it": {
+    "title": "Noleggio bici, e-bike e scooter a Lugano - 2wheels Rental",
+    "description": "Noleggiate biciclette, e-bike, scooter e camper a Lugano, Ticino. Esplorate la Svizzera su due ruote con noleggi, tour e avventure all'aria aperta."
+  },
+  "/it/biciclette-e-bike": {
+    "title": "Biciclette e biciclette elettriche - 2wheels Rental",
+    "description": "Scoprite Lugano, i laghi, le montagne e le strade nascoste del Ticino con le nostre biciclette ed e-bike di qualità. Sia che vogliate un giro rilassato in…"
+  },
+  "/it/chi-siamo": {
+    "title": "Chi siamo - 2wheels Rental",
+    "description": "2wheels Rental ha sede a Lugano e offre noleggio di biciclette, e-bike e camper di alta qualità, tour guidati ed esperienze outdoor in tutto il Ticino, in Svizzera."
+  },
+  "/it/contatti": {
+    "title": "Contatti - 2wheels Rental",
+    "description": "Contatta 2wheels Rental a Lugano, Ticino. Noleggio di biciclette, tour guidati e avventure in camper in Svizzera. Dettagli su e-mail, telefono e posizione."
+  },
+  "/it/moto-scooter": {
+    "title": "Moto e scooter - 2wheels Rental",
+    "description": "Scoprite Lugano, il Lago di Como, il Lago Maggiore, il Ticino e il Nord Italia con la libertà di uno scooter o di una moto. Perfetti per strade panoramiche…"
+  },
+  "/it/pass-stagionale-2wheels": {
+    "title": "Pass stagionale 2wheels - 2wheels Rental",
+    "description": "Pedala di più, paga di meno: il Season Pass 2wheels include 10 o 20 noleggi di bici premium per tutta la stagione in Ticino, da CHF 40 a uscita."
+  },
+  "/it/per-aziende": {
+    "title": "Per le aziende - 2wheels Rental",
+    "description": "Tour aziendali in bicicletta ed esperienze di team outdoor a Lugano. Gite di team building, sfide e workshop progettati per le aziende in Ticino."
+  },
+  "/it/politica-dei-cookie-eu": {
+    "title": "Informativa sui cookie (UE) - 2wheels Rental",
+    "description": "Come 2wheels Rental utilizza i cookie su questo sito e come puoi gestire le tue preferenze di consenso."
+  },
+  "/it/politica-di-rimborso-per-la-cancellazione-dei-pagamenti": {
+    "title": "Politica di pagamento, cancellazione e rimborso - 2wheels Rental",
+    "description": "Leggete le condizioni di pagamento, cancellazione e rimborso di 2wheels Rental. Condizioni chiare e trasparenti per il noleggio di biciclette, e-bike e camper."
+  },
+  "/it/programmi-alberghieri": {
+    "title": "Programmi alberghieri - 2wheels Rental",
+    "description": "Hotel Bike Program in Ticino: biciclette premium per i vostri ospiti, con manutenzione e logistica gestite da 2wheels Rental. Piani stagionali o annuali."
+  },
+  "/it/tour-2": {
+    "title": "Tour - 2wheels Rental"
+  },
+  "/it/tour/alpe-vicania": {
+    "title": "Penisola di Lugano e Alpe Vicania - 2wheels Rental",
+    "description": "Avventura in MTB con vista panoramica sul lago"
+  },
+  "/it/tour/avventura-in-bicicletta-ad-asiago": {
+    "title": "Asiago - Avventura in bici - 2wheels Rental",
+    "description": "3 giorni | Escursioni in mountain bike nel cuore dell'Altopiano di Asiago"
+  },
+  "/it/tour/bre-bolla": {
+    "title": "Monte Brè e Alpe Bolla - 2wheels Rental",
+    "description": "Salita panoramica in e-bike con opzione pranzo in grotta locale"
+  },
+  "/it/tour/enduro-alpi": {
+    "title": "Esperienza Enduro Alpi - Airolo, Ritom e Nara - 2wheels Rental",
+    "description": "3 giorni di avventura enduro in MTB attraverso bike park, passi alpini e sentieri selvaggi"
+  },
+  "/it/tour/esperienza-di-camper-nelle-dolomiti": {
+    "title": "Esperienza Dolomiti Bike & Camper - 2wheels Rental",
+    "description": "5 giorni | Avventura ciclistica autogestita attraverso le Dolomiti italiane"
+  },
+  "/it/tour/giro-in-bicicletta-a-lugano": {
+    "title": "Giro in bicicletta di Lugano - 2wheels Rental",
+    "description": "2 giorni | Strade alpine panoramiche e vista sui laghi"
+  },
+  "/it/tour/navetta-per-biciclette": {
+    "title": "Servizio navetta per biciclette - 2wheels Rental",
+    "description": "Raggiungere i migliori percorsi per mountain bike nei dintorni di Lugano senza la fatica della salita"
+  },
+  "/it/tour/panorama-bre": {
+    "title": "Giro panoramico del Monte Brè - 2wheels Rental",
+    "description": "Salita in e-bike al punto panoramico più iconico di Lugano"
+  },
+  "/it/tour/pedalata-del-ceresio": {
+    "title": "Anello ciclabile del Ceresio - 2wheels Rental",
+    "description": "Tour panoramico in bici da corsa o in e-bike attorno al Lago di Lugano"
+  },
+  "/it/tour/pradecolo": {
+    "title": "Passo del Pradecolo e Alpone di Curiglia - 2wheels Rental",
+    "description": "2 Giorni | Viaggio in e-bike dal Lago di Lugano al Lago Maggiore"
+  },
+  "/it/tour/safari-avventuroso-in-bicicletta-in-uganda": {
+    "title": "Uganda – Avventura in bicicletta e safari naturalistico - 2wheels Rental",
+    "description": "12 giorni | Safari e gite in bicicletta nel cuore dell'Africa"
+  },
+  "/it/tour/sanlucio-alpino": {
+    "title": "Traversata alpina San Lucio e Monte Bar - 2wheels Rental",
+    "description": "Avventura in MTB / e-bike in alta quota attraverso le creste selvagge del Ticino"
+  },
+  "/it/tour/sicilia-bikepacking": {
+    "title": "Giro dell'Etna - Sicilia Bikepacking - 2wheels Rental",
+    "description": "5 giorni intorno al vulcano attivo più alto d'Europa"
+  },
+  "/it/tour/toscana-via-francigena": {
+    "title": "Toscana - Via Francigena - 2wheels Rental",
+    "description": "5 giorni | Da San Miniato al lago di Bolsena lungo la Via Francigena"
+  },
+  "/motorbikes-scooters": {
+    "title": "Motorbikes & Scooters - 2wheels Rental",
+    "description": "Discover Lugano, Lake Como, Lake Maggiore, Ticino and Northern Italy with the freedom of a scooter or motorbike. Perfect for scenic roads, quick city…"
+  },
+  "/payment-cancellation-refund-policy": {
+    "title": "Payment, Cancellation & Refund Policy - 2wheels Rental",
+    "description": "Read the payment, cancellation and refund policy for 2wheels Rental. Clear and transparent conditions for bike, e-bike and campervan rentals."
+  },
+  "/tour/alpe-vicania": {
+    "title": "Lugano Peninsula & Alpe Vicania - 2wheels Rental",
+    "description": "MTB adventure with panoramic lake views"
+  },
+  "/tour/asiago-bike-adventure": {
+    "title": "Asiago - Bike Adventure - 2wheels Rental",
+    "description": "3 Days | Mountain Biking in the Heart of the Asiago Plateau"
+  },
+  "/tour/bike-shuttle": {
+    "title": "Bike Shuttle Service - 2wheels Rental",
+    "description": "Reach the best mountain bike trails around Lugano without the climb"
+  },
+  "/tour/bre-bolla": {
+    "title": "Monte Brè & Alpe Bolla - 2wheels Rental",
+    "description": "Scenic e-bike climb with local Grotto lunch option"
+  },
+  "/tour/bre-panorama": {
+    "title": "Monte Brè Panorama Ride - 2wheels Rental",
+    "description": "E-bike climb to Lugano’s most iconic viewpoint"
+  },
+  "/tour/ceresio-bike-ride": {
+    "title": "Ceresio Bike Loop - 2wheels Rental",
+    "description": "Scenic road bike or e-bike tour around Lake Lugano"
+  },
+  "/tour/dolomites-camper-experience": {
+    "title": "Dolomites Bike & Camper Experience - 2wheels Rental",
+    "description": "5 Days | Self-Guided Cycling Adventure through the Italian Dolomites"
+  },
+  "/tour/enduro-alps": {
+    "title": "Enduro Alps Experience — Airolo, Ritom & Nara - 2wheels Rental",
+    "description": "3-day enduro MTB adventure across bike parks, alpine passes and wild trails"
+  },
+  "/tour/lugano-bike-ride": {
+    "title": "Lugano Bike Ride Tour - 2wheels Rental",
+    "description": "2 Days | Scenic Alpine Roads & Lake Views"
+  },
+  "/tour/pradecolo": {
+    "title": "Passo del Pradecolo & Alpone di Curiglia - 2wheels Rental",
+    "description": "2 Days | E-bike journey from Lake Lugano to Lake Maggiore"
+  },
+  "/tour/sanlucio-alpine": {
+    "title": "San Lucio & Monte Bar Alpine Traverse - 2wheels Rental",
+    "description": "High-altitude MTB / e-bike adventure across Ticino’s wild ridgelines"
+  },
+  "/tour/sicily-bikepacking": {
+    "title": "Giro dell’Etna – Sicily Bikepacking - 2wheels Rental",
+    "description": "5 Days | Around Europe’s Highest Active Volcano"
+  },
+  "/tour/tuscany-via-francigena": {
+    "title": "Tuscany – Via Francigena - 2wheels Rental",
+    "description": "5 Days | From San Miniato to lake Bolsena along the Via Francigena"
+  },
+  "/tour/uganda-bike-adventure-safari": {
+    "title": "Uganda – Bike Adventure & Wildlife Safari - 2wheels Rental",
+    "description": "12 Days | Safari and biking in the Heart of Africa"
+  },
+  "/tours": {
+    "title": "Tours - 2wheels Rental"
+  }
+}

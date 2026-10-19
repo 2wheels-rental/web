@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { SITE } from "@/lib/site";
 import {
   buildNav, detectLocale, alternatesForPath, pagePath, LOCALES, LOCALE_NAMES, UI,
@@ -15,10 +15,6 @@ export default function Header() {
   const locale = detectLocale(pathname);
   const nav = buildNav(locale);
   const alts = alternatesForPath(pathname);
-
-  useEffect(() => {
-    document.documentElement.lang = locale;
-  }, [locale]);
 
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/95 backdrop-blur">

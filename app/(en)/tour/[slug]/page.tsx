@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { finalizeMeta } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import TourView from "@/components/views/TourView";
 import { TOURS, getTour } from "@/lib/tours";
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const t = getTour(slug);
   if (!t) return {};
   const title = `${t.title} - 2wheels Rental`;
-  return {
+  return finalizeMeta({
     title,
     description: t.subtitle,
     alternates: { canonical: `/tour/${t.slug}`, languages: tourAlternates(t.slug) },
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       images: t.hero ? [t.hero] : undefined,
     },
-  };
+  });
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {

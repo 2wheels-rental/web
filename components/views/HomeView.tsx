@@ -58,7 +58,7 @@ function Split({ image, imageSide = "left", title, body, children, bg = "white" 
       <div className="container-site grid items-center gap-12 py-20 md:grid-cols-2">
         <div className={imageSide === "right" ? "md:order-2" : ""}>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-            <Image src={image} alt={title} fill className="object-cover" />
+            <Image src={image} alt={title} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
           </div>
         </div>
         <div className={imageSide === "right" ? "md:order-1" : ""}>
@@ -74,7 +74,7 @@ function Split({ image, imageSide = "left", title, body, children, bg = "white" 
 function FullBleed({ image, title, body, cta }: { image: string; title: string; body: string; cta: React.ReactNode }) {
   return (
     <section className="relative isolate flex min-h-[70vh] items-center overflow-hidden">
-      <Image src={image} alt={title} fill className="object-cover" />
+      <Image src={image} alt={title} fill sizes="100vw" className="object-cover" />
       <div className="absolute inset-0 bg-black/45" />
       <div className="container-site relative text-center text-white">
         <h2 className="text-5xl uppercase sm:text-6xl">{title}</h2>
@@ -92,7 +92,7 @@ export default function HomeView({ locale }: { locale: Locale }) {
     <>
       {/* HERO */}
       <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-ink">
-        <HeroVideo src="/videos/hero.mp4" poster="/images/hero.webp" />
+        <HeroVideo src="/videos/hero.mp4" mobileSrc="/videos/hero-mobile.mp4" poster="/images/hero.webp" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/30" />
         <div className="container-site relative">
           <div className="max-w-2xl text-white">

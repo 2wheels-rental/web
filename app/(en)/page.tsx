@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { finalizeMeta } from "@/lib/seo";
 import HomeView from "@/components/views/HomeView";
 import { HOME } from "@/lib/home-content";
 import { pageAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = finalizeMeta({
   title: HOME.en.metaTitle,
   description: HOME.en.metaDesc,
   alternates: { canonical: "/", languages: pageAlternates("home") },
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     type: "website",
     images: ["/images/tours.webp"],
   },
-};
+});
 
 export default function Page() {
   return <HomeView locale="en" />;

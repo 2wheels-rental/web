@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { SITE } from "@/lib/site";
+import { finalizeMeta } from "@/lib/seo";
 import { pagePath, pageAlternates, type Locale } from "@/lib/i18n";
 
 // Blog: placeholder "Coming soon" hasta que haya artículos (noindex, fuera del sitemap).
@@ -34,12 +35,12 @@ const T: Record<Locale, { eyebrow: string; title: string; body: string; tours: s
 
 export function blogMetadata(locale: Locale): Metadata {
   const t = T[locale];
-  return {
+  return finalizeMeta({
     title: "Blog - 2wheels Rental",
     description: t.meta,
     robots: { index: false, follow: true },
     alternates: { canonical: pagePath("blog", locale), languages: pageAlternates("blog") },
-  };
+  });
 }
 
 export default function BlogView({ locale }: { locale: Locale }) {

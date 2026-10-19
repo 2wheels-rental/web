@@ -92,7 +92,7 @@ function RichSection({ section, image, flip }: { section: Section; image?: strin
           <div className={`grid items-center gap-10 ${image ? "md:grid-cols-2" : ""}`}>
             {image && (
               <div className={`relative aspect-[4/3] overflow-hidden rounded-2xl ${flip ? "md:order-2" : ""}`}>
-                <Image src={image} alt={section.heading || "2wheels Rental"} fill className="object-cover" />
+                <Image src={image} alt={section.heading || "2wheels Rental"} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
               </div>
             )}
             <div className={flip ? "md:order-1" : ""}>
@@ -173,7 +173,7 @@ export default function ContentPage({
       <section className="relative isolate flex min-h-[46vh] items-end overflow-hidden bg-ink py-16 text-white">
         {hero && (
           <>
-            <Image src={localImg(hero)} alt={title} fill priority className="object-cover opacity-55" />
+            <Image src={localImg(hero)} alt={title} fill priority sizes="100vw" className="object-cover opacity-55" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/30" />
           </>
         )}

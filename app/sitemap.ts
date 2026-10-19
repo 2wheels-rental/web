@@ -2,6 +2,10 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/routes";
 import { LOCALES, pagePath, pageAlternates, tourPath, tourAlternates, type Locale } from "@/lib/i18n";
 import { TOURS } from "@/lib/tours";
+import { localImg } from "@/lib/img";
+
+// URL absoluta (y codificada) de una imagen local para el sitemap de imágenes
+const img = (u: string) => encodeURI(`${SITE_URL}${localImg(u)}`);
 import routesData from "@/lib/i18n-routes.json";
 
 // Páginas noindex (placeholder) que no van al sitemap
@@ -15,6 +19,7 @@ function abs(p: string) {
 function langs(alts: Partial<Record<Locale, string>>) {
   const out: Record<string, string> = {};
   for (const l of LOCALES) if (alts[l]) out[l] = abs(alts[l]!);
+  if (out.en) out["x-default"] = out.en;
   return out;
 }
 
@@ -39,9 +44,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Tours en cada idioma
+  // Campervan (solo EN)
+  items.push({
+    url: abs("/campervan"),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
+    images: [img("/wp-content/uploads/2026/02/Campervan.webp")],
+  });
+
+  // Tours en cada idioma (con sus imágenes: hero + galería)
   for (const t of TOURS) {
     const alts = tourAlternates(t.slug);
+    const images = [t.hero, t.highlightsImage, ...t.gallery].filter(Boolean).map((u) => img(u!)).slice(0, 20);
     for (const locale of LOCALES) {
       items.push({
         url: abs(tourPath(t.slug, locale)),
@@ -49,6 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: langs(alts) },
+        images,
       });
     }
   }

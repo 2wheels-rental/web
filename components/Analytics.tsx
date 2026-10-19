@@ -12,6 +12,7 @@ import {
   readConsent,
   type Consent,
 } from "@/lib/consent";
+import { BOOKING_DOMAINS, trackLinkClick } from "@/lib/analytics";
 
 type W = Window & { gtag?: (...a: unknown[]) => void; fbq?: (...a: unknown[]) => void };
 
@@ -43,7 +44,16 @@ export default function Analytics() {
       if (value === "accepted") setPixel(true);
     };
     window.addEventListener(CONSENT_EVENT, onConsent);
-    return () => window.removeEventListener(CONSENT_EVENT, onConsent);
+    // Conversiones: un solo listener para todos los links (reservas, WhatsApp, teléfono, email, PDFs)
+    const onClick = (e: MouseEvent) => {
+      const a = (e.target as Element | null)?.closest?.("a");
+      if (a) trackLinkClick(a as HTMLAnchorElement);
+    };
+    document.addEventListener("click", onClick, true);
+    return () => {
+      window.removeEventListener(CONSENT_EVENT, onConsent);
+      document.removeEventListener("click", onClick, true);
+    };
   }, []);
 
   // page_view en navegación client-side (la primera la manda el config).
@@ -67,7 +77,7 @@ export default function Analytics() {
       </Script>
       <Script src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`} strategy="afterInteractive" />
       <Script id="gtag-init" strategy="afterInteractive">
-        {`gtag('js',new Date());gtag('config','${GTAG_ID}');`}
+        {`gtag('js',new Date());gtag('config','${GTAG_ID}',{linker:{domains:${JSON.stringify(["2wheelsrental.com", ...BOOKING_DOMAINS])}}});`}
       </Script>
       {pixel && META_PIXEL_ID && (
         <Script id="meta-pixel" strategy="afterInteractive">

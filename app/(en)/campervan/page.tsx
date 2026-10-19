@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { finalizeMeta } from "@/lib/seo";
 import LandingView from "@/components/views/LandingView";
 import { CAMPERVAN } from "@/lib/landing-content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = finalizeMeta({
   title: "Campervan Rental - 2wheels Rental",
   description:
     "Campervan rental in Ticino: meet Maja, a fully equipped 2021 Fiat Ducato for exploring the Alps and Northern Italy with total autonomy.",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://2wheelsrental.com/campervan/",
     type: "website",
   },
-};
+});
 
 export default function Page() {
   return <LandingView data={CAMPERVAN} />;

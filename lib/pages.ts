@@ -2,6 +2,8 @@ import data from "./pages.json";
 import dataIt from "./pages.it.json";
 import dataDe from "./pages.de.json";
 import type { Metadata } from "next";
+import { finalizeMeta } from "./seo";
+import { pageImage as imageFor } from "./page-images";
 import type { Locale } from "./i18n";
 import { pagePath, pageAlternates } from "./i18n";
 
@@ -38,6 +40,10 @@ export function pageMetadata(slug: string, path = `/${slug}`): Metadata {
 export function pageMetadataL(locale: Locale, key: string): Metadata {
   const p = getPageL(locale, key);
   if (!p) return {};
+  return finalizeMeta(rawPageMeta(locale, key, p));
+}
+
+function rawPageMeta(locale: Locale, key: string, p: NonNullable<ReturnType<typeof getPageL>>): Metadata {
   const path = pagePath(key, locale);
   const alts = pageAlternates(key);
   const title = p.metatitle || `${p.h1} - 2wheels Rental`;
@@ -51,6 +57,7 @@ export function pageMetadataL(locale: Locale, key: string): Metadata {
       url: `https://2wheelsrental.com${path}/`,
       type: "website",
       locale: { en: "en_GB", it: "it_IT", de: "de_DE" }[locale],
+      ...(imageFor(key, locale) ? { images: [imageFor(key, locale)!] } : {}),
     },
   };
 }

@@ -14,6 +14,8 @@ import {
   type Locale,
 } from "@/lib/i18n";
 import routesData from "@/lib/i18n-routes.json";
+import { finalizeMeta } from "@/lib/seo";
+import { pageImage } from "@/lib/page-images";
 
 const ROUTES = routesData as Record<string, { en: string; it: string | null; de: string | null }>;
 const HOST = "https://2wheelsrental.com";
@@ -84,6 +86,10 @@ export function RenderFor({ locale, slug }: { locale: Locale; slug: string[] }) 
 
 // ---- Metadata ----
 export function metadataFor(locale: Locale, slug: string[]): Metadata {
+  return finalizeMeta(rawMetadataFor(locale, slug));
+}
+
+function rawMetadataFor(locale: Locale, slug: string[]): Metadata {
   const r = resolve(locale, slug);
   const og = OG_LOCALE[locale];
 
@@ -132,7 +138,7 @@ export function metadataFor(locale: Locale, slug: string[]): Metadata {
       title,
       description: p.description || undefined,
       alternates: { canonical: pagePath(r.key, locale), languages: pageAlternates(r.key) },
-      openGraph: { title, description: p.description || undefined, type: "website", locale: og },
+      openGraph: { title, description: p.description || undefined, type: "website", locale: og, images: pageImage(r.key, locale) ? [pageImage(r.key, locale)!] : undefined },
     };
   }
   return {};

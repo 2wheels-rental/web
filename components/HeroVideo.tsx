@@ -5,17 +5,18 @@ import { useEffect, useState } from "react";
 
 type NetInfo = { saveData?: boolean; effectiveType?: string };
 
-// Poster optimizado (Next/Image, LCP) siempre; el video (8MB) solo se monta si
+// Poster optimizado (Next/Image, LCP) siempre; el video (720p 3MB / móvil 540p 1.5MB) solo se monta si
 // la conexión y las preferencias lo permiten, y aparece con fade al poder reproducirse.
-export default function HeroVideo({ src, poster }: { src: string; poster: string }) {
-  const [load, setLoad] = useState(false);
+export default function HeroVideo({ src, mobileSrc, poster }: { src: string; mobileSrc?: string; poster: string }) {
+  const [load, setLoad] = useState<string | false>(false);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
     const conn = (navigator as Navigator & { connection?: NetInfo }).connection;
     const slow = conn?.saveData || /(^|-)2g$|^3g$/.test(conn?.effectiveType ?? "");
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!slow && !reduced) setLoad(true);
+    // versión liviana (540p) en pantallas chicas, 720p en el resto
+    if (!slow && !reduced) setLoad(mobileSrc && window.innerWidth < 768 ? mobileSrc : src);
   }, []);
 
   return (
@@ -32,7 +33,7 @@ export default function HeroVideo({ src, poster }: { src: string; poster: string
           onCanPlay={() => setReady(true)}
           aria-hidden="true"
         >
-          <source src={src} type="video/mp4" />
+          <source src={load} type="video/mp4" />
         </video>
       )}
     </>

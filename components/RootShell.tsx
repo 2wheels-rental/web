@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Poppins, Londrina_Solid } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
+import type { Locale } from "@/lib/i18n";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import CookieBanner from "@/components/CookieBanner";
 import Analytics from "@/components/Analytics";
+import { SiteJsonLd } from "@/components/JsonLd";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,7 +23,8 @@ const londrina = Londrina_Solid({
   display: "swap",
 });
 
-export const metadata: Metadata = {
+// Metadata base compartida por los 3 layouts raíz (cada página la sobreescribe)
+export const baseMetadata: Metadata = {
   metadataBase: new URL("https://2wheelsrental.com"),
   title: "Home - 2wheels Rental",
   description:
@@ -40,14 +43,13 @@ export const metadata: Metadata = {
   icons: { icon: "/images/icon.png", apple: "/images/icon.png" },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+// Shell HTML común. Hay un layout raíz por idioma (app/(en), app/it, app/de) para que
+// <html lang> salga correcto desde el servidor (antes se corregía solo en el cliente).
+export default function RootShell({ locale, children }: { locale: Locale; children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${poppins.variable} ${londrina.variable}`}>
+    <html lang={locale} className={`${poppins.variable} ${londrina.variable}`}>
       <body>
+        <SiteJsonLd locale={locale} />
         <Header />
         <main>{children}</main>
         <Footer />

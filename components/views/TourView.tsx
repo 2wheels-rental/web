@@ -3,11 +3,13 @@ import Link from "next/link";
 import { getTours, type Tour } from "@/lib/tours";
 import { localImg } from "@/lib/img";
 import { SITE } from "@/lib/site";
-import { UI, tourPath, type Locale } from "@/lib/i18n";
+import { UI, tourPath, toursListPath, type Locale } from "@/lib/i18n";
+import { HOME } from "@/lib/home-content";
 import ItineraryCarousel from "@/components/ItineraryCarousel";
 import PracticalInfo from "@/components/PracticalInfo";
 import FloatingBook from "@/components/FloatingBook";
 import GalleryStrip from "@/components/GalleryStrip";
+import { TourJsonLd } from "@/components/JsonLd";
 
 // Detalle de tour con el orden/estética del single-post de Elementor:
 // hero centrado → specs → intro a 2 columnas → highlights (caja oscura + foto) →
@@ -25,6 +27,16 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
 
   return (
     <>
+      <TourJsonLd
+        locale={locale}
+        name={tour.title}
+        description={tour.subtitle || tour.intro[0]}
+        url={`${tourPath(tour.en_slug || tour.slug, locale)}/`}
+        images={[tour.hero, tour.highlightsImage, ...tour.gallery].filter((u): u is string => !!u).map(localImg)}
+        toursUrl={`${toursListPath(locale)}/`}
+        toursLabel={HOME[locale].toursTitle}
+        itinerary={routes.length ? routes : itinerary}
+      />
       {/* HERO centrado */}
       <section className="relative flex min-h-[78vh] items-center justify-center overflow-hidden bg-ink">
         {tour.hero && <Image src={localImg(tour.hero)} alt={tour.title} fill priority sizes="100vw" className="object-cover" />}

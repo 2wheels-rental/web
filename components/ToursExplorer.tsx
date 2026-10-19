@@ -65,7 +65,7 @@ export default function ToursExplorer({ locale, tours, viewLabel }: { locale: Lo
           <Link key={t.slug} href={t.href} className="group overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm transition-shadow hover:shadow-lg">
             <div className="relative aspect-[4/3] overflow-hidden">
               {t.hero && (
-                <Image src={t.hero} alt={t.title} fill className="object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0" />
+                <Image src={t.hero} alt={t.title} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0" />
               )}
             </div>
             <div className="p-6">

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { SITE } from "@/lib/site";
+import { track } from "@/lib/analytics";
 
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
@@ -14,6 +15,7 @@ export default function ContactForm() {
     const message = (f.elements.namedItem("message") as HTMLTextAreaElement).value;
     const subject = encodeURIComponent(`Website enquiry — ${name}`);
     const body = encodeURIComponent(`${message}\n\n${name}\n${email}`);
+    track("generate_lead", { form: "contact", page_path: location.pathname }, "Lead");
     window.location.href = `mailto:${SITE.contact.email}?subject=${subject}&body=${body}`;
     setSent(true);
   }

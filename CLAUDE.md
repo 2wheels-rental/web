@@ -25,23 +25,26 @@ Primario `#D23939` · oscuro `#A42F2F` · tinta `#333` · grises `#6C6C6C/#AEAEA
 
 - **EN** sin prefijo; **IT** `/it/…`; **DE** `/de/…`, con **slugs distintos por idioma** (ej: `/about-us` → `/it/chi-siamo` → `/de/uber-uns`).
 - Tabla central de rutas: `lib/i18n-routes.json` (pageKey → path por idioma). Helpers en `lib/i18n.ts` (`pagePath`, `tourPath`, `pageAlternates`, `tourAlternates`, `buildNav`, `UI`, `alternatesForPath`, `detectLocale`).
-- EN usa rutas explícitas (`app/page.tsx`, `app/tours/…`, `app/tour/[slug]/…`, `app/<slug>/…`, `app/contact/…`). IT/DE usan catch-all `app/it/[[...slug]]/page.tsx` y `app/de/[[...slug]]/page.tsx` que resuelven vía `components/LocaleRoute.tsx`.
+- **Un layout raíz por idioma** (para que `<html lang>` salga correcto del servidor): `app/(en)/layout.tsx`, `app/it/layout.tsx`, `app/de/layout.tsx`, todos usan `components/RootShell.tsx` (fuentes, Header/Footer, banners, JSON-LD). Cambiar de idioma hace recarga completa (normal). 404: `app/global-not-found.tsx` (`experimental.globalNotFound`).
+- EN usa rutas explícitas dentro de `app/(en)/` (`page.tsx`, `tours/…`, `tour/[slug]/…`, `<slug>/…`, `contact/…`). IT/DE usan catch-all `app/it/[[...slug]]/page.tsx` y `app/de/[[...slug]]/page.tsx` que resuelven vía `components/LocaleRoute.tsx`.
 - **Vistas compartidas locale-aware** en `components/views/` (`HomeView`, `ToursListView`, `TourView`, `PageView`, `ContactView`) — usadas por EN y por el catch-all.
-- Header/Footer/CookieBanner son client components: detectan locale por `usePathname`; el switcher usa `alternatesForPath` (salta a la URL equivalente). `<html lang>` se setea en el Header.
+- Header/Footer/CookieBanner son client components: detectan locale por `usePathname`; el switcher usa `alternatesForPath` (salta a la URL equivalente). `<html lang>` lo pone el layout raíz de cada idioma.
 - Strings: `lib/i18n.ts` (UI/nav), `lib/home-content.ts` (home), `lib/tours-content.ts` (página de tours). Campervan es **EN-only** (no estaba traducido) → link siempre a `/campervan`.
 
 ## Estructura
 
 ```
 app/
-  layout.tsx                 # fuentes, metadata, Header/Footer/WhatsApp/CookieBanner
-  page.tsx                   # Home EN (HomeView)
-  sitemap.ts, robots.ts      # SEO (EN/IT/DE con alternates)
-  tours/ tour/[slug]/        # listado y detalle EN
-  <content>/                 # bikes-e-bikes, motorbikes-scooters, 2wheels-season-pass,
+  (en)/layout.tsx  it/layout.tsx  de/layout.tsx   # layouts raíz por idioma → components/RootShell.tsx
+  (en)/page.tsx              # Home EN (HomeView)
+  global-not-found.tsx       # 404 único (multilingüe)
+  sitemap.ts, robots.ts      # SEO (EN/IT/DE con alternates, x-default e imágenes)
+  (en)/tours/ (en)/tour/[slug]/   # listado y detalle EN
+  (en)/<content>/                 # bikes-e-bikes, motorbikes-scooters, 2wheels-season-pass,
                              # hotel-programs, about-us, for-companies, contact, campervan,
                              # payment-cancellation-refund-policy, cookie-policy-eu (EN, vía PageView)
   it/[[...slug]]/  de/[[...slug]]/   # catch-all IT y DE
+middleware.ts                # X-Robots-Tag noindex fuera de *.2wheelsrental.com
 components/
   Header Footer WhatsAppButton CookieBanner Reviews ContactForm
   ContentPage.tsx            # renderer de páginas de contenido: variante "rich" y "legal"
@@ -73,7 +76,8 @@ Los JSON de `lib/` se **generan** del mirror `source-wordpress/` con los scripts
 6. `python3 scripts/parse_practical.py` — agrega `practical` (tabs Practical Info: Included/Price|Dates/Conditions/FAQ) a los 3 `tours.*.json`; tabs vacíos o con placeholder en el WP se rellenan con la versión estándar del mismo idioma.
 7. `python3 scripts/parse_rentals.py [--fetch]` — `lib/rentals.json` (landings Bikes & e-bikes y Motorbikes & Scooters, EN/IT/DE) desde el sitio **en vivo** (`--fetch` re-descarga a `source-wordpress/html/live/`). Incluye un mapa `FIX` de correcciones a traducciones automáticas del WP.
 8. `python3 scripts/parse_tour_extras.py` — completa los tours con highlights (+ título tipo "Why Shuttle" y foto), rutas ("Routes Available" del Bike Shuttle) y links de reserva faltantes, desde el sitio en vivo.
-9. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
+9. `python3 scripts/build_seo.py` — `lib/seo.json` (títulos/descripciones SEO por URL; ver sección SEO).
+10. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
 
 **Editar contenido a mano:** se puede editar directamente `lib/tours*.json` y `lib/pages*.json` (no hace falta re-correr los scripts salvo que cambie el sitio origen).
 
@@ -86,7 +90,14 @@ Los JSON de `lib/` se **generan** del mirror `source-wordpress/` con los scripts
 
 ## SEO
 
-Metadata por página (title, description, canonical, Open Graph) + **hreflang** (alternates.languages) en EN/IT/DE. `metadataBase` = `https://2wheelsrental.com`. `sitemap.xml` y `robots.txt` generados (EN/IT/DE con alternates). `trailingSlash: true` (URLs idénticas al WP). Redirects 301 en `next.config.mjs` (`/experience_type/*` → `/tours`, `/tours/bike-shuttle` → `/tour/bike-shuttle`). meta/canonical/JSON-LD originales portados.
+- **`lib/seo.ts` → `finalizeMeta()`** se aplica a TODA la metadata (EN, IT/DE, landings, tours, blog): títulos/descripciones de `lib/seo.json`, `x-default` en hreflang, canonical con `/` final, Open Graph completo (url, siteName, locale, imagen) y Twitter card.
+- **`lib/seo.json`** lo genera `python3 scripts/build_seo.py` desde `source-wordpress/meta/live-seo.json` (títulos/descripciones de Yoast del WP en vivo, conservados tal cual para no mover rankings). `TITLE_FIX` corrige traducciones malas de Yoast ("Casa", "Rundgänge"…); las páginas que en el WP no tenían descripción (Bikes, Motorbikes, Season Pass, Hotel, Cookie) tienen una escrita a partir de su contenido.
+- Imagen OG por página: `lib/page-images.ts` (hero de cada landing/About/Companies); tours usan su hero; resto `/images/tours.webp`.
+- **JSON-LD** (`components/JsonLd.tsx`): `LocalBusiness` + `WebSite` en todas las páginas (RootShell); `TouristTrip` + `BreadcrumbList` en cada tour.
+- `sitemap.xml`: 76 URLs EN/IT/DE con hreflang + `x-default` e **image sitemap** de los tours (hero + highlights + galería). Excluye el Blog (noindex). `robots.txt` apunta al sitemap del dominio real.
+- **noindex fuera de producción**: `middleware.ts` agrega `X-Robots-Tag: noindex` en vercel.app/previews/localhost (los canonical ya apuntan a 2wheelsrental.com).
+- `trailingSlash: true` (URLs idénticas al WP). **Redirects 301/308** en `next.config.mjs`: `/experience_type/*`, `/it/tipo_esperienza/*`, `/de/erfahrung_art/*` → listado de tours; `/maintenance` (+IT/DE) → contacto; `/it/camper`, `/de/campervan` → `/campervan/`; `/tour`, `/it/tour`, `/de/tour` → listados; sitemaps de Yoast (`/sitemap_index.xml`, `/*-sitemap.xml`) → `/sitemap.xml`; `/feed` → `/`. Verificado: las 87 URLs del WP responden 200 o redirigen.
+- Imágenes: todas por `next/image` (AVIF/WebP, `sizes` correctos); originales en `public/` con el **mismo nombre/ruta que en el WP** (`/wp-content/uploads/...`) para no perder indexación en Google Imágenes. Fondos decorativos con `alt=""`.
 
 ## Deploy
 
@@ -102,16 +113,30 @@ Metadata por página (title, description, canonical, Open Graph) + **hreflang** 
 - `lib/consent.ts` + `components/Analytics.tsx`: **Consent Mode v2** (default `denied`) + Google tag `GT-TNH9V769` (Site Kit original) + **Meta Pixel** `2737544646598065` (solo tras aceptar). IDs sobreescribibles con `NEXT_PUBLIC_GTAG_ID` / `NEXT_PUBLIC_META_PIXEL_ID`.
 - Los tags **solo cargan en `*.2wheelsrental.com`** (no ensucian métricas desde Vercel/localhost); para probarlos fuera: `NEXT_PUBLIC_ANALYTICS_ANY_HOST=1`.
 - `CookieBanner` guarda la decisión y emite el evento; el footer tiene "Cookie settings" para reabrirlo. Cookiebot del original no tenía ID cargado → reemplazado por este banner.
-- Home hero: `components/HeroVideo.tsx` (poster con Next/Image como LCP; el video solo se monta si no hay Save-Data/2G/3G ni reduced-motion).
+- Home hero: `components/HeroVideo.tsx` (poster con Next/Image como LCP; el video solo se monta si no hay Save-Data/2G/3G ni reduced-motion). Video recomprimido: `hero.mp4` 720p 3.3MB y `hero-mobile.mp4` 540p 1.5MB (<768px); original 8MB.
+- **Eventos de conversión** (`lib/analytics.ts`, listener en `Analytics.tsx`): `booking_click` (Booqable/WeTravel/Lugano Region; Meta `InitiateCheckout`), `whatsapp_click`, `phone_click`, `email_click` (Meta `Contact`), `brochure_download`, `generate_lead` en el formulario (Meta `Lead`). `gtag config` con `linker` cross-domain.
 - **Landings** Bikes & e-bikes, Motorbikes & Scooters (datos en `lib/rentals.json`), Season Pass, Hotel Programs y Campervan: `components/views/LandingView.tsx` (hero + intro 2 col, card sobre foto, texto+imagen, checklist, galería, CTA) con datos en `lib/landing-content.ts` (EN/IT/DE; Campervan EN-only — copy del borrador de Elementor `?page_id=218`, no publicado en el WP).
 - **Galerías**: `components/GalleryStrip.tsx` (carrusel grande con snap, flechas y barra de progreso) en tours, landings, For Companies y `ContentPage`.
 - About y For Companies tienen vistas propias (`components/views/AboutView.tsx`, `CompaniesView.tsx`) con copy en `lib/about-content.ts` (EN/IT/DE, portado del HTML de Elementor). Fotos del equipo en `public/images/team/`.
 
-## Pendiente (roadmap)
+## Pendiente — lado del cliente (antes/después del DNS)
 
-1. **Google Search Console** (verificar dominio, enviar sitemap) al migrar DNS. Verificar en GA/Ads que llegan datos tras el cambio.
-2. (Opcional) recomprimir imágenes base y el video hero (8MB; no había ffmpeg) para aligerar el repo (~79MB).
-3. Revisión final de diseño por página en Vercel antes del DNS.
+**Antes de cambiar DNS**
+1. Revisión final de diseño/contenido por página en `2wheelsrental.vercel.app` (EN/IT/DE). Revisar el copy de Campervan (transcrito del borrador `?page_id=218`) y las correcciones de traducción en `scripts/parse_rentals.py` (`FIX`).
+2. **Formulario de contacto**: hoy solo abre el cliente de email (`mailto:`), no envía nada. Decidir servicio (Resend, Formspree, etc.) y pasar la API key → se conecta en `components/ContactForm.tsx`.
+3. **GA4**: confirmar en Google Tag / GA4 que `GT-TNH9V769` (creado por Site Kit) está ligado a la propiedad GA4 correcta y que no depende del plugin (al borrar WordPress debe seguir funcionando). En GA4 → Admin → Data streams → *Configure tag settings*: agregar dominios `2wheelsrental.com`, `booqableshop.com`, `wetravel.com`, `tickets.luganoregion.com` (cross-domain; el código ya envía `linker`). Marcar como **eventos clave**: `booking_click`, `generate_lead`, `whatsapp_click` (también existen `phone_click`, `email_click`, `brochure_download`).
+4. Datos del negocio para el JSON-LD (opcional pero recomendado): **código postal, horario de apertura y coordenadas** → `components/JsonLd.tsx`.
+
+**Al cambiar DNS**
+5. Apuntar `2wheelsrental.com` y `www` a Vercel (dominio principal sin www, como el WP). Variable `NEXT_PUBLIC_SITE_URL=https://2wheelsrental.com` en Vercel. Dar de baja WordPress solo después de verificar.
+6. **Google Search Console**: propiedad de dominio verificada por DNS (TXT); enviar `https://2wheelsrental.com/sitemap.xml`; quitar sitemaps viejos de Yoast si aparecen. Usar *Inspección de URL* en home, un tour y una página IT/DE.
+7. Verificar que llegan datos: GA4 *Realtime* (con cookies aceptadas), Meta *Events Manager* (Pixel `2737544646598065`: PageView, InitiateCheckout, Contact, Lead).
+8. **Google Business Profile**: sitio web = `https://2wheelsrental.com/`.
+
+**Después (2–4 semanas)**
+9. Search Console → *Páginas*: revisar 404 / "rastreada sin indexar"; si aparece alguna URL vieja con error, agregar redirect en `next.config.mjs`.
+10. (Opcional) Bing Webmaster Tools (importar desde Search Console).
+11. (Opcional) Comprimir los PDFs (Campervan 14.6MB, For Companies 10.3MB, Season Pass 5MB): solo afectan a quien los descarga.
 
 ## Convenciones
 
