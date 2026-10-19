@@ -40,7 +40,9 @@
     ],
     "booking": "https://www.wetravel.com/trips/lugano-peninsula-alpe-vicania-2wheels-rental-2766352584",
     "slug_it": "alpe-vicania",
-    "slug_de": "alpe-vicania"
+    "slug_de": "alpe-vicania",
+    "experience": "local",
+    "duration": "0.5"
   },
   {
     "slug": "asiago-bike-adventure",
@@ -83,7 +85,9 @@
     ],
     "booking": "",
     "slug_it": "avventura-in-bicicletta-ad-asiago",
-    "slug_de": "asiago-radabenteuer"
+    "slug_de": "asiago-radabenteuer",
+    "experience": "trips",
+    "duration": "3"
   },
   {
     "slug": "bike-shuttle",
@@ -120,7 +124,9 @@
     ],
     "booking": "",
     "slug_it": "navetta-per-biciclette",
-    "slug_de": "fahrrad-shuttle"
+    "slug_de": "fahrrad-shuttle",
+    "experience": "custom",
+    "duration": "0.5"
   },
   {
     "slug": "bre-bolla",
@@ -165,7 +171,9 @@
     ],
     "booking": "https://www.wetravel.com/trips/monte-bre-alpe-bolla-2wheels-rental-2933100744",
     "slug_it": "bre-bolla",
-    "slug_de": "bre-bolla"
+    "slug_de": "bre-bolla",
+    "experience": "local",
+    "duration": "1"
   },
   {
     "slug": "bre-panorama",
@@ -208,7 +216,9 @@
     ],
     "booking": "https://www.wetravel.com/trips/monte-bre-panorama-ride-2wheels-rental-7835485560",
     "slug_it": "panorama-bre",
-    "slug_de": "bre-panorama"
+    "slug_de": "bre-panorama",
+    "experience": "local",
+    "duration": "0.5"
   },
   {
     "slug": "ceresio-bike-ride",
@@ -251,7 +261,9 @@
     ],
     "booking": "https://2wheelsrental.wetravel.com/trips/ceresio-bike-loop-2wheels-rental-8600418124",
     "slug_it": "pedalata-del-ceresio",
-    "slug_de": "ceresio-radfahren"
+    "slug_de": "ceresio-radfahren",
+    "experience": "local",
+    "duration": "0.5"
   },
   {
     "slug": "dolomites-camper-experience",
@@ -294,7 +306,9 @@
     ],
     "booking": "https://2wheelsrental.wetravel.com/trips/dolomites-bike-camper-experience-2wheels-rental-7836906138",
     "slug_it": "esperienza-di-camper-nelle-dolomiti",
-    "slug_de": "dolomiten-camper-erfahrung"
+    "slug_de": "dolomiten-camper-erfahrung",
+    "experience": "trips",
+    "duration": "5"
   },
   {
     "slug": "enduro-alps",
@@ -337,7 +351,9 @@
     ],
     "booking": "https://www.wetravel.com/trips/enduro-alps-experience-airolo-ritom-nara-2wheels-rental-0794948999",
     "slug_it": "enduro-alpi",
-    "slug_de": "enduro-alps"
+    "slug_de": "enduro-alps",
+    "experience": "local",
+    "duration": "3"
   },
   {
     "slug": "lugano-bike-ride",
@@ -381,7 +397,9 @@
     ],
     "booking": "https://2wheelsrental.wetravel.com/trips/lugano-road-bike-tour-2wheels-rental-2859406158",
     "slug_it": "giro-in-bicicletta-a-lugano",
-    "slug_de": "radtour-in-lugano"
+    "slug_de": "radtour-in-lugano",
+    "experience": "local",
+    "duration": "2"
   },
   {
     "slug": "pradecolo",
@@ -425,7 +443,9 @@
     ],
     "booking": "https://www.wetravel.com/trips/passo-del-pradecolo-alpone-di-curiglia-2wheels-rental-8060898664",
     "slug_it": "pradecolo",
-    "slug_de": "pradecolo"
+    "slug_de": "pradecolo",
+    "experience": "local",
+    "duration": "2"
   },
   {
     "slug": "sanlucio-alpine",
@@ -471,7 +491,9 @@
     ],
     "booking": "https://www.wetravel.com/trips/san-lucio-monte-bar-alpine-traverse-2wheels-rental-8746960493",
     "slug_it": "sanlucio-alpino",
-    "slug_de": "sanlucio-alpin"
+    "slug_de": "sanlucio-alpin",
+    "experience": "local",
+    "duration": "1"
   },
   {
     "slug": "sicily-bikepacking",
@@ -517,7 +539,9 @@
     ],
     "booking": "https://www.wetravel.com/trips/girotondo-dell-etna-sicily-bike-expedition-2wheels-rental-6213999172",
     "slug_it": "sicilia-bikepacking",
-    "slug_de": "sizilien-bikepacking"
+    "slug_de": "sizilien-bikepacking",
+    "experience": "trips",
+    "duration": "5"
   },
   {
     "slug": "tuscany-via-francigena",
@@ -563,7 +587,9 @@
     ],
     "booking": "",
     "slug_it": "toscana-via-francigena",
-    "slug_de": "toskana-uber-francigena"
+    "slug_de": "toskana-uber-francigena",
+    "experience": "trips",
+    "duration": "5"
   },
   {
     "slug": "uganda-bike-adventure-safari",
@@ -604,6 +630,8 @@
     ],
     "booking": "",
     "slug_it": "safari-avventuroso-in-bicicletta-in-uganda",
-    "slug_de": "fahrrad-abenteuersafari-in-uganda"
+    "slug_de": "fahrrad-abenteuersafari-in-uganda",
+    "experience": "trips",
+    "duration": "12"
   }
 ]

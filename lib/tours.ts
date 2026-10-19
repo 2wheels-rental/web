@@ -13,6 +13,8 @@ export type Tour = {
   hero: string;
   gallery: string[];
   booking: string;
+  experience?: string; // custom | local | trips
+  duration?: string; // 0.5 | 1 | 2 | 3 | 5 | 12
   en_slug?: string;
   slug_it?: string;
   slug_de?: string;

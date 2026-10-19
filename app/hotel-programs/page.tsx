@@ -1,20 +1,8 @@
 import type { Metadata } from "next";
-import ContentPage from "@/components/ContentPage";
-import { getPage, pageMetadata } from "@/lib/pages";
+import PageView from "@/components/views/PageView";
+import { pageMetadataL } from "@/lib/pages";
 
-const SLUG = "hotel-programs";
-export const metadata: Metadata = pageMetadata(SLUG);
-
+export const metadata: Metadata = pageMetadataL("en", "hotel-programs");
 export default function Page() {
-  const p = getPage(SLUG);
-  return (
-    <ContentPage
-      title={p.h1}
-      subtitle="Offer premium bikes to your guests — all-inclusive hotel bike programs in Ticino."
-      blocks={p.blocks}
-      heroImage={p.images[0]}
-      images={p.images.slice(1)}
-      cta={{ label: "Contact us", href: "/contact" }}
-    />
-  );
+  return <PageView locale="en" pageKey="hotel-programs" />;
 }

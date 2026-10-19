@@ -28,6 +28,7 @@ function ctaFor(key: string, locale: Locale): CTA {
 
 export default function PageView({ locale, pageKey }: { locale: Locale; pageKey: string }) {
   const p = getPageL(locale, pageKey);
+  const isLegal = pageKey.includes("policy") || pageKey.includes("cookie");
   let blocks: Block[] = p.blocks || [];
   // about-us / for-companies tienen poco texto (está en imágenes) → fallback a la descripción
   if (blocks.length < 2 && p.description) {
@@ -40,7 +41,8 @@ export default function PageView({ locale, pageKey }: { locale: Locale; pageKey:
       blocks={blocks}
       heroImage={p.images?.[0]}
       images={p.images?.slice(1)}
-      cta={ctaFor(pageKey, locale)}
+      cta={isLegal ? undefined : ctaFor(pageKey, locale)}
+      variant={isLegal ? "legal" : "rich"}
     />
   );
 }

@@ -39,7 +39,9 @@
       "wp-content/uploads/2026/03/DSCF8546.jpg"
     ],
     "booking": "https://www.wetravel.com/trips/lugano-peninsula-alpe-vicania-2wheels-rental-2766352584",
-    "en_slug": "alpe-vicania"
+    "en_slug": "alpe-vicania",
+    "experience": "local",
+    "duration": "0.5"
   },
   {
     "slug": "asiago-radabenteuer",
@@ -81,7 +83,9 @@
       "wp-content/uploads/2026/02/02-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "",
-    "en_slug": "asiago-bike-adventure"
+    "en_slug": "asiago-bike-adventure",
+    "experience": "trips",
+    "duration": "3"
   },
   {
     "slug": "fahrrad-shuttle",
@@ -117,7 +121,9 @@
       "wp-content/uploads/2026/02/04-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "",
-    "en_slug": "bike-shuttle"
+    "en_slug": "bike-shuttle",
+    "experience": "custom",
+    "duration": "0.5"
   },
   {
     "slug": "bre-bolla",
@@ -161,7 +167,9 @@
       "wp-content/uploads/2026/02/04-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "https://www.wetravel.com/trips/monte-bre-alpe-bolla-2wheels-rental-2933100744",
-    "en_slug": "bre-bolla"
+    "en_slug": "bre-bolla",
+    "experience": "local",
+    "duration": "1"
   },
   {
     "slug": "bre-panorama",
@@ -203,7 +211,9 @@
       "wp-content/uploads/2026/02/08-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "https://www.wetravel.com/trips/monte-bre-panorama-ride-2wheels-rental-7835485560",
-    "en_slug": "bre-panorama"
+    "en_slug": "bre-panorama",
+    "experience": "local",
+    "duration": "0.5"
   },
   {
     "slug": "ceresio-radfahren",
@@ -245,7 +255,9 @@
       "wp-content/uploads/2026/02/04-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "https://2wheelsrental.wetravel.com/trips/ceresio-bike-loop-2wheels-rental-8600418124",
-    "en_slug": "ceresio-bike-ride"
+    "en_slug": "ceresio-bike-ride",
+    "experience": "local",
+    "duration": "0.5"
   },
   {
     "slug": "dolomiten-camper-erfahrung",
@@ -287,7 +299,9 @@
       "wp-content/uploads/2026/02/01-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "https://2wheelsrental.wetravel.com/trips/dolomites-bike-camper-experience-2wheels-rental-7836906138",
-    "en_slug": "dolomites-camper-experience"
+    "en_slug": "dolomites-camper-experience",
+    "experience": "trips",
+    "duration": "5"
   },
   {
     "slug": "enduro-alps",
@@ -329,7 +343,9 @@
       "wp-content/uploads/2026/02/galeria-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom-3.webp"
     ],
     "booking": "https://www.wetravel.com/trips/enduro-alps-experience-airolo-ritom-nara-2wheels-rental-0794948999",
-    "en_slug": "enduro-alps"
+    "en_slug": "enduro-alps",
+    "experience": "local",
+    "duration": "3"
   },
   {
     "slug": "radtour-in-lugano",
@@ -372,7 +388,9 @@
       "wp-content/uploads/2026/02/03-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "https://2wheelsrental.wetravel.com/trips/lugano-road-bike-tour-2wheels-rental-2859406158",
-    "en_slug": "lugano-bike-ride"
+    "en_slug": "lugano-bike-ride",
+    "experience": "local",
+    "duration": "2"
   },
   {
     "slug": "pradecolo",
@@ -415,7 +433,9 @@
       "wp-content/uploads/2026/02/02-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "https://www.wetravel.com/trips/passo-del-pradecolo-alpone-di-curiglia-2wheels-rental-8060898664",
-    "en_slug": "pradecolo"
+    "en_slug": "pradecolo",
+    "experience": "local",
+    "duration": "2"
   },
   {
     "slug": "sanlucio-alpin",
@@ -460,7 +480,9 @@
       "wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-10.webp"
     ],
     "booking": "https://www.wetravel.com/trips/san-lucio-monte-bar-alpine-traverse-2wheels-rental-8746960493",
-    "en_slug": "sanlucio-alpine"
+    "en_slug": "sanlucio-alpine",
+    "experience": "local",
+    "duration": "1"
   },
   {
     "slug": "sizilien-bikepacking",
@@ -505,7 +527,9 @@
       "wp-content/uploads/2026/02/04-Enduro-Alps-Experience---Airolo-Ritom-Nara-2wheels-Rental.webp"
     ],
     "booking": "https://www.wetravel.com/trips/girotondo-dell-etna-sicily-bike-expedition-2wheels-rental-6213999172",
-    "en_slug": "sicily-bikepacking"
+    "en_slug": "sicily-bikepacking",
+    "experience": "trips",
+    "duration": "5"
   },
   {
     "slug": "toskana-uber-francigena",
@@ -550,7 +574,9 @@
       "wp-content/uploads/2026/04/IMG_3932.webp"
     ],
     "booking": "",
-    "en_slug": "tuscany-via-francigena"
+    "en_slug": "tuscany-via-francigena",
+    "experience": "trips",
+    "duration": "5"
   },
   {
     "slug": "fahrrad-abenteuersafari-in-uganda",
@@ -588,6 +614,8 @@
       "wp-content/uploads/2026/10/Uganda-biking-safari-2wheels-rental-gorillas-wild-11.webp"
     ],
     "booking": "",
-    "en_slug": "uganda-bike-adventure-safari"
+    "en_slug": "uganda-bike-adventure-safari",
+    "experience": "trips",
+    "duration": "12"
   }
 ]
