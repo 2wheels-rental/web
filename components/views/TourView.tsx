@@ -4,6 +4,9 @@ import type { Tour } from "@/lib/tours";
 import { localImg } from "@/lib/img";
 import { SITE } from "@/lib/site";
 import { UI, toursListPath, type Locale } from "@/lib/i18n";
+import ItineraryCarousel from "@/components/ItineraryCarousel";
+import PracticalInfo from "@/components/PracticalInfo";
+import FloatingBook from "@/components/FloatingBook";
 
 export default function TourView({ locale, tour }: { locale: Locale; tour: Tour }) {
   const u = UI[locale];
@@ -12,8 +15,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
   const itinerary = tour.itinerary || [];
   const bookingUrl = tour.booking || `https://wa.me/${SITE.contact.whatsapp}`;
   const bookingLabel = tour.booking ? u.bookThisTour : u.requestThisTour;
-  const dayTitle = (s: string) => s.replace(/^(day|giorno|tag)\s*\d+\s*[—–-]\s*/i, "").trim() || s;
-  const isMeta = (s: string) => /\d+\s*km/i.test(s);
+  const practical = tour.practical || [];
 
   return (
     <>
@@ -49,7 +51,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
               <p key={i} className={i === 0 ? "text-xl text-ink" : "text-ink-soft"}>{p}</p>
             ))}
             <div className="pt-4">
-              <a href={bookingUrl} target="_blank" rel="noopener" className="inline-block rounded-md bg-primary px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-primary-dark">
+              <a data-book-cta href={bookingUrl} target="_blank" rel="noopener" className="inline-block rounded-md bg-primary px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-primary-dark">
                 {bookingLabel}
               </a>
             </div>
@@ -68,28 +70,11 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
       </section>
 
       {itinerary.length > 0 && (
-        <section className="bg-white">
-          <div className="container-site py-16">
-            <h2 className="mb-10 text-center text-3xl uppercase text-ink">{u.itinerary}</h2>
-            <div className="mx-auto max-w-3xl space-y-5">
-              {itinerary.map((d, i) => (
-                <div key={i} className="rounded-2xl border border-black/5 bg-paper p-6">
-                  <div className="flex items-center gap-3">
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">{i + 1}</span>
-                    <h3 className="text-lg font-semibold text-ink">{dayTitle(d.day)}</h3>
-                  </div>
-                  {d.body.length > 0 && (
-                    <div className="mt-3 space-y-2 sm:pl-12">
-                      {d.body.map((p, j) => (
-                        <p key={j} className={isMeta(p) ? "text-sm font-semibold uppercase tracking-wide text-primary" : "text-ink-soft"}>{p}</p>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <ItineraryCarousel title={u.itinerary} days={itinerary} prev={u.prev} next={u.next} />
+      )}
+
+      {practical.length > 0 && (
+        <PracticalInfo title={u.practicalInfo} tabs={practical} bookingUrl={bookingUrl} bookingLabel={bookingLabel} />
       )}
 
       {gallery.length > 0 && (
@@ -111,7 +96,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
         <div className="container-site flex flex-col items-center gap-5 py-16 text-center">
           <h2 className="text-4xl uppercase">{u.readyToRide}</h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener" className="rounded-md bg-primary px-8 py-3.5 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-primary-dark">
+            <a data-book-cta href={bookingUrl} target="_blank" rel="noopener" className="rounded-md bg-primary px-8 py-3.5 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-primary-dark">
               {bookingLabel}
             </a>
             <a href={`https://wa.me/${SITE.contact.whatsapp}`} target="_blank" rel="noopener" className="rounded-md border border-white/40 px-8 py-3.5 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-white hover:text-ink">
@@ -120,6 +105,7 @@ export default function TourView({ locale, tour }: { locale: Locale; tour: Tour 
           </div>
         </div>
       </section>
+      <FloatingBook href={bookingUrl} label={bookingLabel} />
     </>
   );
 }

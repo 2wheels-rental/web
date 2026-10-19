@@ -70,14 +70,16 @@ Los JSON de `lib/` se **generan** del mirror `source-wordpress/` con los scripts
 3. `python3 scripts/parse_pages.py` — `lib/pages.json` (contenido de páginas internas EN).
 4. `python3 scripts/build_i18n.py` — `lib/i18n-routes.json`, `tours.{it,de}.json`, `pages.{it,de}.json`.
 5. `python3 scripts/parse_itinerary.py` — agrega `itinerary` (día a día) a los 3 `tours.*.json`.
-6. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
+6. `python3 scripts/parse_practical.py` — agrega `practical` (tabs Practical Info: Included/Price|Dates/Conditions/FAQ) a los 3 `tours.*.json`; tabs vacíos o con placeholder en el WP se rellenan con la versión estándar del mismo idioma.
+7. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
 
 **Editar contenido a mano:** se puede editar directamente `lib/tours*.json` y `lib/pages*.json` (no hace falta re-correr los scripts salvo que cambie el sitio origen).
 
 ## Tours
 
 - Listado (`ToursListView` + `ToursExplorer`): heading "Our Tours" + intro, **filtros** por Experience Type (custom/local/trips) y Duration (0.5/1/2/3/5/12 días), cards grayscale→color.
-- Detalle (`TourView`): hero, specs, intro, highlights, **Itinerary** (timeline día a día; 7/14 tours lo tienen, el resto solo traía plantilla), galería, CTA.
+- Detalle (`TourView`): hero, specs, intro, highlights, **Itinerary** (`ItineraryCarousel`: scroll horizontal con snap + flechas; 7/14 tours lo tienen), **Practical Info** (`PracticalInfo`: tabs + FAQ acordeón), galería, CTA.
+- **Botón flotante "Book this tour"** (`FloatingBook`): aparece al pasar el hero y se oculta cuando otro CTA de reserva (`data-book-cta`) está visible.
 - **Reservas → WeTravel** (campo `booking`, link externo por tour; vacío → WhatsApp). Bikes/motos → **Booqable**.
 
 ## SEO

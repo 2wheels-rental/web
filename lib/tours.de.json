@@ -42,7 +42,117 @@
     "en_slug": "alpe-vicania",
     "experience": "local",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Zertifizierter Enduro-MTB-Führer und -Instruktor",
+              "E-Bike-Verleih",
+              "Helm",
+              "Wasserflasche",
+              "Technische Unterstützung während der Fahrt"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab 110 CHF pro Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Brauchen Sie Hilfe?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "asiago-radabenteuer",
@@ -116,6 +226,126 @@
           "Am Ende der Tour bringt ein organisierter Transfer die Gruppe wieder nach Hause."
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professionelle(r) Fahrradführer",
+              "Tägliche mechanische Kontrolle und Unterstützung",
+              "Begleitfahrzeug",
+              "Personen-, Fahrrad- und Gepäcktransfer",
+              "Abholung und Rückgabe des Fahrrads zu Hause"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Tägliches Frühstück",
+              "3 Hotelübernachtungen (im Doppelzimmer)",
+              "Wasser während der Reitetappen",
+              "Technische und logistische Koordination",
+              "Foto-Paket"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Termine",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "bis 20. September",
+              "bis 11. Oktober",
+              "bis 18. Oktober"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -155,7 +385,119 @@
     "en_slug": "bike-shuttle",
     "experience": "custom",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Abholen - Absetzen"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Fahrrad-Shuttle-Service"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Kontaktieren Sie uns, um ein individuelles Angebot für Sie und Ihre Gruppe zu erhalten."
+          },
+          {
+            "t": "p",
+            "html": "<em>Der Preis variiert je nach Gruppengröße, Logistik und Standortoptionen.</em>"
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "bre-bolla",
@@ -202,7 +544,118 @@
     "en_slug": "bre-bolla",
     "experience": "local",
     "duration": "1",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professioneller lokaler Führer",
+              "E-Bike-Verleih",
+              "Helm",
+              "Wasserflaschen",
+              "Technische Unterstützung während der Fahrt",
+              "Mittagessen in einer lokalen Grotte (ohne Getränke)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab 150 CHF pro Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "bre-panorama",
@@ -247,7 +700,118 @@
     "en_slug": "bre-panorama",
     "experience": "local",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professioneller lokaler Führer",
+              "E-Bike-Verleih",
+              "Helm",
+              "Wasserflaschen",
+              "Technische Unterstützung während der Fahrt",
+              "Mittagessen in einer lokalen Grotte (ohne Getränke)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab 110 CHF pro Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "ceresio-radfahren",
@@ -292,7 +856,123 @@
     "en_slug": "ceresio-bike-ride",
     "experience": "local",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professioneller lokaler Führer",
+              "E-Bike oder Rennradverleih",
+              "Helm"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Wasserflaschen",
+              "Technische Unterstützung während der Fahrt",
+              "Kaffeestopp in Porto Ceresio"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab 110 CHF pro Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "dolomiten-camper-erfahrung",
@@ -337,7 +1017,122 @@
     "en_slug": "dolomites-camper-experience",
     "experience": "trips",
     "duration": "5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Vollständig ausgestattetes Wohnmobil für die gesamte Reise und bietet Komfort und Flexibilität, um die Dolomiten zwischen den Fahrten zu erkunden. Weitere Details zum Fahrzeug und zur Ausstattung finden Sie hier.",
+              "Vermietung von Fahrrädern (Straße, Schotter oder E-Bike)"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Aufbau und Vorbereitung des Fahrrads",
+              "Helm und Basisreparaturset",
+              "GPX-Routen und Fahrtenempfehlungen"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab CHF 420 / Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "enduro-alps",
@@ -399,6 +1194,116 @@
         "day": "Tag 3 - Nara-Radgebiet",
         "body": [
           "Ein letzter Tag mit langen, kontinuierlichen Abfahrten in spektakulärer alpiner Landschaft. Technische Vielfalt, Geschwindigkeit und natürlicher Flow sorgen für einen kraftvollen Abschluss des Erlebnisses."
+        ]
+      }
+    ],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Zertifizierter Enduro-MTB-Führer und -Instruktor",
+              "Vollständige 3-tägige Führung und logistische Koordination",
+              "Shuttle-Unterstützung (falls erforderlich)",
+              "Routenplanung und Sicherheitsmanagement",
+              "Unterkunft und Abendessen für 2 Nächte"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab CHF 650 / Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
         ]
       }
     ]
@@ -466,6 +1371,127 @@
           "Inbegriffen: Frühstück, Mittagessen, Aperitivo (keine alkoholischen Getränke)"
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professioneller Straßenradführer",
+              "1 Übernachtung im Hotel (Zweibettzimmer)",
+              "1 Frühstück",
+              "2 Mittagessen für Radfahrer",
+              "1 Abendessen",
+              "2 Aperitifs"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Wasser bei Fahrten",
+              "Begleitfahrzeug (falls erforderlich)",
+              "Gepäckabfertigung",
+              "Technische und logistische Unterstützung",
+              "Grundlegender Versicherungsschutz"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab CHF 540 / Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -531,6 +1557,115 @@
           "Inbegriffen: Frühstück, Lunchpaket und Aperitivo."
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "1 Abendessen",
+              "Aperitivo an beiden Tagen",
+              "Routenplanung und Logistik",
+              "Technische Unterstützung während der Fahrt"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab CHF 540 / Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -579,7 +1714,118 @@
     "en_slug": "sanlucio-alpine",
     "experience": "local",
     "duration": "1",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professioneller lokaler Führer",
+              "E-Bike/MTB Vollgefederter Verleih",
+              "Helm & Wasserflaschen",
+              "Transport von Lugano zum Startpunkt",
+              "Technische Unterstützung während der Fahrt",
+              "Mittagessen in einer lokalen Grotte (ohne Getränke)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab 150 CHF pro Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "sizilien-bikepacking",
@@ -668,6 +1914,129 @@
           "Nach der Fahrt Transfer zurück nach Catania, Wir geben die Fahrräder zurück und genießen einen entspannten letzten gemeinsamen Nachmittag, bevor wir nach Hause fahren."
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professionelle(r) Fahrradführer",
+              "E-Bike und Helm",
+              "Tägliche mechanische Kontrolle und Unterstützung",
+              "Begleitfahrzeug",
+              "Gepäcktransport",
+              "Flughafentransfers Lugano-Mailand-Lugano",
+              "3 Hotelübernachtungen (im Doppelzimmer) + 1 Hüttenübernachtung"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Tägliches Frühstück",
+              "5 Radfahrer-Mittagessen",
+              "1 Grillabend mit lokalen Getränken",
+              "Wasser während der Reitetappen",
+              "Technische und logistische Koordination",
+              "Übernachtungsausrüstung für die Hütte"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preis",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ab CHF 1370 / Person"
+          },
+          {
+            "t": "p",
+            "html": "Der Preis variiert je nach Gruppengröße, Logistik und Unterkunftsmöglichkeiten."
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -754,6 +2123,126 @@
         "body": [
           "Ca. 60 km | 950 m Höhenunterschied",
           "Die letzte Etappe in Richtung der Ufer von Bolsena. Eine kürzere und größtenteils sanfte Fahrt, die die Vorfreude steigert und mit der Ankunft am größten Vulkansee Europas ihren Höhepunkt findet – ein friedlicher und unvergesslicher Abschluss einer legendären Reise."
+        ]
+      }
+    ],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professionelle(r) Fahrradführer",
+              "Tägliche mechanische Kontrolle und Unterstützung",
+              "Begleitfahrzeug",
+              "Personen-, Fahrrad- und Gepäcktransfer",
+              "Abholung und Rückgabe des Fahrrads zu Hause",
+              "5 Hotelübernachtungen (im Doppelzimmer oder Privatzimmer)"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Tägliches Frühstück",
+              "2 italienische Abendessen",
+              "Wasser während der Reitetappen",
+              "Technische und logistische Koordination",
+              "Foto-Paket"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Termine",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "bis 30. September",
+              "Oktober – 4. November"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
         ]
       }
     ]
@@ -880,6 +2369,138 @@
         "body": [
           "Rücktransfer | Abreise",
           "Nach einer unvergesslichen Reise durch Uganda ist es Zeit, nach Entebbe zurückzukehren, um Ihren internationalen Flug anzutreten. Nehmen Sie unvergessliche Erinnerungen an Begegnungen mit Wildtieren, Mountainbike-Abenteuer, spektakuläre Landschaften und die Menschen mit nach Hause, die dieses Erlebnis so einzigartig gemacht haben."
+        ]
+      }
+    ],
+    "practical": [
+      {
+        "title": "Was ist inbegriffen?",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Leistungsumfang – Dienstleistungen"
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Privater Land Cruiser mit Allradantrieb und Aufstelldach für Wildbeobachtungen und Pirschfahrten.",
+              "Professioneller englischsprachiger Fahrer und Safari-Führer.",
+              "Erfahrene Radtourenführer für alle Etappen der Radtour.",
+              "Eigenes Begleitfahrzeug während der Radetappen, einschließlich Gepäcktransport.",
+              "Unterbringung in ausgewählten Lodges oder gleichwertigen Unterkünften, je nach Verfügbarkeit.",
+              "Bootssafari auf dem Victoria-Nil bei den Murchison-Wasserfällen.",
+              "Bootssafari auf dem Kazinga-Kanal im Queen-Elizabeth-Nationalpark."
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Bootsausflug auf dem Mburo-See.",
+              "Safari-Touren in den Nationalparks Murchison Falls, Queen Elizabeth und Lake Mburo.",
+              "Mahlzeiten gemäß Reiseplan.",
+              "Wasser trinken während der Fahrten."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Was ist im Preis inbegriffen – Genehmigungen und Parkgebühren"
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Genehmigung für Gorilla-Trekking im Bwindi Impenetrable Forest (800 US-Dollar pro Person).",
+              "Geführte Nashorn-Wanderung im Ziwa Rhino Sanctuary (50 US-Dollar pro Person)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Termine",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "2027: 26. Juni – 7. Juli Preis: 6’900 Franken"
+          },
+          {
+            "t": "h",
+            "text": "Haben Sie Fragen?"
+          },
+          {
+            "t": "cta",
+            "text": "lassen Sie uns reden",
+            "href": "/de/kontakt/"
+          }
+        ]
+      },
+      {
+        "title": "Bedingungen",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Ausführliche Informationen zu unseren Buchungsbedingungen, Zahlungsbedingungen, Stornierungen und Rückerstattungen finden Sie in unseren Richtlinien <strong><a href=\"/de/zahlung-stornierung-erstattung-politik/\">hier</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Was sollte ich für die Tour anziehen?",
+                "a": "Wir empfehlen bequeme, dem Wetter und dem Radfahren angepasste Kleidung. Geschlossene Schuhe sind erforderlich. In den kühleren Monaten sollten Sie eine leichte Jacke oder eine winddichte Schicht mitbringen."
+              },
+              {
+                "q": "Brauche ich Erfahrung im Radfahren?",
+                "a": "Die meisten unserer Touren sind für Radfahrer mit Grunderfahrung geeignet. Spezifische Schwierigkeitsgrade sind in jeder Tourbeschreibung angegeben."
+              },
+              {
+                "q": "Was sollte ich mitbringen?",
+                "a": "Bringen Sie Wasser, Sonnenschutzmittel, eine Sonnenbrille und dem Wetter entsprechende Kleidung mit. Wir empfehlen, einen kleinen Rucksack für persönliche Dinge mitzunehmen."
+              },
+              {
+                "q": "Sind Helme inbegriffen?",
+                "a": "Ja, Helme werden zur Verfügung gestellt und sind für alle Teilnehmer obligatorisch."
+              },
+              {
+                "q": "Was geschieht im Falle von schlechtem Wetter?",
+                "a": "Die Touren finden normalerweise bei leichtem Regen statt. Bei schweren Wetterbedingungen können wir die Tour aus Sicherheitsgründen verschieben oder absagen."
+              },
+              {
+                "q": "Stellen Sie Fahrräder und Ausrüstung zur Verfügung?",
+                "a": "Ja, die Tour beinhaltet das Fahrrad oder E-Bike und die notwendige Ausrüstung, sofern in den Tourdetails nicht anders angegeben."
+              },
+              {
+                "q": "Brauche ich eine Versicherung?",
+                "a": "Die Teilnehmer sind für den Abschluss einer persönlichen Unfall- und Haftpflichtversicherung selbst verantwortlich."
+              },
+              {
+                "q": "Können auch Anfänger an E-Bike-Touren teilnehmen?",
+                "a": "Ja. E-Bikes machen die Touren für eine Vielzahl von Fitnessniveaus zugänglich. Unsere Guides helfen Ihnen, sich mit dem Fahrrad vertraut zu machen, bevor Sie losfahren."
+              },
+              {
+                "q": "Können Teenager teilnehmen?",
+                "a": "Einige Touren sind je nach Alter und Fahrkönnen auch für Minderjährige geeignet. Bitte kontaktieren Sie uns im Voraus, wenn Sie für Teenager buchen möchten."
+              },
+              {
+                "q": "Sind Speisen und Getränke inbegriffen?",
+                "a": "Einige Touren beinhalten Stopps in lokalen Grotten oder Cafés. Bitte überprüfen Sie die Tourbeschreibung für Details."
+              },
+              {
+                "q": "Können Sie auf diätetische Einschränkungen eingehen?",
+                "a": "Ja. Wenn Ihre Tour Essen beinhaltet, informieren Sie uns bitte im Voraus über eventuelle Diätvorschriften oder Allergien, damit wir entsprechend planen können."
+              },
+              {
+                "q": "Wo beginnt die Tour?",
+                "a": "Der Treffpunkt und die Startzeit sind auf der Seite der Tour und in Ihrer Buchungsbestätigung per E-Mail angegeben."
+              },
+              {
+                "q": "Was passiert, wenn ich zu spät komme?",
+                "a": "Bitte erscheinen Sie pünktlich. Die Führungen beginnen zur geplanten Zeit und eine verspätete Ankunft kann zu logistischen Problemen führen."
+              }
+            ]
+          }
         ]
       }
     ]

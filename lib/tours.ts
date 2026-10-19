@@ -3,6 +3,14 @@ import it from "./tours.it.json";
 import de from "./tours.de.json";
 import type { Locale } from "./i18n";
 
+export type PracticalBlock =
+  | { t: "ul"; items: string[] }
+  | { t: "p"; html: string }
+  | { t: "h"; text: string }
+  | { t: "cta"; text: string; href: string }
+  | { t: "faq"; items: { q: string; a: string }[] };
+export type PracticalTab = { title: string; blocks: PracticalBlock[] };
+
 export type Tour = {
   slug: string;
   title: string;
@@ -16,6 +24,7 @@ export type Tour = {
   experience?: string; // custom | local | trips
   duration?: string; // 0.5 | 1 | 2 | 3 | 5 | 12
   itinerary?: { day: string; body: string[] }[];
+  practical?: PracticalTab[]; // tabs "Practical Info" (scripts/parse_practical.py)
   en_slug?: string;
   slug_it?: string;
   slug_de?: string;

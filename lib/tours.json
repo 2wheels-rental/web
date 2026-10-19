@@ -43,7 +43,117 @@
     "slug_de": "alpe-vicania",
     "experience": "local",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Certified Enduro MTB Guide and Instructor",
+              "E-Bike rental",
+              "Helmet",
+              "Water bottle",
+              "Technical assistance during the ride"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 110 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Need help?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "asiago-bike-adventure",
@@ -118,6 +228,130 @@
           "At the end of the ride, an organised transfer will take the group back home."
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional cycling guide(s)",
+              "Daily mechanical check & assistance",
+              "Support vehicle",
+              "People, Bike and Luggage transfer",
+              "Bike pickup and drop off at home"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Daily breakfasts",
+              "3 hotel nights (in a double room)",
+              "Water during riding stages",
+              "Technical & logistical coordination",
+              "Photo package"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Dates",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Septembre 17-20th"
+          },
+          {
+            "t": "p",
+            "html": "October 8-11th"
+          },
+          {
+            "t": "p",
+            "html": "October 15-18th"
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -158,7 +392,119 @@
     "slug_de": "fahrrad-shuttle",
     "experience": "custom",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Pick up – Drop off"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Bike Shuttle Service"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Contact us to get a personalised quote for you and your group."
+          },
+          {
+            "t": "p",
+            "html": "<em>Price varies depending on group size, logistics and locations options.</em>"
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "bre-bolla",
@@ -206,7 +552,118 @@
     "slug_de": "bre-bolla",
     "experience": "local",
     "duration": "1",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional local guide",
+              "E-Bike rental",
+              "Helmet",
+              "Water bottles",
+              "Technical assistance during the ride",
+              "Lunch stop at local Grotto (without drinks)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 150 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "bre-panorama",
@@ -252,7 +709,118 @@
     "slug_de": "bre-panorama",
     "experience": "local",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional local guide",
+              "E-Bike rental",
+              "Helmet",
+              "Water bottles",
+              "Technical assistance during the ride",
+              "Lunch stop at local Grotto (without drinks)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 110 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "ceresio-bike-ride",
@@ -298,7 +866,123 @@
     "slug_de": "ceresio-radfahren",
     "experience": "local",
     "duration": "0.5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional local guide",
+              "E-Bike or Road bike rental",
+              "Helmet"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Water bottles",
+              "Technical assistance during the ride",
+              "Coffee stop in Porto Ceresio"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 110 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "dolomites-camper-experience",
@@ -344,7 +1028,122 @@
     "slug_de": "dolomiten-camper-erfahrung",
     "experience": "trips",
     "duration": "5",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Fully equipped campervan for the entire journey, providing comfort and flexibility to explore the Dolomites between rides. More details about the vehicle and equipment here.",
+              "Bicycle rental (road, gravel or e-bike)"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Bike setup and preparation",
+              "Helmet and basic repair kit",
+              "GPX routes and ride recommendations"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 420 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "enduro-alps",
@@ -407,6 +1206,116 @@
         "day": "Day 3 — Nara Bike Area",
         "body": [
           "A final day of long, continuous descents in spectacular alpine scenery. Technical variety, speed and natural flow combine for a powerful conclusion to the experience."
+        ]
+      }
+    ],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Certified Enduro MTB Guide and Instructor",
+              "Full 3-day guiding & logistics coordination",
+              "Shuttle support (where required)",
+              "Route planning & safety management",
+              "Accommodation & dinners for 2 nights"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 650 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
         ]
       }
     ]
@@ -475,6 +1384,127 @@
           "Included: Breakfast, lunch, aperitivo (no alcoholic drinks)"
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional road cycling guide",
+              "1 night hotel accommodation (twin sharing)",
+              "1 breakfast",
+              "2 cycling lunches",
+              "1 dinner",
+              "2 aperitivi"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Water during rides",
+              "Support vehicle (if required)",
+              "Luggage handling",
+              "Technical and logistical assistance",
+              "Basic insurance coverage"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 540 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -541,6 +1571,115 @@
           "Included: Breakfast, packed lunch and aperitivo."
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "1 Dinner",
+              "Aperitivo on both days",
+              "Route planning & logistics",
+              "Technical assistance during the ride"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 540 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -590,7 +1729,118 @@
     "slug_de": "sanlucio-alpin",
     "experience": "local",
     "duration": "1",
-    "itinerary": []
+    "itinerary": [],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional local guide",
+              "E-Bike/MTB Full suspension rental",
+              "Helmet & Water Bottles",
+              "Transport from Lugano to the starting point",
+              "Technical assistance during the ride",
+              "Lunch stop at local Grotto (without drinks)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 150 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "slug": "sicily-bikepacking",
@@ -680,6 +1930,129 @@
           "After the ride, transfer back to Catania, return the bikes, and enjoy a relaxed final afternoon together before heading home."
         ]
       }
+    ],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional cycling guide(s)",
+              "E-bike and helmet",
+              "Daily mechanical check & assistance",
+              "Support vehicle",
+              "Luggage transfer",
+              "Airport transfers Lugano-Milan-Lugano",
+              "3 hotel nights (in a double room) + 1 mountain hut night"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Daily breakfasts",
+              "5 cycling lunches",
+              "1 barbecue grill dinner with local drinks",
+              "Water during riding stages",
+              "Technical & logistical coordination",
+              "Overnight gear for mountain hut"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Price",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "From CHF 1370 / person"
+          },
+          {
+            "t": "p",
+            "html": "Price varies depending on group size, logistics and accommodation options."
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -767,6 +2140,127 @@
         "body": [
           "Approx. 60 km | 950 m elevation gain",
           "The final stage toward the shores of Bolsena. A shorter and mostly gentle ride that builds anticipation, culminating with the arrival at Europe’s largest volcanic lake — a peaceful and memorable end to an iconic journey."
+        ]
+      }
+    ],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "ul",
+            "items": [
+              "Professional cycling guide(s)",
+              "Daily mechanical check & assistance",
+              "Support vehicle",
+              "People, Bike and Luggage transfer",
+              "Bike pickup and drop off at home",
+              "5 hotel nights (in a double room or private room)"
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Daily breakfasts",
+              "2 Italian dinners",
+              "Water during riding stages",
+              "Technical & logistical coordination",
+              "Photo package"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Dates",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "Septembre 25-30th"
+          },
+          {
+            "t": "p",
+            "html": "October 30th &#8211; November 4th"
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
         ]
       }
     ]
@@ -896,6 +2390,138 @@
         "body": [
           "Return transfer | Departure",
           "After an unforgettable journey across Uganda, it’s time to return to Entebbe for your international flight. Take home incredible memories of wildlife encounters, mountain biking adventures, spectacular landscapes and the people who made this experience unique."
+        ]
+      }
+    ],
+    "practical": [
+      {
+        "title": "What's Included",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "What’s Included – Services"
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Private 4×4 Land Cruiser with pop-up roof for wildlife viewing and game drives.",
+              "Professional English-speaking driver and safari guide.",
+              "Experienced cycling guides throughout all biking stages.",
+              "Dedicated support vehicle during cycling stages, including luggage transportation.",
+              "Accommodation in selected lodges or equivalent alternatives, subject to availability.",
+              "Boat safari on the Victoria Nile at Murchison Falls.",
+              "Boat safari on the Kazinga Channel in Queen Elizabeth National Park."
+            ]
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Boat excursion on Lake Mburo.",
+              "Wildlife game drives in Murchison Falls, Queen Elizabeth and Lake Mburo National Parks.",
+              "Meals as specified in the itinerary.",
+              "Drinking water during vehicle transfers."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "What’s Included – Permits & Park Fees"
+          },
+          {
+            "t": "ul",
+            "items": [
+              "Gorilla trekking permit in Bwindi Impenetrable Forest (USD 800 per person).",
+              "Guided rhino trekking at Ziwa Rhino Sanctuary (USD 50 per person)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Dates",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "2027: June 26th &#8211; July 7th Price: Fr. 6&#8217;900.-"
+          },
+          {
+            "t": "h",
+            "text": "Any questions?"
+          },
+          {
+            "t": "cta",
+            "text": "let's talk",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "blocks": [
+          {
+            "t": "p",
+            "html": "For full details regarding our booking conditions, payment terms, cancellations, and refunds, please refer to our policy <strong><a href=\"/payment-cancellation-refund-policy/\">here</a></strong>"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "blocks": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What should I wear for the tour?",
+                "a": "We recommend comfortable outdoor clothing suitable for cycling and the weather. Closed shoes are required. In cooler months, bring a light jacket or windproof layer."
+              },
+              {
+                "q": "Do I need previous biking experience?",
+                "a": "Most of our tours are suitable for riders with basic cycling experience. Specific difficulty levels are indicated in each tour description."
+              },
+              {
+                "q": "What should I bring with me?",
+                "a": "Bring water, sunscreen, sunglasses, and appropriate clothing for the weather. We recommend bringing a small backpack for personal items."
+              },
+              {
+                "q": "Are helmets included?",
+                "a": "Yes. Helmets are provided and are mandatory for all participants."
+              },
+              {
+                "q": "What happens in case of bad weather?",
+                "a": "Tours normally run in light rain. In case of severe weather conditions, we may reschedule or cancel the tour for safety reasons."
+              },
+              {
+                "q": "Do you provide bikes and equipment?",
+                "a": "Yes. The tour includes the bicycle or e-bike and the necessary equipment unless otherwise specified in the tour details."
+              },
+              {
+                "q": "Do I need insurance?",
+                "a": "Participants are responsible for having their own personal accident and liability insurance."
+              },
+              {
+                "q": "Can beginners join e-bike tours?",
+                "a": "Yes. E-bikes make the tours accessible to a wide range of fitness levels. Our guides will help you get familiar with the bike before starting."
+              },
+              {
+                "q": "Can teenagers participate?",
+                "a": "Some tours are suitable for minors depending on age and riding ability. Please contact us in advance if you are booking for teenagers."
+              },
+              {
+                "q": "Are food or drinks included?",
+                "a": "Some tours include stops at local grottos or cafés. Please check the tour description for details."
+              },
+              {
+                "q": "Can you accommodate dietary restrictions?",
+                "a": "Yes. If your tour includes food, please inform us in advance of any dietary restrictions or allergies so we can plan accordingly."
+              },
+              {
+                "q": "Where does the tour start?",
+                "a": "The meeting point and starting time are indicated on the tour page and in your booking confirmation email."
+              },
+              {
+                "q": "What happens if I arrive late?",
+                "a": "Please arrive on time. Tours start at the scheduled time and late arrivals may result in logistic problems."
+              }
+            ]
+          }
         ]
       }
     ]
