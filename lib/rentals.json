@@ -1,0 +1,828 @@
+{
+  "bikes-e-bikes": {
+    "en": {
+      "hero": {
+        "image": "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-1-e1779714423716.webp",
+        "eyebrow": "BIKES & E-BIKES RENTAL IN TICINO",
+        "title": "Premium bikes, ready for your next adventure.",
+        "keepCase": true,
+        "body": [
+          "Discover Lugano, the lakes, mountains and hidden roads of Ticino with our premium bikes and e-bikes.",
+          "Whether you want a relaxed lakeside ride, a scenic e-bike tour or a full-day cycling adventure, 2wheels Rental gives you the freedom to explore at your own rhythm."
+        ],
+        "cta": {
+          "label": "Book your bike",
+          "href": "https://2wheels-rental.booqableshop.com/",
+          "external": true
+        }
+      },
+      "split": {
+        "title": "Choose Your Ride",
+        "paras": [],
+        "groups": [
+          {
+            "title": "City & Leisure Bikes",
+            "items": [
+              "Comfortable riding position",
+              "Ideal for city, lake and short-distance rides",
+              "Great for couples, families and casual riders",
+              "Easy and flexible rental experience"
+            ],
+            "intro": "Perfect for easy rides around Lugano, lakefront routes and relaxed exploration."
+          },
+          {
+            "title": "Premium E-Bikes",
+            "items": [
+              "Electric assistance for climbs and longer rides",
+              "Perfect for discovering Ticino without stress",
+              "Suitable for beginners and experienced riders",
+              "Great for scenic routes, hotels and outdoor plans"
+            ],
+            "intro": "Explore more with less effort. Ideal for hills, panoramic routes and full-day adventures across Ticino."
+          },
+          {
+            "title": "Road & Gravel Bikes",
+            "items": [
+              "Lightweight and efficient bikes",
+              "Ideal for road cycling and longer routes",
+              "Great for training days or cycling holidays",
+              "Route recommendations available on request"
+            ],
+            "intro": "For riders looking for performance, distance and beautiful cycling routes around Ticino and Northern Italy."
+          }
+        ],
+        "note": {
+          "title": "Important",
+          "text": "Availability depends on model, size and rental dates. Early booking is recommended during high season."
+        },
+        "image": "/wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-2.webp"
+      },
+      "gallery": [
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-10-scaled.jpeg",
+        "/wp-content/uploads/2026/02/portada-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom.webp",
+        "/wp-content/uploads/2026/03/portada-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp",
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-6.webp",
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-5.webp",
+        "/wp-content/uploads/2026/03/highligths-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp",
+        "/wp-content/uploads/2026/02/galeria-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom-4.webp"
+      ],
+      "checks": {
+        "image": "/wp-content/uploads/2026/03/service-2wheels-rental-hotel-bike-program-lugano-ticino-offer-2.webp",
+        "title": "Everything You Need to Ride",
+        "items": [
+          "Helmet",
+          "Basics: lock, lights, repair kit",
+          "Safety check before delivery",
+          "Route recommendations",
+          "Local support from the 2wheels Rental team",
+          "Flexible rental options: half-day, full-day or multi-day"
+        ],
+        "optionalTitle": "Optional on Request",
+        "optional": [
+          "Guided bike & e-bike tours",
+          "Bike delivery to hotels or selected locations",
+          "Bike shuttle service",
+          "MTB experiences, Family-friendly routes",
+          "Corporate and group rides",
+          "Photo & video package on request"
+        ]
+      },
+      "card": {
+        "bg": "/wp-content/uploads/2026/03/highlights-2wheels-rental-alpe-vicania-lugano.webp",
+        "title": "Why Rent With 2wheels Rental",
+        "groups": [
+          {
+            "title": "A Premium Bike Rental Experience in Lugano",
+            "items": [],
+            "paras": [
+              "2wheels Rental is based in Lugano and specializes in premium bike and e-bike rentals, guided tours and outdoor experiences across Ticino. Our goal is simple: make it easy for visitors, locals, hotels and groups to enjoy the region through active, flexible and memorable experiences.",
+              "You don’t need to know the area, plan every detail or worry about the equipment. We help you choose the right bike, recommend the best routes and support you before and during your ride.",
+              "From relaxed lake routes to mountain roads and hidden scenic trails, Ticino is one of the best places in Switzerland to explore on two wheels."
+            ]
+          },
+          {
+            "title": "Route Examples",
+            "items": [
+              "Half-day ride around Lugano",
+              "Full-day e-bike adventure in Ticino",
+              "Bike rental for hotel guests",
+              "Weekend cycling escape",
+              "Guided group ride",
+              "Corporate outdoor experience",
+              "Scenic ride with local recommendations"
+            ]
+          }
+        ],
+        "button": {
+          "label": "Ask for route ideas",
+          "href": "/contact/"
+        }
+      },
+      "cta": {
+        "title": "Ready to ride in Ticino?",
+        "paras": [
+          "Book your bike or e-bike and discover Lugano, the lakes and the mountains with total freedom."
+        ],
+        "button": {
+          "label": "Rent your bike",
+          "href": "https://2wheels-rental.booqableshop.com/",
+          "external": true
+        }
+      },
+      "order": [
+        "split",
+        "gallery",
+        "checks",
+        "card"
+      ]
+    },
+    "it": {
+      "hero": {
+        "image": "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-1-e1779714423716.webp",
+        "eyebrow": "NOLEGGIO DI BICICLETTE ED E-BIKE IN TICINO",
+        "title": "Bici premium, pronte per la vostra prossima avventura.",
+        "keepCase": true,
+        "body": [
+          "Scoprite Lugano, i laghi, le montagne e le strade nascoste del Ticino con le nostre biciclette ed e-bike di qualità.",
+          "Sia che vogliate un giro rilassato in riva al lago, un tour panoramico in e-bike o un'avventura ciclistica di un'intera giornata, 2wheels Rental vi offre la libertà di esplorare al vostro ritmo."
+        ],
+        "cta": {
+          "label": "Prenota la tua bici",
+          "href": "https://2wheels-rental.booqableshop.com/",
+          "external": true
+        }
+      },
+      "split": {
+        "title": "Scegliete il vostro mezzo",
+        "paras": [],
+        "groups": [
+          {
+            "title": "Biciclette da città e da tempo libero",
+            "items": [
+              "Posizione di guida confortevole",
+              "Ideale per la città, il lago e le brevi distanze",
+              "Ideale per coppie, famiglie e ciclisti occasionali",
+              "Un'esperienza di noleggio facile e flessibile"
+            ],
+            "intro": "Perfetta per le gite facili nei dintorni di Lugano, per i percorsi sul lago e per le esplorazioni rilassate."
+          },
+          {
+            "title": "Biciclette elettriche premium",
+            "items": [
+              "Assistenza elettrica per le salite e le corse più lunghe",
+              "Perfetto per scoprire il Ticino senza stress",
+              "Adatto a principianti e ciclisti esperti",
+              "Ottimo per itinerari panoramici, hotel e progetti all'aperto"
+            ],
+            "intro": "Esplorate di più con meno fatica. Ideale per colline, percorsi panoramici e avventure di una giornata intera in Ticino."
+          },
+          {
+            "title": "Biciclette da strada e da sterrato",
+            "items": [
+              "Biciclette leggere ed efficienti",
+              "Ideale per il ciclismo su strada e per i percorsi più lunghi",
+              "Ideale per le giornate di allenamento o le vacanze in bicicletta",
+              "Raccomandazioni sull'itinerario disponibili su richiesta"
+            ],
+            "intro": "Per i ciclisti in cerca di prestazioni, distanze e splendidi percorsi ciclistici in Ticino e nel Nord Italia."
+          }
+        ],
+        "note": {
+          "title": "Importante",
+          "text": "La disponibilità dipende dal modello, dalle dimensioni e dalle date di noleggio. Si consiglia di prenotare in anticipo durante l'alta stagione."
+        },
+        "image": "/wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-2.webp"
+      },
+      "gallery": [
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-10-scaled.jpeg",
+        "/wp-content/uploads/2026/02/portada-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom.webp",
+        "/wp-content/uploads/2026/03/portada-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp",
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-6.webp",
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-5.webp",
+        "/wp-content/uploads/2026/03/highligths-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp",
+        "/wp-content/uploads/2026/02/galeria-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom-4.webp"
+      ],
+      "checks": {
+        "image": "/wp-content/uploads/2026/03/service-2wheels-rental-hotel-bike-program-lugano-ticino-offer-2.webp",
+        "title": "Tutto ciò che serve per pedalare",
+        "items": [
+          "Casco",
+          "Nozioni di base: serratura, luci, kit di riparazione",
+          "Controllo di sicurezza prima della consegna",
+          "Raccomandazioni di percorso",
+          "Supporto locale da parte del team 2wheels Rental",
+          "Opzioni di noleggio flessibili: mezza giornata, giornata intera o più giorni"
+        ],
+        "optionalTitle": "Opzionale su richiesta",
+        "optional": [
+          "Tour guidati in bicicletta e in e-bike",
+          "Consegna delle biciclette in hotel o in località selezionate",
+          "Servizio navetta per biciclette",
+          "Esperienze in MTB, Percorsi per famiglie",
+          "Corse aziendali e di gruppo",
+          "Pacchetto foto e video su richiesta"
+        ]
+      },
+      "card": {
+        "bg": "/wp-content/uploads/2026/03/highlights-2wheels-rental-alpe-vicania-lugano.webp",
+        "title": "Perché noleggiare con 2wheels Rental",
+        "groups": [
+          {
+            "title": "Un'esperienza di noleggio bici premium a Lugano",
+            "items": [],
+            "paras": [
+              "2wheels Rental ha sede a Lugano ed è specializzata nel noleggio di biciclette ed e-bike di alta qualità, in tour guidati ed esperienze outdoor in tutto il Ticino. Il nostro obiettivo è semplice: rendere più facile per i visitatori, gli abitanti del luogo, gli hotel e i gruppi godere della regione attraverso esperienze attive, flessibili e memorabili.",
+              "Non è necessario conoscere la zona, pianificare ogni dettaglio o preoccuparsi dell'attrezzatura. Vi aiutiamo a scegliere la bicicletta giusta, vi consigliamo i percorsi migliori e vi supportiamo prima e durante la pedalata.",
+              "Dai rilassanti percorsi lacustri alle strade di montagna e ai sentieri panoramici nascosti, il Ticino è uno dei luoghi migliori della Svizzera da esplorare su due ruote."
+            ]
+          },
+          {
+            "title": "Esempi di percorso",
+            "items": [
+              "Giro di mezza giornata intorno a Lugano",
+              "Avventura in e-bike di un giorno in Ticino",
+              "Noleggio biciclette per gli ospiti dell'hotel",
+              "Weekend in bicicletta",
+              "Giro di gruppo guidato",
+              "Esperienza aziendale all'aperto",
+              "Giro panoramico con raccomandazioni locali"
+            ]
+          }
+        ],
+        "button": {
+          "label": "Chiedi idee per i percorsi",
+          "href": "/it/contatti/"
+        }
+      },
+      "cta": {
+        "title": "Pronti a pedalare in Ticino?",
+        "paras": [
+          "Prenotate la vostra bicicletta o e-bike e scoprite Lugano, i laghi e le montagne in totale libertà."
+        ],
+        "button": {
+          "label": "Noleggia la tua bici",
+          "href": "https://2wheels-rental.booqableshop.com/",
+          "external": true
+        }
+      },
+      "order": [
+        "split",
+        "gallery",
+        "checks",
+        "card"
+      ]
+    },
+    "de": {
+      "hero": {
+        "image": "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-1-e1779714423716.webp",
+        "eyebrow": "VERMIETUNG VON FAHRRÄDERN & E-BIKES IM TESSIN",
+        "title": "Hochwertige Fahrräder, bereit für Ihr nächstes Abenteuer.",
+        "keepCase": true,
+        "body": [
+          "Entdecken Sie Lugano, die Seen, die Berge und die versteckten Strassen des Tessins mit unseren Premium-Bikes und E-Bikes.",
+          "Egal, ob Sie eine entspannte Fahrt am See, eine landschaftlich reizvolle E-Bike-Tour oder ein ganztägiges Fahrradabenteuer unternehmen möchten, 2wheels Rental gibt Ihnen die Freiheit, in Ihrem eigenen Rhythmus zu fahren."
+        ],
+        "cta": {
+          "label": "Bike buchen",
+          "href": "https://2wheels-rental.booqableshop.com/",
+          "external": true
+        }
+      },
+      "split": {
+        "title": "Wählen Sie Ihre Fahrt",
+        "paras": [],
+        "groups": [
+          {
+            "title": "Stadt- und Freizeitfahrräder",
+            "items": [
+              "Bequeme Sitzposition",
+              "Ideal für Fahrten in der Stadt, am See und auf kurzen Strecken",
+              "Ideal für Paare, Familien und Gelegenheitsfahrer",
+              "Einfaches und flexibles Vermietungserlebnis"
+            ],
+            "intro": "Perfekt für leichte Fahrten rund um Lugano, Routen am Seeufer und entspannte Erkundungen."
+          },
+          {
+            "title": "Premium-E-Bikes",
+            "items": [
+              "Elektrische Unterstützung bei Steigungen und längeren Fahrten",
+              "Perfekt, um das Tessin ohne Stress zu entdecken",
+              "Geeignet für Anfänger und erfahrene Fahrer",
+              "Ideal für landschaftlich reizvolle Routen, Hotels und Outdoor-Pläne"
+            ],
+            "intro": "Mit weniger Aufwand mehr entdecken. Ideal für Hügel, Panoramastrecken und Ganztagesausflüge im Tessin."
+          },
+          {
+            "title": "Rennräder & Gravelbikes",
+            "items": [
+              "Leichte und effiziente Fahrräder",
+              "Ideal für Rennradfahren und längere Strecken",
+              "Ideal für Trainingstage oder Radurlaube",
+              "Routenempfehlungen auf Anfrage erhältlich"
+            ],
+            "intro": "Für Fahrer, die auf der Suche nach Leistung, Distanz und schönen Radstrecken rund um das Tessin und Norditalien sind."
+          }
+        ],
+        "note": {
+          "title": "Wichtig",
+          "text": "Die Verfügbarkeit hängt von Modell, Größe und Mietterminen ab. In der Hochsaison wird eine frühzeitige Buchung empfohlen."
+        },
+        "image": "/wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-2.webp"
+      },
+      "gallery": [
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-10-scaled.jpeg",
+        "/wp-content/uploads/2026/02/portada-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom.webp",
+        "/wp-content/uploads/2026/03/portada-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp",
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-6.webp",
+        "/wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-5.webp",
+        "/wp-content/uploads/2026/03/highligths-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp",
+        "/wp-content/uploads/2026/02/galeria-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom-4.webp"
+      ],
+      "checks": {
+        "image": "/wp-content/uploads/2026/03/service-2wheels-rental-hotel-bike-program-lugano-ticino-offer-2.webp",
+        "title": "Alles, was Sie zum Fahren brauchen",
+        "items": [
+          "Helm",
+          "Grundausstattung: Schloss, Beleuchtung, Reparatursatz",
+          "Sicherheitsprüfung vor der Auslieferung",
+          "Empfehlungen zur Route",
+          "Lokale Unterstützung durch das 2wheels Rental-Team",
+          "Flexible Mietoptionen: halbtags, ganztags oder mehrtägig"
+        ],
+        "optionalTitle": "Optional auf Anfrage",
+        "optional": [
+          "Geführte Fahrrad- und E-Bike-Touren",
+          "Fahrradlieferung an Hotels oder ausgewählte Orte",
+          "Fahrrad-Shuttle-Service",
+          "MTB-Erlebnisse, Familienfreundliche Routen",
+          "Fahrten für Unternehmen und Gruppen",
+          "Foto- und Videopaket auf Anfrage"
+        ]
+      },
+      "card": {
+        "bg": "/wp-content/uploads/2026/03/highlights-2wheels-rental-alpe-vicania-lugano.webp",
+        "title": "Warum mit 2wheels Rental mieten",
+        "groups": [
+          {
+            "title": "Ein erstklassiges Fahrradverleih-Erlebnis in Lugano",
+            "items": [],
+            "paras": [
+              "2wheels Rental hat seinen Sitz in Lugano und ist auf den Verleih von hochwertigen Fahrrädern und E-Bikes, geführte Touren und Outdoor-Erlebnisse im Tessin spezialisiert. Unser Ziel ist einfach: Besuchern, Einheimischen, Hotels und Gruppen die Region durch aktive, flexible und unvergessliche Erlebnisse zu erleichtern.",
+              "Sie müssen die Gegend nicht kennen, nicht jedes Detail planen und sich keine Gedanken über die Ausrüstung machen. Wir helfen Ihnen bei der Auswahl des richtigen Fahrrads, empfehlen Ihnen die besten Routen und unterstützen Sie vor und während Ihrer Fahrt.",
+              "Von entspannten Seerouten bis hin zu Bergstraßen und versteckten Panoramastraßen - das Tessin ist eine der besten Gegenden der Schweiz, die man auf zwei Rädern erkunden kann."
+            ]
+          },
+          {
+            "title": "Beispiele für Routen",
+            "items": [
+              "Halbtagesausflug rund um Lugano",
+              "Ganztägiges E-Bike-Abenteuer im Tessin",
+              "Fahrradverleih für Hotelgäste",
+              "Wochenendausflug mit dem Fahrrad",
+              "Geführte Gruppenfahrt",
+              "Unternehmenserlebnis im Freien",
+              "Landschaftliche Fahrt mit lokalen Empfehlungen"
+            ]
+          }
+        ],
+        "button": {
+          "label": "Nach Routenideen fragen",
+          "href": "/de/kontakt/"
+        }
+      },
+      "cta": {
+        "title": "Bereit zum Radfahren im Tessin?",
+        "paras": [
+          "Buchen Sie Ihr Fahrrad oder E-Bike und entdecken Sie Lugano, die Seen und die Berge in völliger Freiheit."
+        ],
+        "button": {
+          "label": "Bike mieten",
+          "href": "https://2wheels-rental.booqableshop.com/",
+          "external": true
+        }
+      },
+      "order": [
+        "split",
+        "gallery",
+        "checks",
+        "card"
+      ]
+    }
+  },
+  "motorbikes-scooters": {
+    "en": {
+      "hero": {
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-6.webp",
+        "eyebrow": "MOTORBIKES & SCOOTERS RENTAL IN LUGANO",
+        "title": "Move freely through Ticino.",
+        "keepCase": true,
+        "body": [
+          "Discover Lugano, Lake Como, Lake Maggiore, Ticino and Northern Italy with the freedom of a scooter or motorbike.",
+          "Perfect for scenic roads, quick city movement, weekend escapes or flexible travel around the lake, our motorbike and scooter rentals give you an easy way to explore more, without depending on schedules or public transport."
+        ],
+        "cta": {
+          "label": "Book your ride",
+          "href": "https://2wheels-rental.booqableshop.com/collections/motorcycles",
+          "external": true
+        }
+      },
+      "split": {
+        "title": "Choose Your Ride",
+        "paras": [],
+        "groups": [
+          {
+            "title": "Scooters",
+            "items": [
+              "Easy to ride and park",
+              "Perfect for city and lakefront mobility",
+              "Great for couples, visitors and short stays",
+              "Ideal for exploring Lugano, Morcote, Gandria and nearby areas"
+            ],
+            "intro": "Ideal for easy movement around Lugano, lake towns and short-distance trips."
+          },
+          {
+            "title": "Motorcycles",
+            "items": [
+              "Great for longer routes and mountain roads",
+              "Ideal for day trips around Ticino and Northern Italy",
+              "Perfect for riders with experience",
+              "Recommended for panoramic routes, passes and weekend escapes"
+            ],
+            "intro": "For riders who want more power, range and freedom on scenic roads."
+          }
+        ],
+        "note": {
+          "title": "Important",
+          "text": "A valid driving license is required. Availability depends on model, dates and season."
+        },
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-5-e1778695034884.webp"
+      },
+      "gallery": [
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-9.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-3.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-4.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-2.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-1.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-12.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-10.webp"
+      ],
+      "checks": {
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-8.webp",
+        "title": "Included Equipment",
+        "items": [
+          "2 Helmets",
+          "Basic safety check before delivery",
+          "Local support from the 2wheels Rental team",
+          "Flexible rental options: daily or multi-day",
+          "Route suggestions on request",
+          "Phone holder"
+        ],
+        "optionalTitle": "Optional on Request",
+        "optional": [
+          "Full motorcycle gear (jacket, pants, gloves, ..)",
+          "Luggages and bags (Only for the Triumph Tiger)",
+          "Delivery to selected locations",
+          "Custom road trip planning"
+        ]
+      },
+      "card": {
+        "bg": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-11.webp",
+        "title": "Suggested Routes",
+        "groups": [
+          {
+            "title": "Ride Further. Discover More.",
+            "items": [],
+            "paras": [
+              "Make your rental part of a real experience with selected route ideas from our local team."
+            ]
+          },
+          {
+            "title": "Lugano City & Lake Ride",
+            "items": [],
+            "paras": [
+              "A simple and beautiful route for moving around the city, the lakefront and nearby villages."
+            ]
+          },
+          {
+            "title": "Morcote & Lake Lugano",
+            "items": [],
+            "paras": [
+              "One of the most scenic rides in the region, perfect for a day escape."
+            ]
+          },
+          {
+            "title": "Lake Como Day Trip",
+            "items": [],
+            "paras": [
+              "A great option for travelers who want to explore beyond Switzerland and enjoy one of Northern Italy’s most iconic lake regions."
+            ]
+          },
+          {
+            "title": "Alpine Roads & Viewpoints",
+            "items": [],
+            "paras": [
+              "For experienced riders looking for curves, altitude and panoramic landscapes."
+            ]
+          }
+        ],
+        "button": {
+          "label": "Ask for route ideas",
+          "href": "/contact/"
+        }
+      },
+      "cta": {
+        "title": "Ready to explore Ticino on two wheels?",
+        "paras": [
+          "Book your scooter or motorbike and enjoy Lugano, Ticino and Northern Italy with total freedom."
+        ],
+        "button": {
+          "label": "Book your ride",
+          "href": "https://2wheels-rental.booqableshop.com/collections/motorcycles",
+          "external": true
+        }
+      },
+      "order": [
+        "split",
+        "gallery",
+        "checks",
+        "card"
+      ]
+    },
+    "it": {
+      "hero": {
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-6.webp",
+        "eyebrow": "NOLEGGIO MOTO E SCOOTER A LUGANO",
+        "title": "Muoversi liberamente in Ticino.",
+        "keepCase": true,
+        "body": [
+          "Scoprite Lugano, il Lago di Como, il Lago Maggiore, il Ticino e il Nord Italia con la libertà di uno scooter o di una moto.",
+          "Perfetti per strade panoramiche, rapidi spostamenti in città, fughe nel fine settimana o viaggi flessibili intorno al lago, i nostri noleggi di moto e scooter vi offrono un modo semplice per esplorare di più, senza dipendere dagli orari o dai trasporti pubblici."
+        ],
+        "cta": {
+          "label": "Prenota la tua moto",
+          "href": "https://2wheels-rental.booqableshop.com/collections/motorcycles",
+          "external": true
+        }
+      },
+      "split": {
+        "title": "Scegliete il vostro mezzo",
+        "paras": [],
+        "groups": [
+          {
+            "title": "Scooter",
+            "items": [
+              "Facile da guidare e da parcheggiare",
+              "Perfetto per la mobilità in città e sul lago",
+              "Ideale per coppie, visitatori e soggiorni brevi",
+              "Ideale per esplorare Lugano, Morcote, Gandria e le aree vicine"
+            ],
+            "intro": "Ideale per muoversi agevolmente a Lugano, nelle città lacustri e per viaggi di breve durata."
+          },
+          {
+            "title": "Motociclette",
+            "items": [
+              "Ottimo per i percorsi più lunghi e le strade di montagna",
+              "Ideale per escursioni giornaliere in Ticino e nel Nord Italia",
+              "Perfetto per motociclisti con esperienza",
+              "Consigliato per percorsi panoramici, passi e weekend di fuga"
+            ],
+            "intro": "Per i motociclisti che desiderano maggiore potenza, autonomia e libertà sulle strade panoramiche."
+          }
+        ],
+        "note": {
+          "title": "Importante",
+          "text": "È richiesta una patente di guida valida. La disponibilità dipende dal modello, dalle date e dalla stagione."
+        },
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-5-e1778695034884.webp"
+      },
+      "gallery": [
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-9.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-3.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-4.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-2.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-1.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-12.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-10.webp"
+      ],
+      "checks": {
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-8.webp",
+        "title": "Attrezzatura inclusa",
+        "items": [
+          "2 Caschi",
+          "Controllo di sicurezza di base prima della consegna",
+          "Supporto locale da parte del team 2wheels Rental",
+          "Opzioni di noleggio flessibili: giornaliere o plurigiornaliere",
+          "Proposte di itinerari su richiesta",
+          "Supporto per telefono"
+        ],
+        "optionalTitle": "Opzionale su richiesta",
+        "optional": [
+          "Attrezzatura da moto completa (giacca, pantaloni, guanti, ...)",
+          "Valigie e borse (solo per la Triumph Tiger)",
+          "Consegna in località selezionate",
+          "Pianificazione personalizzata del viaggio su strada"
+        ]
+      },
+      "card": {
+        "bg": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-11.webp",
+        "title": "Itinerari suggeriti",
+        "groups": [
+          {
+            "title": "Vai più lontano. Scopri di più.",
+            "items": [],
+            "paras": [
+              "Rendete il vostro noleggio parte di una vera e propria esperienza con idee di itinerari selezionati dal nostro team locale."
+            ]
+          },
+          {
+            "title": "Giro della città e del lago di Lugano",
+            "items": [],
+            "paras": [
+              "Un percorso semplice e bello per muoversi in città, sul lungolago e nei villaggi vicini."
+            ]
+          },
+          {
+            "title": "Morcote e il Lago di Lugano",
+            "items": [],
+            "paras": [
+              "Uno dei percorsi più panoramici della regione, perfetto per una fuga di un giorno."
+            ]
+          },
+          {
+            "title": "Gita di un giorno sul Lago di Como",
+            "items": [],
+            "paras": [
+              "Un'ottima opzione per i viaggiatori che desiderano esplorare oltre la Svizzera e godere di una delle regioni lacustri più iconiche dell'Italia settentrionale."
+            ]
+          },
+          {
+            "title": "Strade alpine e punti panoramici",
+            "items": [],
+            "paras": [
+              "Per motociclisti esperti in cerca di curve, altitudine e paesaggi panoramici."
+            ]
+          }
+        ],
+        "button": {
+          "label": "Chiedi idee per i percorsi",
+          "href": "/it/contatti/"
+        }
+      },
+      "cta": {
+        "title": "Siete pronti ad esplorare il Ticino su due ruote?",
+        "paras": [
+          "Prenotate il vostro scooter o la vostra moto e godetevi Lugano, il Ticino e il Nord Italia in totale libertà."
+        ],
+        "button": {
+          "label": "Prenota la tua moto",
+          "href": "https://2wheels-rental.booqableshop.com/collections/motorcycles",
+          "external": true
+        }
+      },
+      "order": [
+        "split",
+        "gallery",
+        "checks",
+        "card"
+      ]
+    },
+    "de": {
+      "hero": {
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-6.webp",
+        "eyebrow": "MOTORRÄDER & MOTORROLLER MIETEN IN LUGANO",
+        "title": "Bewegen Sie sich frei im Tessin.",
+        "keepCase": true,
+        "body": [
+          "Entdecken Sie Lugano, den Comer See, den Lago Maggiore, das Tessin und Norditalien mit der Freiheit eines Rollers oder Motorrads.",
+          "Perfekt für landschaftlich reizvolle Straßen, schnelle Fortbewegung in der Stadt, Wochenendausflüge oder flexibles Reisen rund um den See. Mit unseren Mietmotorrädern und -rollern können Sie auf einfache Weise mehr entdecken, ohne von Fahrplänen oder öffentlichen Verkehrsmitteln abhängig zu sein."
+        ],
+        "cta": {
+          "label": "Jetzt buchen",
+          "href": "https://2wheels-rental.booqableshop.com/collections/motorcycles",
+          "external": true
+        }
+      },
+      "split": {
+        "title": "Wählen Sie Ihre Fahrt",
+        "paras": [],
+        "groups": [
+          {
+            "title": "Scooter",
+            "items": [
+              "Leicht zu fahren und zu parken",
+              "Perfekt für die Mobilität in der Stadt und am Seeufer",
+              "Ideal für Paare, Besucher und Kurzaufenthalte",
+              "Ideal für die Erkundung von Lugano, Morcote, Gandria und den umliegenden Gebieten"
+            ],
+            "intro": "Ideal für die leichte Fortbewegung in Lugano, in den Seestädten und für Kurzstreckenfahrten."
+          },
+          {
+            "title": "Motorräder",
+            "items": [
+              "Ideal für längere Strecken und Bergstraßen",
+              "Ideal für Tagesausflüge im Tessin und in Norditalien",
+              "Perfekt für erfahrene Fahrer",
+              "Empfohlen für Panoramatouren, Pässe und Wochenendausflüge"
+            ],
+            "intro": "Für Fahrer, die mehr Leistung, Reichweite und Freiheit auf landschaftlich reizvollen Straßen wünschen."
+          }
+        ],
+        "note": {
+          "title": "Wichtig",
+          "text": "Ein gültiger Führerschein ist erforderlich. Die Verfügbarkeit hängt von Modell, Datum und Saison ab."
+        },
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-5-e1778695034884.webp"
+      },
+      "gallery": [
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-9.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-3.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-4.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-2.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-1.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-12.webp",
+        "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-10.webp"
+      ],
+      "checks": {
+        "image": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-8.webp",
+        "title": "Enthaltene Ausrüstung",
+        "items": [
+          "2 Helme",
+          "Grundlegende Sicherheitsüberprüfung vor der Auslieferung",
+          "Lokale Unterstützung durch das 2wheels Rental-Team",
+          "Flexible Mietoptionen: täglich oder mehrtägig",
+          "Routenvorschläge auf Anfrage",
+          "Telefonhalter"
+        ],
+        "optionalTitle": "Optional auf Anfrage",
+        "optional": [
+          "Komplette Motorradausrüstung (Jacke, Hose, Handschuhe, ..)",
+          "Gepäckstücke und Taschen (nur für die Triumph Tiger)",
+          "Lieferung an ausgewählte Standorte",
+          "Individuelle Roadtrip-Planung"
+        ]
+      },
+      "card": {
+        "bg": "/wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-11.webp",
+        "title": "Vorgeschlagene Routen",
+        "groups": [
+          {
+            "title": "Weiter fahren. Mehr entdecken.",
+            "items": [],
+            "paras": [
+              "Machen Sie Ihre Anmietung zu einem echten Erlebnis mit ausgewählten Routenvorschlägen von unserem Team vor Ort."
+            ]
+          },
+          {
+            "title": "Lugano Stadt & Seefahrt",
+            "items": [],
+            "paras": [
+              "Ein einfacher und schöner Weg, um sich in der Stadt, am Seeufer und in den umliegenden Dörfern zu bewegen."
+            ]
+          },
+          {
+            "title": "Morcote & Luganer See",
+            "items": [],
+            "paras": [
+              "Eine der landschaftlich reizvollsten Fahrten in der Region, ideal für einen Tagesausflug."
+            ]
+          },
+          {
+            "title": "Comer See Tagesausflug",
+            "items": [],
+            "paras": [
+              "Eine großartige Option für Reisende, die nicht nur die Schweiz erkunden, sondern auch eine der berühmtesten Seenregionen Norditaliens genießen möchten."
+            ]
+          },
+          {
+            "title": "Alpenstraßen & Aussichtspunkte",
+            "items": [],
+            "paras": [
+              "Für erfahrene Fahrer, die Kurven, Höhenmeter und Panoramalandschaften lieben."
+            ]
+          }
+        ],
+        "button": {
+          "label": "Nach Routenideen fragen",
+          "href": "/de/kontakt/"
+        }
+      },
+      "cta": {
+        "title": "Sind Sie bereit, das Tessin auf zwei Rädern zu erkunden?",
+        "paras": [
+          "Buchen Sie Ihren Motorroller oder Ihr Motorrad und genießen Sie Lugano, das Tessin und Norditalien in völliger Freiheit."
+        ],
+        "button": {
+          "label": "Jetzt buchen",
+          "href": "https://2wheels-rental.booqableshop.com/collections/motorcycles",
+          "external": true
+        }
+      },
+      "order": [
+        "split",
+        "gallery",
+        "checks",
+        "card"
+      ]
+    }
+  }
+}

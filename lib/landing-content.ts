@@ -1,15 +1,20 @@
 // Contenido de las landings Season Pass / Hotel Programs (EN/IT/DE, portado del Elementor original)
 // y Campervan (EN; la página no existe en el WP en vivo → copy armado con el contenido de campervan del sitio).
 import { pagePath, type Locale } from "@/lib/i18n";
+import rentals from "./rentals.json";
 import { SITE } from "@/lib/site";
 
 export type SectionKey = "card" | "split" | "checks" | "gallery";
 export type LandingLink = { label: string; href: string; external?: boolean };
+export type LandingGroup = { title: string; intro?: string; paras?: string[]; items?: string[] };
 export type Landing = {
   hero: { image: string; eyebrow: string; title: string; keepCase?: boolean; body: string[]; cta?: LandingLink };
   order?: SectionKey[]; // orden de secciones entre hero y CTA (default card, split, checks, gallery)
-  card?: { bg: string; title: string; groups: { title: string; intro?: string; items: string[] }[]; button?: LandingLink };
-  split?: { title: string; paras: string[]; list?: string[]; after?: string[]; image: string };
+  card?: { bg: string; title: string; groups: LandingGroup[]; button?: LandingLink };
+  split?: {
+    title: string; paras: string[]; list?: string[]; after?: string[]; image: string;
+    groups?: LandingGroup[]; note?: { title: string; text: string };
+  };
   checks?: { image: string; title: string; items: string[]; optionalTitle?: string; optional?: string[] };
   gallery?: string[];
   cta: { title: string; paras: string[]; button: LandingLink };
@@ -231,5 +236,8 @@ export const CAMPERVAN: Landing = {
 export function landingFor(pageKey: string, locale: Locale): Landing | null {
   if (pageKey === "hotel-programs") return hotel(locale);
   if (pageKey === "2wheels-season-pass") return seasonPass(locale);
+  // Bikes / Motorbikes: generados por scripts/parse_rentals.py desde el sitio en vivo
+  const r = (rentals as unknown as Record<string, Record<Locale, Landing>>)[pageKey];
+  if (r) return r[locale];
   return null;
 }

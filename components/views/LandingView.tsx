@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fragment, type ReactNode } from "react";
 import GalleryStrip from "@/components/GalleryStrip";
-import type { Landing, LandingLink, SectionKey } from "@/lib/landing-content";
+import type { Landing, LandingGroup, LandingLink, SectionKey } from "@/lib/landing-content";
 
 const DEFAULT_ORDER: SectionKey[] = ["card", "split", "checks", "gallery"];
 
@@ -51,6 +51,24 @@ function CheckGrid({ items, outline, tight }: { items: string[]; outline?: boole
   );
 }
 
+// Subtítulo (Poppins) + intro/párrafos + lista con viñetas
+function Group({ g, big }: { g: LandingGroup; big?: boolean }) {
+  return (
+    <div className={big ? "pt-4" : "mt-8"}>
+      <h3 className="text-ink">
+        <span className={`font-sans font-medium ${big ? "text-3xl sm:text-4xl" : "text-2xl sm:text-3xl"}`}>{g.title}</span>
+      </h3>
+      {g.intro && <p className={`text-lg text-ink-soft ${big ? "mt-4" : "mt-2"}`}><Rich text={g.intro} /></p>}
+      {g.paras?.map((p, i) => <p key={i} className="mt-3 text-lg text-ink-soft"><Rich text={p} /></p>)}
+      {g.items && g.items.length > 0 && (
+        <ul className={`list-disc space-y-1.5 pl-12 text-lg text-ink-soft marker:text-ink ${big ? "mt-4" : "mt-3"}`}>
+          {g.items.map((it) => <li key={it}><Rich text={it} /></li>)}
+        </ul>
+      )}
+    </div>
+  );
+}
+
 const Title = ({ children }: { children: ReactNode }) => <h2 className="text-5xl text-ink sm:text-6xl">{children}</h2>;
 
 export default function LandingView({ data }: { data: Landing }) {
@@ -63,17 +81,7 @@ export default function LandingView({ data }: { data: Landing }) {
           <div className="container-site">
             <div className="max-w-2xl bg-paper/90 p-8 backdrop-blur-sm sm:p-12">
               <Title>{card.title}</Title>
-              {card.groups.map((g) => (
-                <div key={g.title} className="mt-8">
-                  <h3 className="text-ink">
-                    <span className="font-sans text-2xl font-medium sm:text-3xl">{g.title}</span>
-                  </h3>
-                  {g.intro && <p className="mt-2 text-lg text-ink-soft">{g.intro}</p>}
-                  <ul className="mt-3 list-disc space-y-1.5 pl-12 text-lg text-ink-soft marker:text-ink">
-                    {g.items.map((it) => <li key={it}><Rich text={it} /></li>)}
-                  </ul>
-                </div>
-              ))}
+              {card.groups.map((g) => <Group key={g.title} g={g} />)}
               {card.button && <div className="mt-10"><Btn link={card.button} kind="dark" /></div>}
             </div>
           </div>
@@ -87,6 +95,13 @@ export default function LandingView({ data }: { data: Landing }) {
               <Title>{split.title}</Title>
               <div className="mt-8 space-y-5 text-lg text-ink-soft">
                 {split.paras.map((p, i) => <p key={i}><Rich text={p} /></p>)}
+                {split.groups?.map((g) => <Group key={g.title} g={g} big />)}
+                {split.note && (
+                  <div className="pt-4">
+                    <p className="font-semibold text-ink">{split.note.title}</p>
+                    <p className="mt-3">{split.note.text}</p>
+                  </div>
+                )}
                 {split.list && (
                   <ul className="list-disc space-y-1.5 pl-12 marker:text-ink">
                     {split.list.map((it) => <li key={it}><Rich text={it} /></li>)}

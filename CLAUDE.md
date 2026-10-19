@@ -71,7 +71,8 @@ Los JSON de `lib/` se **generan** del mirror `source-wordpress/` con los scripts
 4. `python3 scripts/build_i18n.py` — `lib/i18n-routes.json`, `tours.{it,de}.json`, `pages.{it,de}.json`.
 5. `python3 scripts/parse_itinerary.py` — agrega `itinerary` (día a día) a los 3 `tours.*.json`.
 6. `python3 scripts/parse_practical.py` — agrega `practical` (tabs Practical Info: Included/Price|Dates/Conditions/FAQ) a los 3 `tours.*.json`; tabs vacíos o con placeholder en el WP se rellenan con la versión estándar del mismo idioma.
-7. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
+7. `python3 scripts/parse_rentals.py [--fetch]` — `lib/rentals.json` (landings Bikes & e-bikes y Motorbikes & Scooters, EN/IT/DE) desde el sitio **en vivo** (`--fetch` re-descarga a `source-wordpress/html/live/`). Incluye un mapa `FIX` de correcciones a traducciones automáticas del WP.
+8. Campos `experience`/`duration` de tours: se agregaron con un script inline (mapa en el commit de filtros); ver `lib/tours.json`.
 
 **Editar contenido a mano:** se puede editar directamente `lib/tours*.json` y `lib/pages*.json` (no hace falta re-correr los scripts salvo que cambie el sitio origen).
 
@@ -97,7 +98,7 @@ Metadata por página (title, description, canonical, Open Graph) + **hreflang** 
 - Los tags **solo cargan en `*.2wheelsrental.com`** (no ensucian métricas desde Vercel/localhost); para probarlos fuera: `NEXT_PUBLIC_ANALYTICS_ANY_HOST=1`.
 - `CookieBanner` guarda la decisión y emite el evento; el footer tiene "Cookie settings" para reabrirlo. Cookiebot del original no tenía ID cargado → reemplazado por este banner.
 - Home hero: `components/HeroVideo.tsx` (poster con Next/Image como LCP; el video solo se monta si no hay Save-Data/2G/3G ni reduced-motion).
-- **Landings** Season Pass, Hotel Programs y Campervan: `components/views/LandingView.tsx` (hero + intro 2 col, card sobre foto, texto+imagen, checklist, galería, CTA) con datos en `lib/landing-content.ts` (EN/IT/DE; Campervan EN-only — copy del borrador de Elementor `?page_id=218`, no publicado en el WP).
+- **Landings** Bikes & e-bikes, Motorbikes & Scooters (datos en `lib/rentals.json`), Season Pass, Hotel Programs y Campervan: `components/views/LandingView.tsx` (hero + intro 2 col, card sobre foto, texto+imagen, checklist, galería, CTA) con datos en `lib/landing-content.ts` (EN/IT/DE; Campervan EN-only — copy del borrador de Elementor `?page_id=218`, no publicado en el WP).
 - **Galerías**: `components/GalleryStrip.tsx` (carrusel grande con snap, flechas y barra de progreso) en tours, landings, For Companies y `ContentPage`.
 - About y For Companies tienen vistas propias (`components/views/AboutView.tsx`, `CompaniesView.tsx`) con copy en `lib/about-content.ts` (EN/IT/DE, portado del HTML de Elementor). Fotos del equipo en `public/images/team/`.
 
