@@ -1,0 +1,1112 @@
+{
+  "about-us": {
+    "title": "Chi siamo - 2wheels Rental",
+    "description": "2wheels Rental ha sede a Lugano e offre noleggio di biciclette, e-bike e camper di alta qualità, tour guidati ed esperienze outdoor in tutto il Ticino, in Svizzera.",
+    "h1": "Chi siamo",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "Gestisci servizi"
+      },
+      {
+        "tag": "li",
+        "text": "Per saperne di più su questi scopi"
+      },
+      {
+        "tag": "li",
+        "text": "{titolo}"
+      },
+      {
+        "tag": "p",
+        "text": "WhatsApp"
+      }
+    ],
+    "images": [
+      "wp-content/uploads/2026/02/Who-we-are-About-Us-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/About-Us-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/About-Us-1-2wheels-Rental.webp"
+    ]
+  },
+  "bikes-e-bikes": {
+    "title": "Biciclette e biciclette elettriche - 2wheels Rental",
+    "description": "",
+    "h1": "Biciclette e biciclette elettriche",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "Ideale per la città, il lago e le brevi distanze"
+      },
+      {
+        "tag": "li",
+        "text": "Ideale per coppie, famiglie e ciclisti occasionali"
+      },
+      {
+        "tag": "li",
+        "text": "Un'esperienza di noleggio facile e flessibile"
+      },
+      {
+        "tag": "h3",
+        "text": "Biciclette elettriche premium"
+      },
+      {
+        "tag": "p",
+        "text": "Esplorate di più con meno fatica. Ideale per colline, percorsi panoramici e avventure di una giornata intera in Ticino."
+      },
+      {
+        "tag": "li",
+        "text": "Assistenza elettrica per le salite e le corse più lunghe"
+      },
+      {
+        "tag": "li",
+        "text": "Perfetto per scoprire il Ticino senza stress"
+      },
+      {
+        "tag": "li",
+        "text": "Adatto a principianti e cavalieri esperti"
+      },
+      {
+        "tag": "li",
+        "text": "Ottimo per itinerari panoramici, hotel e progetti all'aperto"
+      },
+      {
+        "tag": "h3",
+        "text": "Biciclette da strada e da sterrato"
+      },
+      {
+        "tag": "p",
+        "text": "Per i ciclisti in cerca di prestazioni, distanze e splendidi percorsi ciclistici in Ticino e nel Nord Italia."
+      },
+      {
+        "tag": "li",
+        "text": "Biciclette leggere ed efficienti"
+      },
+      {
+        "tag": "li",
+        "text": "Ideale per il ciclismo su strada e per i percorsi più lunghi"
+      },
+      {
+        "tag": "li",
+        "text": "Ideale per le giornate di allenamento o le vacanze in bicicletta"
+      },
+      {
+        "tag": "li",
+        "text": "Raccomandazioni sull'itinerario disponibili su richiesta"
+      },
+      {
+        "tag": "p",
+        "text": "Importante"
+      },
+      {
+        "tag": "p",
+        "text": "La disponibilità dipende dal modello, dalle dimensioni e dalle date di noleggio. Si consiglia di prenotare in anticipo durante l'alta stagione."
+      },
+      {
+        "tag": "h2",
+        "text": "Tutto ciò che serve per cavalcare"
+      },
+      {
+        "tag": "li",
+        "text": "Casco"
+      },
+      {
+        "tag": "li",
+        "text": "Nozioni di base: serratura, luci, kit di riparazione"
+      },
+      {
+        "tag": "li",
+        "text": "Controllo di sicurezza prima della consegna"
+      },
+      {
+        "tag": "li",
+        "text": "Raccomandazioni di percorso"
+      },
+      {
+        "tag": "li",
+        "text": "Supporto locale da parte del team 2wheels Rental"
+      },
+      {
+        "tag": "li",
+        "text": "Opzioni di noleggio flessibili: mezza giornata, giornata intera o più giorni"
+      },
+      {
+        "tag": "h3",
+        "text": "Opzionale su richiesta"
+      },
+      {
+        "tag": "li",
+        "text": "Tour guidati in bicicletta e in e-bike"
+      },
+      {
+        "tag": "li",
+        "text": "Consegna delle biciclette in hotel o in località selezionate"
+      },
+      {
+        "tag": "li",
+        "text": "Servizio navetta per biciclette"
+      },
+      {
+        "tag": "li",
+        "text": "Esperienze in MTB, Percorsi per famiglie"
+      },
+      {
+        "tag": "li",
+        "text": "Corse aziendali e di gruppo"
+      },
+      {
+        "tag": "li",
+        "text": "Pacchetto foto e video su richiesta"
+      },
+      {
+        "tag": "h2",
+        "text": "Perché noleggiare con 2wheels Rental"
+      },
+      {
+        "tag": "h3",
+        "text": "Un'esperienza di noleggio bici premium a Lugano"
+      },
+      {
+        "tag": "p",
+        "text": "Non è necessario conoscere la zona, pianificare ogni dettaglio o preoccuparsi dell'attrezzatura. Vi aiutiamo a scegliere la bicicletta giusta, vi consigliamo i percorsi migliori e vi supportiamo prima e durante la pedalata."
+      },
+      {
+        "tag": "p",
+        "text": "Dai rilassanti percorsi lacustri alle strade di montagna e ai sentieri panoramici nascosti, il Ticino è uno dei luoghi migliori della Svizzera da esplorare su due ruote."
+      },
+      {
+        "tag": "h3",
+        "text": "Esempi di percorso"
+      },
+      {
+        "tag": "li",
+        "text": "Giro di mezza giornata intorno a Lugano"
+      },
+      {
+        "tag": "li",
+        "text": "Avventura in e-bike di un giorno in Ticino"
+      },
+      {
+        "tag": "li",
+        "text": "Noleggio biciclette per gli ospiti dell'hotel"
+      },
+      {
+        "tag": "li",
+        "text": "Weekend in bicicletta"
+      },
+      {
+        "tag": "li",
+        "text": "Giro di gruppo guidato"
+      },
+      {
+        "tag": "li",
+        "text": "Esperienza aziendale all'aperto"
+      },
+      {
+        "tag": "li",
+        "text": "Giro panoramico con raccomandazioni locali"
+      },
+      {
+        "tag": "h2",
+        "text": "Pronti a cavalcare in Ticino?"
+      },
+      {
+        "tag": "p",
+        "text": "Prenotate la vostra bicicletta o e-bike e scoprite Lugano, i laghi e le montagne in totale libertà."
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci opzioni"
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci servizi"
+      },
+      {
+        "tag": "li",
+        "text": "Per saperne di più su questi scopi"
+      },
+      {
+        "tag": "li",
+        "text": "{titolo}"
+      },
+      {
+        "tag": "p",
+        "text": "WhatsApp"
+      }
+    ],
+    "images": [
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-1-e1779714423716.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-2.webp",
+      "wp-content/uploads/2026/02/05-Campervan-Rental-2wheels-Rental.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-10-scaled.jpeg",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-10.jpeg",
+      "wp-content/uploads/2026/02/portada-2wheels-rental-ticino-enduro-alps-nara-airolo-ritom.webp",
+      "wp-content/uploads/2026/03/portada-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-6.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-5.webp",
+      "wp-content/uploads/2026/03/highligths-2wheels-rental-etna-bronte-sicilia-sicily-italia.webp"
+    ]
+  },
+  "motorbikes-scooters": {
+    "title": "Moto e scooter - 2wheels Rental",
+    "description": "",
+    "h1": "Moto e scooter",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "Perfetto per la mobilità in città e sul lago"
+      },
+      {
+        "tag": "li",
+        "text": "Ideale per coppie, visitatori e soggiorni brevi"
+      },
+      {
+        "tag": "li",
+        "text": "Ideale per esplorare Lugano, Morcote, Gandria e le aree vicine"
+      },
+      {
+        "tag": "h3",
+        "text": "Motociclette"
+      },
+      {
+        "tag": "p",
+        "text": "Per i motociclisti che desiderano maggiore potenza, autonomia e libertà sulle strade panoramiche."
+      },
+      {
+        "tag": "li",
+        "text": "Ottimo per i percorsi più lunghi e le strade di montagna"
+      },
+      {
+        "tag": "li",
+        "text": "Ideale per escursioni giornaliere in Ticino e nel Nord Italia"
+      },
+      {
+        "tag": "li",
+        "text": "Perfetto per i cavalieri con esperienza"
+      },
+      {
+        "tag": "li",
+        "text": "Consigliato per percorsi panoramici, passi e weekend di fuga"
+      },
+      {
+        "tag": "p",
+        "text": "Importante"
+      },
+      {
+        "tag": "p",
+        "text": "È richiesta una patente di guida valida. La disponibilità dipende dal modello, dalle date e dalla stagione."
+      },
+      {
+        "tag": "h2",
+        "text": "Attrezzatura inclusa"
+      },
+      {
+        "tag": "li",
+        "text": "2 Caschi"
+      },
+      {
+        "tag": "li",
+        "text": "Controllo di sicurezza di base prima della consegna"
+      },
+      {
+        "tag": "li",
+        "text": "Supporto locale da parte del team 2wheels Rental"
+      },
+      {
+        "tag": "li",
+        "text": "Opzioni di noleggio flessibili: giornaliere o plurigiornaliere"
+      },
+      {
+        "tag": "li",
+        "text": "Proposte di itinerari su richiesta"
+      },
+      {
+        "tag": "li",
+        "text": "Supporto per telefono"
+      },
+      {
+        "tag": "h3",
+        "text": "Opzionale su richiesta"
+      },
+      {
+        "tag": "li",
+        "text": "Attrezzatura da moto completa (giacca, pantaloni, guanti, ...)"
+      },
+      {
+        "tag": "li",
+        "text": "Valigie e borse (solo per la Triumph Tiger)"
+      },
+      {
+        "tag": "li",
+        "text": "Consegna in località selezionate"
+      },
+      {
+        "tag": "li",
+        "text": "Pianificazione personalizzata del viaggio su strada"
+      },
+      {
+        "tag": "h2",
+        "text": "Itinerari suggeriti"
+      },
+      {
+        "tag": "h3",
+        "text": "Andare più lontano. Scopri di più."
+      },
+      {
+        "tag": "p",
+        "text": "Rendete il vostro noleggio parte di una vera e propria esperienza con idee di itinerari selezionati dal nostro team locale."
+      },
+      {
+        "tag": "h3",
+        "text": "Giro della città e del lago di Lugano"
+      },
+      {
+        "tag": "p",
+        "text": "Un percorso semplice e bello per muoversi in città, sul lungolago e nei villaggi vicini."
+      },
+      {
+        "tag": "h3",
+        "text": "Morcote e il Lago di Lugano"
+      },
+      {
+        "tag": "p",
+        "text": "Uno dei percorsi più panoramici della regione, perfetto per una fuga di un giorno."
+      },
+      {
+        "tag": "h3",
+        "text": "Gita di un giorno sul Lago di Como"
+      },
+      {
+        "tag": "p",
+        "text": "Un'ottima opzione per i viaggiatori che desiderano esplorare oltre la Svizzera e godere di una delle regioni lacustri più iconiche dell'Italia settentrionale."
+      },
+      {
+        "tag": "h3",
+        "text": "Strade alpine e punti panoramici"
+      },
+      {
+        "tag": "p",
+        "text": "Per motociclisti esperti in cerca di curve, altitudine e paesaggi panoramici."
+      },
+      {
+        "tag": "h2",
+        "text": "Siete pronti ad esplorare il Ticino su due ruote?"
+      },
+      {
+        "tag": "p",
+        "text": "Prenotate il vostro scooter o la vostra moto e godetevi Lugano, il Ticino e il Nord Italia in totale libertà."
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci opzioni"
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci servizi"
+      },
+      {
+        "tag": "li",
+        "text": "Per saperne di più su questi scopi"
+      },
+      {
+        "tag": "li",
+        "text": "{titolo}"
+      },
+      {
+        "tag": "p",
+        "text": "WhatsApp"
+      }
+    ],
+    "images": [
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-6.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-5-e1778695034884.webp",
+      "wp-content/uploads/2026/02/05-Campervan-Rental-2wheels-Rental.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-9.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-3.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-4.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-2.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-1.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-12.webp",
+      "wp-content/uploads/2026/05/2wheels-rental-lugano-ticino-scooter-motos-motorcycle-motorbike-noleggio-rent-10.webp"
+    ]
+  },
+  "2wheels-season-pass": {
+    "title": "Pass stagionale 2wheels - 2wheels Rental",
+    "description": "",
+    "h1": "Pass stagionale 2wheels",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "Include: 10 noleggi di biciclette"
+      },
+      {
+        "tag": "li",
+        "text": "Validità: per tutta la stagione"
+      },
+      {
+        "tag": "li",
+        "text": "Prenotazione flessibile"
+      },
+      {
+        "tag": "li",
+        "text": "Accesso a: biciclette premium"
+      },
+      {
+        "tag": "li",
+        "text": "Prezzo per noleggio: CHF 45"
+      },
+      {
+        "tag": "h3",
+        "text": "Pacchetto 20 rides"
+      },
+      {
+        "tag": "p",
+        "text": "L'opzione migliore per i ciclisti abituali che vogliono godersi i sentieri regolarmente per tutta la stagione."
+      },
+      {
+        "tag": "li",
+        "text": "Prezzo: CHF 800"
+      },
+      {
+        "tag": "li",
+        "text": "Include: 20 noleggi di biciclette"
+      },
+      {
+        "tag": "li",
+        "text": "Validità: per tutta la stagione"
+      },
+      {
+        "tag": "li",
+        "text": "Prenotazione flessibile"
+      },
+      {
+        "tag": "li",
+        "text": "Accesso a: biciclette premium"
+      },
+      {
+        "tag": "li",
+        "text": "Prezzo per noleggio: CHF 40"
+      },
+      {
+        "tag": "h3",
+        "text": "Confronto"
+      },
+      {
+        "tag": "li",
+        "text": "Prezzo del noleggio regolare: ≈ 70 CHF / giorno"
+      },
+      {
+        "tag": "li",
+        "text": "Risparmia fino a 43%"
+      },
+      {
+        "tag": "h2",
+        "text": "Vantaggi del Season Pass"
+      },
+      {
+        "tag": "p",
+        "text": "Il Season Pass è un modo semplice per pedalare di più evitando le responsabilità legate al possesso di una bicicletta."
+      },
+      {
+        "tag": "p",
+        "text": "I vantaggi includono:"
+      },
+      {
+        "tag": "li",
+        "text": "accesso a high-quality bikes"
+      },
+      {
+        "tag": "li",
+        "text": "non è necessario acquistare una bicicletta costosa"
+      },
+      {
+        "tag": "li",
+        "text": "nessuna manutenzione o riparazioni di cui preoccuparsi"
+      },
+      {
+        "tag": "li",
+        "text": "nessuna pulizia o stoccaggio richiesto"
+      },
+      {
+        "tag": "li",
+        "text": "nessuna ricarica della batteria o gestione"
+      },
+      {
+        "tag": "li",
+        "text": "prenotazione semplice e utilizzo flessibile per tutta la stagione"
+      },
+      {
+        "tag": "p",
+        "text": "Basta prenotare, pedalare e restituire la bici. A tutto il resto pensiamo noi."
+      },
+      {
+        "tag": "h2",
+        "text": "Biciclette disponibili"
+      },
+      {
+        "tag": "li",
+        "text": "E-Bike Full Suspension"
+      },
+      {
+        "tag": "li",
+        "text": "E-Bike Hardtail"
+      },
+      {
+        "tag": "li",
+        "text": "Biciclette Gravel"
+      },
+      {
+        "tag": "li",
+        "text": "Bicicletta da strada"
+      },
+      {
+        "tag": "li",
+        "text": "Gestione della flotta da parte di 2wheels Rental"
+      },
+      {
+        "tag": "li",
+        "text": "1 credito al giorno per qualsiasi bicicletta"
+      },
+      {
+        "tag": "h3",
+        "text": "Opzionale su richiesta"
+      },
+      {
+        "tag": "li",
+        "text": "Tour guidati in bicicletta"
+      },
+      {
+        "tag": "li",
+        "text": "Scuola di MTB e campi estivi"
+      },
+      {
+        "tag": "li",
+        "text": "Servizio navetta per biciclette"
+      },
+      {
+        "tag": "li",
+        "text": "Esperienze di escursionismo e vie ferrata"
+      },
+      {
+        "tag": "h2",
+        "text": "Siete pronti a pedalare di più in questa stagione?"
+      },
+      {
+        "tag": "p",
+        "text": "Ottenete un accesso flessibile all'intera flotta 2wheels Rental e godete di prezzi più vantaggiosi con l'opzione 2wheels Season Pass."
+      },
+      {
+        "tag": "p",
+        "text": "Pedalare di più, esplorare di più e fate il meglio del ciclismo in Ticino."
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci opzioni"
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci servizi"
+      },
+      {
+        "tag": "li",
+        "text": "Per saperne di più su questi scopi"
+      },
+      {
+        "tag": "li",
+        "text": "{titolo}"
+      },
+      {
+        "tag": "p",
+        "text": "WhatsApp"
+      }
+    ],
+    "images": [
+      "wp-content/uploads/2026/03/portada-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-11-e1773607000499.webp",
+      "wp-content/uploads/2026/03/benefits-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-4.webp",
+      "wp-content/uploads/2026/02/05-Campervan-Rental-2wheels-Rental.webp",
+      "wp-content/uploads/2026/03/bikes-available-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-9.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-1-e1779714423716.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-6.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-7.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-2.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-season-pass-lugano-ticino-discount-price-offer-5.webp"
+    ]
+  },
+  "for-companies": {
+    "title": "Per le aziende - 2wheels Rental",
+    "description": "Tour aziendali in bicicletta ed esperienze di team outdoor a Lugano. Gite di team building, sfide e workshop progettati per le aziende in Ticino.",
+    "h1": "Per le aziende",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "Gestisci servizi"
+      },
+      {
+        "tag": "li",
+        "text": "Per saperne di più su questi scopi"
+      },
+      {
+        "tag": "li",
+        "text": "{titolo}"
+      },
+      {
+        "tag": "p",
+        "text": "WhatsApp"
+      }
+    ],
+    "images": [
+      "wp-content/uploads/2026/02/10-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/For-Companies-13-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/02-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/03-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/04-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/05-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/06-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/07-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/08-For-Companies-2wheels-Rental.webp",
+      "wp-content/uploads/2026/02/09-For-Companies-2wheels-Rental.webp"
+    ]
+  },
+  "hotel-programs": {
+    "title": "Programmi alberghieri - 2wheels Rental",
+    "description": "",
+    "h1": "Programmi alberghieri",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "CHF 330 per bicicletta / mese"
+      },
+      {
+        "tag": "li",
+        "text": "Ideale per l'alta stagione ciclistica"
+      },
+      {
+        "tag": "li",
+        "text": "Impegno flessibile per gli hotel che iniziano la loro offerta di biciclette"
+      },
+      {
+        "tag": "h3",
+        "text": "Programma annuale"
+      },
+      {
+        "tag": "li",
+        "text": "Partnership di 12 mesi"
+      },
+      {
+        "tag": "li",
+        "text": "CHF 240 per bicicletta / mese"
+      },
+      {
+        "tag": "li",
+        "text": "Costo mensile inferiore"
+      },
+      {
+        "tag": "li",
+        "text": "Forte posizionamento come hotel bike-friendly"
+      },
+      {
+        "tag": "h3",
+        "text": "Flotta minima consigliata"
+      },
+      {
+        "tag": "li",
+        "text": "3-4 biciclette per hotel"
+      },
+      {
+        "tag": "h2",
+        "text": "Vantaggi dell'hotel"
+      },
+      {
+        "tag": "p",
+        "text": "Non c'è alcun investimento iniziale e non è necessaria una gestione interna. 2wheels Rental fornisce le biciclette, si occupa della manutenzione e si assicura che tutto sia pronto per i vostri ospiti."
+      },
+      {
+        "tag": "p",
+        "text": "Il programma crea anche una chiara opportunità di guadagno. Con un prezzo medio di noleggio di circa CHF 50 al giorno, anche un utilizzo limitato può coprire rapidamente il costo mensile."
+      },
+      {
+        "tag": "h2",
+        "text": "Servizio All-Inclusive"
+      },
+      {
+        "tag": "li",
+        "text": "Biciclette Premium"
+      },
+      {
+        "tag": "li",
+        "text": "Caschi, lucchetti e luci"
+      },
+      {
+        "tag": "li",
+        "text": "Controlli mensili di manutenzione e sicurezza"
+      },
+      {
+        "tag": "li",
+        "text": "Assistenza tecnica su richiesta"
+      },
+      {
+        "tag": "li",
+        "text": "Gestione della flotta da parte di 2wheels Rental"
+      },
+      {
+        "tag": "li",
+        "text": "Zero investimenti iniziali per l'hotel"
+      },
+      {
+        "tag": "h3",
+        "text": "Opzionale su richiesta"
+      },
+      {
+        "tag": "li",
+        "text": "Tour guidati in bicicletta"
+      },
+      {
+        "tag": "li",
+        "text": "Scuola di MTB e campi estivi"
+      },
+      {
+        "tag": "li",
+        "text": "Servizio navetta per biciclette"
+      },
+      {
+        "tag": "li",
+        "text": "Esperienze di escursionismo e vie ferrata"
+      },
+      {
+        "tag": "h2",
+        "text": "Siete pronti a offrire biciclette ai vostri ospiti?"
+      },
+      {
+        "tag": "p",
+        "text": "Posizioniamo il vostro hotel come destinazione outdoor leader in Ticino."
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci opzioni"
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci servizi"
+      },
+      {
+        "tag": "li",
+        "text": "Per saperne di più su questi scopi"
+      },
+      {
+        "tag": "li",
+        "text": "{titolo}"
+      },
+      {
+        "tag": "p",
+        "text": "WhatsApp"
+      }
+    ],
+    "images": [
+      "wp-content/uploads/2026/03/portada-2wheels-rental-hotel-bike-program-lugano-ticino-offer-1-e1773606768762.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-road-bike-tour-lago-lugano-maggiore-como-ticino-alps-2.webp",
+      "wp-content/uploads/2026/02/05-Campervan-Rental-2wheels-Rental.webp",
+      "wp-content/uploads/2026/03/service-2wheels-rental-hotel-bike-program-lugano-ticino-offer-2.webp",
+      "wp-content/uploads/2026/02/2wheels-Rental-Under-Construction-scaled.jpg",
+      "wp-content/uploads/2026/02/2wheels-Rental-Under-Construction.jpg",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-11.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-2.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-monte-san-lucio-monte-bar-lugano-ticino-7.webp",
+      "wp-content/uploads/2026/03/galeria-2wheels-rental-bike-shuttle-lugano-capriasca-ticino-trasporto-biciclette-taxi-4.webp"
+    ]
+  },
+  "payment-cancellation-refund-policy": {
+    "title": "Politica di pagamento, cancellazione e rimborso - 2wheels Rental",
+    "description": "Leggete le condizioni di pagamento, cancellazione e rimborso di 2wheels Rental. Condizioni chiare e trasparenti per il noleggio di biciclette, e-bike e camper.",
+    "h1": "Politica di pagamento, cancellazione e rimborso",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "Per i tour di un solo giorno è richiesto il pagamento completo per garantire la prenotazione."
+      },
+      {
+        "tag": "li",
+        "text": "Per i tour di più giorni, è richiesto un deposito (in genere 30-50%) per confermare la prenotazione. Il saldo deve essere versato prima della data di inizio del tour, come specificato nella conferma della prenotazione."
+      },
+      {
+        "tag": "li",
+        "text": "Il mancato completamento del pagamento entro la data di scadenza può comportare la cancellazione automatica senza rimborso del deposito."
+      },
+      {
+        "tag": "h3",
+        "text": "1.2 Noleggio di biciclette e attrezzature"
+      },
+      {
+        "tag": "li",
+        "text": "Il pagamento completo è richiesto per confermare le prenotazioni di noleggio."
+      },
+      {
+        "tag": "li",
+        "text": "Al momento del ritiro potrebbero essere richiesti un documento d'identità valido e un deposito cauzionale."
+      },
+      {
+        "tag": "li",
+        "text": "Il locatario è responsabile di eventuali danni che vanno oltre la normale usura."
+      },
+      {
+        "tag": "h2",
+        "text": "2. Politica di cancellazione - Visite guidate"
+      },
+      {
+        "tag": "h3",
+        "text": "2.1 Tour di un giorno"
+      },
+      {
+        "tag": "li",
+        "text": "Più di 72 ore prima dell'orario di inizio:Rimborso completo meno la tassa amministrativa 10%."
+      },
+      {
+        "tag": "li",
+        "text": "50% rimborso."
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso."
+      },
+      {
+        "tag": "h3",
+        "text": "2.2 Tour di più giorni"
+      },
+      {
+        "tag": "li",
+        "text": "Più di 30 giorni prima della partenza:Rimborso completo meno la tassa amministrativa 10%."
+      },
+      {
+        "tag": "p",
+        "text": "Tra 30 e 14 giorni prima della partenza:"
+      },
+      {
+        "tag": "li",
+        "text": "50% rimborso del prezzo totale del tour."
+      },
+      {
+        "tag": "p",
+        "text": "Meno di 14 giorni prima della partenza:"
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso."
+      },
+      {
+        "tag": "p",
+        "text": "I depositi non sono rimborsabili se non diversamente indicato per iscritto."
+      },
+      {
+        "tag": "h3",
+        "text": "2.3 Tour personalizzati di più giorni"
+      },
+      {
+        "tag": "h2",
+        "text": "3. Politica di cancellazione - Noleggio biciclette"
+      },
+      {
+        "tag": "li",
+        "text": "Più di 24 ore prima dell'inizio del noleggio:Rimborso 90% (si applica la tassa amministrativa 10%)."
+      },
+      {
+        "tag": "li",
+        "text": "La cancellazione deve essere effettuata entro le ore 9:00 del giorno precedente il noleggio."
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso."
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso per il tempo non utilizzato."
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso."
+      },
+      {
+        "tag": "h2",
+        "text": "4. Modifiche e riprogrammazione"
+      },
+      {
+        "tag": "li",
+        "text": "Più di 24 ore prima dell'inizio del noleggio:Rimborso 90% (si applica la tassa amministrativa 10%)."
+      },
+      {
+        "tag": "li",
+        "text": "La cancellazione deve essere effettuata entro le ore 9:00 del giorno precedente il noleggio."
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso."
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso per il tempo non utilizzato."
+      },
+      {
+        "tag": "li",
+        "text": "Nessun rimborso."
+      },
+      {
+        "tag": "h2",
+        "text": "5. Condizioni meteorologiche e forza maggiore"
+      },
+      {
+        "tag": "li",
+        "text": "I tour e i noleggi operano in ambienti esterni.Rimborsi o crediti possono essere offerti nei seguenti casi:Condizioni meteorologiche avverse che rendono l'attività non sicura (ad esempio, forti piogge, neve, vento estremo)."
+      },
+      {
+        "tag": "li",
+        "text": "Avvisi ufficiali di sicurezza emessi dalle autorità."
+      },
+      {
+        "tag": "li",
+        "text": "Lesioni fisiche che impediscono la partecipazione (è necessario un certificato medico)."
+      },
+      {
+        "tag": "h2",
+        "text": "6. Partecipanti minimi (Tour)"
+      },
+      {
+        "tag": "li",
+        "text": "Alcuni tour richiedono un numero minimo di partecipanti.Se il numero minimo non viene raggiunto:Ai partecipanti verrà proposta una data alternativa,"
+      },
+      {
+        "tag": "li",
+        "text": "Un'opzione di aggiornamento privata, oppure"
+      },
+      {
+        "tag": "li",
+        "text": "Un rimborso completo."
+      },
+      {
+        "tag": "h2",
+        "text": "7. Responsabilità e assicurazione"
+      },
+      {
+        "tag": "li",
+        "text": "I partecipanti sono responsabili di:Assicurarsi che siano fisicamente in forma per l'attività."
+      },
+      {
+        "tag": "li",
+        "text": "Assicurazione personale contro gli infortuni e le malattie."
+      },
+      {
+        "tag": "li",
+        "text": "Fornire informazioni personali accurate."
+      },
+      {
+        "tag": "li",
+        "text": "Lesioni personali derivanti dai rischi intrinseci del ciclismo o degli sport all'aria aperta."
+      },
+      {
+        "tag": "li",
+        "text": "Perdita o furto di effetti personali."
+      },
+      {
+        "tag": "li",
+        "text": "Voli persi o interruzioni del viaggio."
+      },
+      {
+        "tag": "h2",
+        "text": "8. Danni e responsabilità delle attrezzature (noleggio)"
+      },
+      {
+        "tag": "li",
+        "text": "L'affittuario è finanziariamente responsabile di:Perdita, furto o danneggiamento di attrezzature a noleggio."
+      },
+      {
+        "tag": "li",
+        "text": "Costi di riparazione derivanti da uso improprio o negligenza."
+      },
+      {
+        "tag": "h2",
+        "text": "9. Date e responsabilità di prenotazione non corrette"
+      },
+      {
+        "tag": "p",
+        "text": "È responsabilità del cliente verificare le date e i dettagli della prenotazione al momento della conferma."
+      },
+      {
+        "tag": "p",
+        "text": "2wheels Rental non è responsabile delle date errate confermate dal cliente."
+      },
+      {
+        "tag": "p",
+        "text": "Non è previsto alcun rimborso per le prenotazioni perse a causa di un errore del cliente."
+      },
+      {
+        "tag": "h2",
+        "text": "10. Accettazione dei termini"
+      },
+      {
+        "tag": "p",
+        "text": "Confermando una prenotazione con 2wheels Rental, il cliente riconosce e accetta integralmente la presente Politica di pagamento, cancellazione e rimborso."
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci opzioni"
+      },
+      {
+        "tag": "li",
+        "text": "Gestisci servizi"
+      },
+      {
+        "tag": "li",
+        "text": "Per saperne di più su questi scopi"
+      },
+      {
+        "tag": "li",
+        "text": "{titolo}"
+      }
+    ],
+    "images": []
+  },
+  "cookie-policy-eu": {
+    "title": "Informativa sui cookie (UE) - 2wheels Rental",
+    "description": "",
+    "h1": "Informativa sui cookie (UE)",
+    "blocks": [
+      {
+        "tag": "li",
+        "text": "Diritto di accesso: hai il diritto ad accedere ai tuoi dati personali dei quali siamo a conoscenza."
+      },
+      {
+        "tag": "li",
+        "text": "Diritto di rettifica: hai il diritto di completare, correggere, cancellare o bloccare i tuoi dati personali quando lo desideri."
+      },
+      {
+        "tag": "li",
+        "text": "Se ci darai il consenso per elaborare i tuoi dati, hai il diritto di revocare questo consenso e di eliminare i tuoi dati personali."
+      },
+      {
+        "tag": "li",
+        "text": "Diritto di trasferire i tuoi dati: hai il diritto di richiedere tutti i tuoi dati dal controllore e trasferirli tutti quanti ad un altro controllore."
+      },
+      {
+        "tag": "li",
+        "text": "Diritto di opposizione: hai il diritto ad opporti al trattamento dei tuoi dati. Noi rispetteremo questa scelta, a meno che non ci siano delle motivazioni valide per trattarli."
+      },
+      {
+        "tag": "h2",
+        "text": "10. Dettagli di contatto"
+      },
+      {
+        "tag": "p",
+        "text": "Per domande e/o commenti riguardo la Cookie Policy e questa dichiarazione, per favore contattaci usando i seguenti dati di contatto:"
+      },
+      {
+        "tag": "p",
+        "text": "2wheels Rental Via Vignola 14, 6900 Svizzera Sito web: https://2wheelsrental.com/it E-mail: ticino@ex.com2wheelsrental.com"
+      },
+      {
+        "tag": "p",
+        "text": "Questa politica sui cookie è stata sincronizzata con cookiedatabase.org il Giugno 6, 2026."
+      },
+      {
+        "tag": "p",
+        "text": "WhatsApp"
+      }
+    ],
+    "images": []
+  }
+}

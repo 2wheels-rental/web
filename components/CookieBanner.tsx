@@ -1,12 +1,16 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { detectLocale, pagePath, UI } from "@/lib/i18n";
 
 const KEY = "2wr-cookie-consent";
 
 export default function CookieBanner() {
   const [show, setShow] = useState(false);
+  const locale = detectLocale(usePathname() || "/");
+  const u = UI[locale];
 
   useEffect(() => {
     try {
@@ -32,9 +36,9 @@ export default function CookieBanner() {
     <div className="fixed inset-x-0 bottom-0 z-[60] p-4">
       <div className="container-site flex flex-col gap-4 rounded-2xl border border-black/10 bg-white p-5 shadow-2xl sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-ink-soft">
-          We use cookies to improve your experience and analyse traffic. See our{" "}
-          <Link href="/cookie-policy-eu" className="text-primary underline">
-            Cookie Policy
+          {u.cookieText}{" "}
+          <Link href={pagePath("cookie-policy-eu", locale)} className="text-primary underline">
+            {u.cookiePolicy}
           </Link>
           .
         </p>
@@ -43,13 +47,13 @@ export default function CookieBanner() {
             onClick={() => decide("declined")}
             className="rounded-md border border-ink px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-ink hover:text-white"
           >
-            Decline
+            {u.decline}
           </button>
           <button
             onClick={() => decide("accepted")}
             className="rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
           >
-            Accept
+            {u.accept}
           </button>
         </div>
       </div>

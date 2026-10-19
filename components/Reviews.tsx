@@ -29,7 +29,7 @@ const REVIEWS = [
   },
 ];
 
-export default function Reviews() {
+export default function Reviews({ title = "Reviews" }: { title?: string }) {
   const [i, setI] = useState(0);
   const r = REVIEWS[i];
   const go = (d: number) => setI((v) => (v + d + REVIEWS.length) % REVIEWS.length);
@@ -38,7 +38,7 @@ export default function Reviews() {
     <section className="bg-ink text-white">
       <div className="container-site grid items-center gap-10 py-20 lg:grid-cols-[0.8fr_1.6fr]">
         <div className="text-center lg:text-left">
-          <h2 className="text-5xl uppercase">Reviews</h2>
+          <h2 className="text-5xl uppercase">{title}</h2>
           <div className="mt-6 flex items-center justify-center gap-5 lg:justify-start">
             {/* Google */}
             <svg width="40" height="40" viewBox="0 0 48 48" aria-label="Google">

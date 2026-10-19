@@ -1,0 +1,57 @@
+{
+  "home": {
+    "en": "/",
+    "it": "/it",
+    "de": "/de"
+  },
+  "about-us": {
+    "en": "/about-us",
+    "it": "/it/chi-siamo",
+    "de": "/de/uber-uns"
+  },
+  "bikes-e-bikes": {
+    "en": "/bikes-e-bikes",
+    "it": "/it/biciclette-e-bike",
+    "de": "/de/fahrrader-e-bikes"
+  },
+  "motorbikes-scooters": {
+    "en": "/motorbikes-scooters",
+    "it": "/it/moto-scooter",
+    "de": "/de/motorrader-motorroller"
+  },
+  "2wheels-season-pass": {
+    "en": "/2wheels-season-pass",
+    "it": "/it/pass-stagionale-2wheels",
+    "de": "/de/2rader-saisonkarte"
+  },
+  "for-companies": {
+    "en": "/for-companies",
+    "it": "/it/per-aziende",
+    "de": "/de/fur-unternehmen"
+  },
+  "hotel-programs": {
+    "en": "/hotel-programs",
+    "it": "/it/programmi-alberghieri",
+    "de": "/de/hotelprogramme"
+  },
+  "tours": {
+    "en": "/tours",
+    "it": "/it/tour-2",
+    "de": "/de/touren"
+  },
+  "contact": {
+    "en": "/contact",
+    "it": "/it/contatti",
+    "de": "/de/kontakt"
+  },
+  "payment-cancellation-refund-policy": {
+    "en": "/payment-cancellation-refund-policy",
+    "it": "/it/politica-di-rimborso-per-la-cancellazione-dei-pagamenti",
+    "de": "/de/zahlung-stornierung-erstattung-politik"
+  },
+  "cookie-policy-eu": {
+    "en": "/cookie-policy-eu",
+    "it": "/it/politica-dei-cookie-eu",
+    "de": "/de/cookie-policy-eu"
+  }
+}

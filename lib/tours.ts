@@ -1,4 +1,7 @@
-import data from "./tours.json";
+import en from "./tours.json";
+import it from "./tours.it.json";
+import de from "./tours.de.json";
+import type { Locale } from "./i18n";
 
 export type Tour = {
   slug: string;
@@ -9,22 +12,36 @@ export type Tour = {
   highlights: string[];
   hero: string;
   gallery: string[];
-  booking: string; // link externo WeTravel (vacío = reservar por WhatsApp)
-  slug_it: string;
-  slug_de: string;
+  booking: string;
+  en_slug?: string;
+  slug_it?: string;
+  slug_de?: string;
 };
 
-export const TOURS = data as Tour[];
+const BY_LOCALE: Record<Locale, Tour[]> = {
+  en: en as Tour[],
+  it: it as Tour[],
+  de: de as Tour[],
+};
+
+export const TOURS = en as Tour[]; // compat EN
+
+export function getTours(locale: Locale): Tour[] {
+  return BY_LOCALE[locale];
+}
+
+// Busca por slug LOCALIZADO (el que viene en la URL de ese idioma)
+export function getTourBySlug(locale: Locale, slug: string): Tour | undefined {
+  return BY_LOCALE[locale].find((t) => t.slug === slug);
+}
+
+// Slug EN de un tour, desde su slug localizado (para hreflang/switcher)
+export function enSlugOf(locale: Locale, slug: string): string | undefined {
+  if (locale === "en") return slug;
+  return BY_LOCALE[locale].find((t) => t.slug === slug)?.en_slug;
+}
 
 export const getTour = (slug: string): Tour | undefined =>
-  TOURS.find((t) => t.slug === slug);
+  (en as Tour[]).find((t) => t.slug === slug);
 
-// Orden de specs tal como aparece en el sitio original
-export const SPEC_ORDER = [
-  "Duration",
-  "Distance",
-  "Format",
-  "Level",
-  "Elevation",
-  "Bike Type",
-];
+export const SPEC_ORDER = ["Duration", "Distance", "Format", "Level", "Elevation", "Bike Type"];
